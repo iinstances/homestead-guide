@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# 145aaea519af4e7c8046b1059ba1e087
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:3
+msgid "Frequently Asked Questions"
+msgstr ""
+
+# aa467e42c1e64ccb87273136875926a0
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:4
+msgid ""
+"**What is Ethereum?** Ethereum is a decentralized smart contracts "
+"platform that is powered by a cryptocurrency called Ether. A good "
+"starting point to learn more about it's workings would be the `Wiki "
+"<https://github.com/ethereum/wiki/wiki/What-is-Ethereum>`_."
+msgstr ""
+
+# f12fcd448f744522b7279f5a64b8d670
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:6
+msgid ""
+"**I have heard of Ethereum, but what are Geth, Mist, Ethminer, Mix, and "
+"AlethOne?** As you already know, Ethereum is the blockchain-based smart "
+"contract platform that this Wiki describes. Akin to Bitcoin, Ethereum "
+"needs miners to solve cryptographic puzzles to confirm transactions and "
+"bring cryptocurrency into existence, nodes to witness and record any "
+"transactions/computations made and 'wallets' to initiate "
+"transactions/computations."
+msgstr ""
+
+# 69662f6496b54ccb99575c801150ccef
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:8
+msgid ""
+"**Geth**: This is the Go implementation of an Ethereum node, and is the "
+"basis for any interactions with the Ethereum blockchain. Running this "
+"locally will allow you to easily interact with the Ethereum blockchain."
+msgstr ""
+
+# a0c0ea89001c47a48f2e7baf4c47cbd6
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:9
+msgid ""
+"**Mist**: This is the equivalent of a web browser, but for the Ethereum "
+"platform. It acts as a GUI to display the accounts and contracts that you"
+" have or use on the Ethereum blockchain. It also allows you to create and"
+" interact with contracts in a graphical user interface without ever "
+"touching the command line. If you are not a developer and just want to "
+"store Ether and interact with Ethereum contracts, then Mist is the "
+"program to use. Latest releases can be found `here "
+"<https://github.com/ethereum/mist/releases>`_."
+msgstr ""
+
+# 3e3124c7854044e591819999d6d90dfc
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:10
+msgid ""
+"**AlethOne**: The mainline Ethereum desktop miner. It connects and syncs "
+"to the Ethereum network and lets you mine, and send transactions. It will"
+" also let you do pool mining."
+msgstr ""
+
+# a76ae59c1ed44da0821cd3e3ac5d8660
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:11
+msgid ""
+"**Ethminer**: A standalone miner. This can be used to check how fast you "
+"can mine and will mine for you in concert with eth, geth and pyethereum."
+msgstr ""
+
+# 60bf92ceba1b4900b4498672da67b382
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:12
+msgid ""
+"**Mix**: The integrated development environment for DApp authoring. "
+"Quickly prototype and debug decentralised applications on the Ethereum "
+"platform."
+msgstr ""
+
+# f2ee7244687842258010ff15e83a0acf
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:13
+msgid ""
+"**How can I store big files on the blockchain?** Swarm is an Ethereum-"
+"specific project for distributed file storage. IPFS is an independent "
+"project which has close ties to Ethereum; it will be used independently "
+"and may be used as the layer underlying Swarm."
+msgstr ""
+
+# 66d6901b000e4af684f2bb683ecfa037
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:15
+msgid ""
+"**Is Ethereum based on bitcoin?** Only in the sense that it uses a "
+"blockchain, which Bitcoin pioneered. Ethereum has a separate blockchain "
+"that has several significant technical differences from Bitcoin's "
+"blockchain."
+msgstr ""
+
+# c4024e25f5e9490784c8710df820e4e4
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:17
+msgid ""
+"**What other cool apps are being built?** See `the dapp list "
+"<http://dapps.ethercasts.com/>`_ from Ethercasts."
+msgstr ""
+
+# fc2654a8c3cf48af8984c9626e65b3a1
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:18
+msgid ""
+"**What's the future of Ethereum?** We are planning a switch to Proof of "
+"Stake_ in the near future. We are also investigating scalability_ "
+"solutions and how to store_ secrets on the blockchain"
+msgstr ""
+
+# c7b00505307c4ff99657c666e61327af
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:20
+msgid ""
+"**How can I use Ethereum to get information about the future?** Augur and"
+" Gnosis are building prediction markets that try to gather the best "
+"information about uncertain future events. Besides that, there are also "
+"other interesting Ethereum-related projects on the market:"
+msgstr ""
+
+# ceb38d86bef648d3872a1de1e9968141
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:23
+msgid ""
+"`Swarm "
+"<https://www.youtube.com/watch?v=VOC45AgZG5Q&index=11&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk>`_"
+msgstr ""
+
+# 7ebd3269c12743bfacd3f8cd3c5d7d74
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:24
+msgid "`IPFS <http://ipfs.io>`_"
+msgstr ""
+
+# 14be3f5591e043fea74050c577fc52da
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:25
+msgid "`Ethercasts  <http://dapps.ethercasts.com/>`_"
+msgstr ""
+
+# 76f224de90974e0db23254ff36459e7e
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:26
+msgid ""
+"`Stake  "
+"<https://www.youtube.com/watch?v=7Y3fWXA6d5k&index=3&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk>`_"
+msgstr ""
+
+# d60a975bf9a240de8e702c914a7054ad
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:27
+msgid ""
+"`Scalability  "
+"<https://www.youtube.com/watch?v=7Y3fWXA6d5k&index=3&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk>`_"
+msgstr ""
+
+# a24ce72e928546cd848ab4ef907cc449
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:28
+msgid ""
+"`Store  <https://blog.ethereum.org/2014/12/26/secret-sharing-daos-"
+"crypto-2-0/>`_"
+msgstr ""
+
+# dcf5de2b42214518818d2e97919a9c8b
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:29
+msgid "`Augur  <http://www.augur.net/>`_"
+msgstr ""
+
+# e13b94c98536415494072d81292af94b
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:30
+msgid "`Gnosis  <http://groupgnosis.com/>`_"
+msgstr ""
+
+# 7a145be4be2848d1b7cb4da06a1ae732
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:32
+msgid ""
+"**How is Ethereum better than Bitcoin, Ripple, MaidSafeCoin and other "
+"cryptocurrencies?** While all these platforms have a currency associated "
+"with it, that is where the similarity ends. Ethereum is currently then "
+"only platform that allows for decentralized computing through smart "
+"contracts. As the Ethereum platform is 'Turing complete', you can build "
+"not just new cryptocurrencies and gross settlement systems (a la Ripple),"
+" but also many other applications that are not possible on any other "
+"platforms."
+msgstr ""
+
+# b55c97be339540de96344d29e76029f6
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:34
+msgid ""
+"**What's the difference between account and wallet contract?** An account"
+" is basically your public / private key pair. A wallet is a smart "
+"contract that secures your ether and identity with features such as "
+"multisignature signing, new addresses for each transaction and password "
+"protection."
+msgstr ""
+
+# 6b9edba4d50945f5b776e41e87eb58b0
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:36
+msgid ""
+"**Is your wallet only accessible from the computer you downloaded the "
+"client on?** Yes, if you are using Mist. You can of course export it for "
+"use on another computer."
+msgstr ""
+
+# 3206b8d5d4124385b1bc038987cfbc80
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:38
+msgid ""
+"**How long should it take to download the blockchain?** The Ethereum "
+"blockchain is constantly growing, and is nearing 7GB as of February 2016."
+" It can take an hour or two to download."
+msgstr ""
+
+# 33828fc38cd743e19df6e36db407e520
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:40
+msgid "**How can I safely store my ether?**"
+msgstr ""
+
+# d464d5b1590f4770bf85f90c1e3d0772
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:50
+msgid "Here are the possible ways to store ether:"
+msgstr ""
+
+# c27ce81e26e943a29b5286d8204e5848
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:47
+msgid "Accounts"
+msgstr ""
+
+# 1f098efe211649be93a4e88483ae8bcf
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:45
+msgid "Mist/Geth accounts."
+msgstr ""
+
+# 7553f73a3f2249b0a5dd0f0c82209260
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:46
+msgid "Paper wallets."
+msgstr ""
+
+# 68b1a2764fd84e438f5e8df861349554
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:47
+msgid "Brain wallets."
+msgstr ""
+
+# ab7fcd7a45844da18fd38bb7f8801074
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:48
+msgid "Icebox Air gapped offline signing of transactions"
+msgstr ""
+
+# 1ab82e48c62b4182a9c1d6e0bbf8f1c3
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:50
+msgid "Wallet"
+msgstr ""
+
+# 3975c4bc4e844ba19f6da349b072efd7
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:50
+msgid ""
+"`Mist Multi\\-signature <http://ethereum.stackexchange.com/questions/6"
+"/how-can-i-create-a-multisignature-address-on-ethereum>`_"
+msgstr ""
+
+# b9eef43c64c549af9642457b1d317330
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:52
+msgid ""
+"**How do I get a list of transactions into/out of an address?** You would"
+" have to pull the transactions manually out of the blockchain to achieve "
+"this. Alternatively, you can rely on thirdparty explorers' API's like "
+"`Etherchain <https://etherchain.org/apidoc>`_. For contract execution "
+"transactions however, you can filter the logs to achieve this."
+msgstr ""
+
+# 85fcdb2d87c447a08aa9bfaa4e851afa
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:54
+msgid ""
+"**Can a contract pay for its execution?** No this is not possible. The "
+"gas for the execution must be provided by the address submitting the "
+"execution request."
+msgstr ""
+
+# b59367e457db4697a4756b7ec23698b9
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:56
+msgid ""
+"**Can a contract call another contract?** Yes, this is possible, read "
+"`about interactions between contracts "
+"<https://dappsforbeginners.wordpress.com/tutorials/interactions-between-"
+"contracts/>`_."
+msgstr ""
+
+# d2f4497dab494bc0bbf8e6bfbd248015
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:58
+msgid ""
+"**Can a transaction be signed offline and then submitted on another "
+"online device?** Yes, you can refer to the solution from `Icebox "
+"<https://github.com/ConsenSys/icebox>`_."
+msgstr ""
+
+# 9a251f8f48194bb8b083cd879efcf3c7
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:60
+msgid ""
+"**which client is the fastest and most reliable?** For now, the Mist "
+"browser is definitely the most stable, reliable and fastest Ethereum "
+"client."
+msgstr ""
+
+# eeec67ad231648f0ac5e2955cae5ddd7
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:62
+msgid ""
+"**How to get testnet Ether?** Testnet ether can either be mined yourself "
+"(using Mist for example), or requested from Testnet faucets like: "
+"faucet.etherparty.io/ ."
+msgstr ""
+
+# 4c54e96c1c804a5bb772c10f17d88e20
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:64
+msgid ""
+"**Can a transaction be sent by a third party? i.e can transaction "
+"broadcasting be outsourced** Technically yes but there is an important "
+"restriction as opposed to bitcoin signed transactions: in ethereum the "
+"transaction has a nonce (more precisely, each account increases counter)."
+msgstr ""
+
+# 9562c7c4a84e4c2e9c82bf9a6cac5a0c
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:66
+msgid ""
+"**Can Ethereum contracts pull data using third-party APIs?** No, Ethereum"
+" contracts cannot pull data from external information sources in this "
+"way. It is however possible to push data from external sites (e.g. "
+"weather sites, stock prices) to Ethereum contracts through transactions."
+msgstr ""
+
+# 9e4ffd870caf4cafb283c93c554a2107
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:68
+msgid ""
+"**Is the content of the data and contracts sent over the Ethereum network"
+" encrypted?** Data and contracts on the Ethereum network are encoded, but"
+" not encrypted. The purpose of Ethereum is precisely that everyone can "
+"audit the behaviour of the contracts and the data sent to them. However, "
+"you are always free to encrypt data locally before broadcasting it to the"
+" network."
+msgstr ""
+
+# 2768a37598f4499ba8c4e801f9c4d393
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:70
+msgid ""
+"**Can I store secrets or passwords on the Ethereum network so that "
+"contracts can interact with fiat and other cryptocurrencies?** All data "
+"on Ethereum is public. It is not possible to store secrets or passwords "
+"to internet banking sites in Ethereum contracts without it being seen by "
+"all. There is however work being done to make this a possibility through "
+"code obfuscation and other techniques. A good read would be this article "
+"by `Vitalik Buterin <https://blog.ethereum.org/2016/01/15/privacy-on-the-"
+"blockchain/>`_."
+msgstr ""
+
+# 9179c86410ad4a4f954c09ac1680dd7c
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:72
+msgid "##### Need help with thorough expert comments on these questions######"
+msgstr ""
+
+# e9a77cc5dee949f28d94b0478b7ef942
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:74
+msgid ""
+"How will Ethereum deal with ever increasing blockchain size? It is "
+"currently a problem with Bitcoin, current blockchain is over 40GB and "
+"growing."
+msgstr ""
+
+# b37e1e613b4341a8bd4651c5c278c512
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:76
+msgid ""
+"How will Ethereum deal with centralisation of mining pools? This was a "
+"problem with BTC."
+msgstr ""
+
+# 7a93c14cbb1c4499b67baabae5484958
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:78
+msgid "How will Ethereum deal with forking?"
+msgstr ""
+
+# 1ca69661103c4ecdb580010d9bc7f123
+#: ../../source/frequently-asked-questions/frequently-asked-questions.rst:80
+msgid ""
+"How will Ethereum ensure the network is capable of making 10000 "
+"transactions per second and not 1 transaction like Bitcoin? This is a "
+"problem for mainstream adoption."
+msgstr ""
+

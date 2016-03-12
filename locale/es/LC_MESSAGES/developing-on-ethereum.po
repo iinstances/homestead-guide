@@ -1,0 +1,918 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# e179216e1b544057b1b2cc3135629710
+#: ../../source/developing-on-ethereum/developer-tools.rst:3
+msgid "Developer Tools"
+msgstr ""
+
+# d711a4f11531428f88c9ae3704f6c9c6
+#: ../../source/developing-on-ethereum/developer-tools.rst:4
+msgid ""
+"As a Ðapp developer you have five main resources which allow Ðapp "
+"development."
+msgstr ""
+
+# 53bc688f688543b485eba14d59e0f014
+#: ../../source/developing-on-ethereum/developer-tools.rst:8
+msgid "Five primary resources"
+msgstr ""
+
+# fa3d8eb7e148453c999c78332140b887
+#: ../../source/developing-on-ethereum/developer-tools.rst:9
+msgid ""
+"ÐApp development requires an understanding of the Web3 Javascript API, "
+"the JSON RPC API, and the Solidity programming language."
+msgstr ""
+
+# fb25e6cb0240402eadc3b487a118a564
+#: ../../source/developing-on-ethereum/developer-tools.rst:11
+msgid ""
+"There are developer tools that help you develop, test, and deploy ÐApps "
+"in a way that automatically utilizes the resources listed below."
+msgstr ""
+
+# a310183fadf34ff898d0f7cb69146647
+#: ../../source/developing-on-ethereum/developer-tools.rst:14
+msgid ""
+"`Web3 JavaScript API <https://github.com/ethereum/wiki/wiki/JavaScript-"
+"API>`__ - This is the main JavaScript SDK to use when you want to "
+"interact with an Ethereum node."
+msgstr ""
+
+# 3f8f1e0b9abb45a4a9cef0ffdbb523c5
+#: ../../source/developing-on-ethereum/developer-tools.rst:15
+msgid ""
+"`JSON RPC API <https://github.com/ethereum/wiki/wiki/JSON-RPC>`__ - This "
+"is the low level JSON RPC 2.0 interface to interface with a node. This "
+"API is used by the `Web3 JavaScript API "
+"<https://github.com/ethereum/wiki/wiki/JavaScript-API>`__."
+msgstr ""
+
+# fe66cb93d7534148bc67a6a1ff6ebc79
+#: ../../source/developing-on-ethereum/developer-tools.rst:16
+msgid ""
+"`Solidity Documentation <https://solidity.readthedocs.org/en/latest/>`__ "
+"- Solidity is the Ethereum developed Smart Contract language, which "
+"compiles to EVM (Ethereum Virtual Machine) opcodes."
+msgstr ""
+
+# 4ded755f5230440095de0b3dd3902940
+#: ../../source/developing-on-ethereum/developer-tools.rst:18
+msgid ""
+":ref:`test-networks` - Test networks help developers develop and test "
+"Ethereum code and network interactions without spending their own Ether "
+"on the main network. Test network options are listed below."
+msgstr ""
+
+# dd52b255758d4fb6bbb69520d09072c9
+#: ../../source/developing-on-ethereum/developer-tools.rst:19
+msgid ""
+":ref:`IDE-or-development-framework`. This assists you in developing, "
+"debugging, and deploying Ethereum applications."
+msgstr ""
+
+# 2de9409db6fa4ce99e939cdb1aee8fac
+#: ../../source/developing-on-ethereum/developer-tools.rst:26
+msgid "Ethereum high level languages"
+msgstr ""
+
+# 06e65edaed6b43cfa0ef3be245ec8c84
+#: ../../source/developing-on-ethereum/developer-tools.rst:27
+msgid ""
+"Contracts live on the blockchain in an Ethereum-specific binary format "
+"(EVM bytecode) that is executed by the Ethereum Virtual Machine (EVM). "
+"However, contracts are typically written in a higher level language (HLL)"
+" and then compiled using the EVM compiler into byte code to be deployed "
+"to the blockchain."
+msgstr ""
+
+# e81d194258584ed18fe64f95f44b47ac
+#: ../../source/developing-on-ethereum/developer-tools.rst:29
+msgid ""
+"Below are the different high level languages developers can use to write "
+"smart contracts for Ethereum."
+msgstr ""
+
+# 3e7afed4365e4c2c822a4cd6ef5d55bb
+#: ../../source/developing-on-ethereum/developer-tools.rst:32
+msgid "Solidity"
+msgstr ""
+
+# aaab279cde1d474eb771ecc20866b7cc
+#: ../../source/developing-on-ethereum/developer-tools.rst:34
+msgid ""
+"Solidity is a language similar to JavaScript which allows you to develop "
+"contracts and compile to EVM bytecode. It is currently the flagship "
+"language of Ethereum and the most popular."
+msgstr ""
+
+# 4e79f4a4c3ff49bf9a961c087a9395a2
+#: ../../source/developing-on-ethereum/developer-tools.rst:36
+msgid ""
+"`Solidity Documentation <http://solidity.readthedocs.org/en/latest/>`_ - "
+"Solidity is the flagship Ethereum high level language that is used to "
+"write contracts."
+msgstr ""
+
+# 6a919c92664c4449980fac30628361b0
+#: ../../source/developing-on-ethereum/developer-tools.rst:37
+msgid ""
+"`Solidity online realtime compiler <http://chriseth.github.io/browser-"
+"solidity/>`_"
+msgstr ""
+
+# afe4d61a8c894cb6b2e28542ef7afbdd
+#: ../../source/developing-on-ethereum/developer-tools.rst:38
+msgid ""
+"`Standardized Contract APIs "
+"<https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs>`__"
+msgstr ""
+
+# 9df05a084aef4755bf4c9045d21d25c0
+#: ../../source/developing-on-ethereum/developer-tools.rst:39
+msgid ""
+"`Useful Ðapp Patterns <https://github.com/ethereum/wiki/wiki/Useful-Ðapp-"
+"Patterns>`__ - Code snippets which are useful for Ðapp development."
+msgstr ""
+
+# 1291ff897ccd4a5f809021511d8fa8c1
+#: ../../source/developing-on-ethereum/developer-tools.rst:42
+msgid "Serpent"
+msgstr ""
+
+# 5ecf69b447244680a7d117fbfec1a68c
+#: ../../source/developing-on-ethereum/developer-tools.rst:44
+msgid ""
+"Serpent is a language similar to Python which can be used to develop "
+"contracts and compile to EVM bytecode. It is intended to be maximally "
+"clean and simple, combining many of the efficiency benefits of a low-"
+"level language with ease-of-use in programming style, and at the same "
+"time adding special domain-specific features for contract programming. "
+"Serpent is compiled using _`LLL`."
+msgstr ""
+
+# 199ace67444e4571b057618fa1429cd1
+#: ../../source/developing-on-ethereum/developer-tools.rst:46
+msgid ""
+"`Serpent on the ethereum wiki "
+"<https://github.com/ethereum/wiki/wiki/Serpent>`_"
+msgstr ""
+
+# b3d0cf54b8cc4b8094fb1e3230bef9dc
+#: ../../source/developing-on-ethereum/developer-tools.rst:47
+msgid "`Serpent EVM compiler <https://github.com/ethereum/serpent>`_"
+msgstr ""
+
+# fcb966d9b1ce41b7b845db94f9d5a489
+#: ../../source/developing-on-ethereum/developer-tools.rst:50
+msgid "LLL"
+msgstr ""
+
+# 1e70674cfc8e4d15a5dfd20a6969cb46
+#: ../../source/developing-on-ethereum/developer-tools.rst:52
+msgid ""
+"`Lisp Like Language (LLL) "
+"<https://github.com/ethereum/libethereum/tree/develop/liblll>`_ is a low "
+"level language similar to Assembly. It is meant to be very simple and "
+"minimalistic; essentially just a tiny wrapper over coding in EVM "
+"directly."
+msgstr ""
+
+# dfc4368b40cc45e095efeb1764910ebc
+#: ../../source/developing-on-ethereum/developer-tools.rst:54
+msgid ""
+"`LIBLLL in GitHub "
+"<https://github.com/ethereum/libethereum/tree/develop/liblll>`_"
+msgstr ""
+
+# 773c38470e924033b4a72b9940dd18df
+#: ../../source/developing-on-ethereum/developer-tools.rst:55
+msgid ""
+"`Examples of LLL "
+"<https://www.reddit.com/r/ethereum/comments/3secu1/anyone_have_a_copy_of_the_old_lll_tutorials/>`_"
+msgstr ""
+
+# 4c416e7066e04d949d015844bbffb08b
+#: ../../source/developing-on-ethereum/developer-tools.rst:58
+msgid "Mutan (deprecated)"
+msgstr ""
+
+# 3e38f6e5d44842debd188a2982161af0
+#: ../../source/developing-on-ethereum/developer-tools.rst:60
+msgid ""
+"`Mutan <https://github.com/obscuren/mutan>`_ is a statically typed, "
+"C-like language designed and developed by Jeffrey Wilcke. It is no longer"
+" maintained."
+msgstr ""
+
+# 5b2f2b5aaa2c46948ed4e62d3de899b5
+#: ../../source/developing-on-ethereum/developer-tools.rst:66
+msgid "IDEs/Frameworks"
+msgstr ""
+
+# 4969026676df48009cb29bdc0f6a3f64
+#: ../../source/developing-on-ethereum/developer-tools.rst:67
+msgid "Below are developer frameworks and IDEs used for writing Ethereum Đapps."
+msgstr ""
+
+# 103b3c099fd74bae99619474e10f2fbd
+#: ../../source/developing-on-ethereum/developer-tools.rst:69
+msgid ""
+"`Mix Ethereum IDE <https://github.com/ethereum/mix>`__ - Mix is an IDE "
+"that allows developers to build and deploy contracts and decentralized "
+"applications on top of the Ethereum blockchain. It includes a Solidity "
+"source code debugger."
+msgstr ""
+
+# e8e4d501ee4f41328ef5dc0269e9720d
+#: ../../source/developing-on-ethereum/developer-tools.rst:70
+msgid ""
+"`Truffle <https://github.com/ConsenSys/truffle>`__ - Truffle is a "
+"development environment, testing framework and asset pipeline for "
+"Ethereum."
+msgstr ""
+
+# 59b02a2c666b4208a27673847251793d
+#: ../../source/developing-on-ethereum/developer-tools.rst:71
+msgid ""
+"`Dapple <https://github.com/nexusdev/dapple>`__ - Dapple is a tool for "
+"Solidity developers to help build and manage complex contract systems on "
+"Ethereum-like blockchains."
+msgstr ""
+
+# 1d46aed0d89e4331b97b680b409f76b2
+#: ../../source/developing-on-ethereum/developer-tools.rst:72
+msgid ""
+"`Populus <http://populus.readthedocs.org/en/latest/>`__ - Populus is a "
+"Smart Contract development framework written in python."
+msgstr ""
+
+# ac0e81f03a28405c8f7b2a308bca7360
+#: ../../source/developing-on-ethereum/developer-tools.rst:73
+msgid ""
+"`Embark <https://iurimatias.github.io/embark-framework/>`__ - Embark is a"
+" Ðapp development framework written in JavaScript."
+msgstr ""
+
+# b01505631beb49cc85cb3583ff333daf
+#: ../../source/developing-on-ethereum/developer-tools.rst:74
+msgid ""
+"`EtherScripter \\(obsolete, discontinued\\) "
+"<http://etherscripter.com/0-5-1/>`_"
+msgstr ""
+
+# ff2d0add83814d79a4892db70897f395
+#: ../../source/developing-on-ethereum/developer-tools.rst:75
+msgid ""
+"`Resilience Raw Transaction Broadcaster <https://github.com/resilience-"
+"me/broadcaster/>`_"
+msgstr ""
+
+# c65f919c3fc44a65b49a91c1fb052133
+#: ../../source/developing-on-ethereum/developer-tools.rst:79
+msgid "Base layer services"
+msgstr ""
+
+# abd65913396b4134b870a3f1b31e75cc
+#: ../../source/developing-on-ethereum/developer-tools.rst:82
+msgid "Ethereum Alarm Clock"
+msgstr ""
+
+# ee7fb6d456bb47c2b02c734a4f65658f
+# c0cc55836fa44f47a06b847676f0e816
+#: ../../source/developing-on-ethereum/developer-tools.rst:84
+#: ../../source/developing-on-ethereum/developer-tools.rst:96
+msgid "**Author:** Piper Merriam"
+msgstr ""
+
+# 15aa21e026d7486c958aec0194e883cc
+#: ../../source/developing-on-ethereum/developer-tools.rst:85
+msgid "**Website:** `alarm_main_website`_."
+msgstr ""
+
+# a76a92c068be444bb4d3e1b4e1690cbd
+#: ../../source/developing-on-ethereum/developer-tools.rst:86
+msgid "**Documentation:** `alarm_documentation`_."
+msgstr ""
+
+# 330e61f53dbc4332bd4a5e4ab6d9d740
+#: ../../source/developing-on-ethereum/developer-tools.rst:88
+msgid ""
+"A marketplace that facilitates scheduling transactions to occur at a "
+"later time.  Serves a similar role to things like *crontab* in unix, or "
+"*setTimeout* in javascript."
+msgstr ""
+
+# 5fe4cd4f646844f0a47bf7a08f037a44
+#: ../../source/developing-on-ethereum/developer-tools.rst:94
+msgid "Ethereum Computation Market"
+msgstr ""
+
+# 03b862e893a742a69384357ba107dd64
+#: ../../source/developing-on-ethereum/developer-tools.rst:97
+msgid "**Website:** `computation_market_main_website`_."
+msgstr ""
+
+# 97429588f1e146c7b819dd3e464d92b2
+#: ../../source/developing-on-ethereum/developer-tools.rst:98
+msgid "**Documentation:** `computation_market_documentation`_."
+msgstr ""
+
+# 79012e012bf7450d88f1d3f7250830cf
+#: ../../source/developing-on-ethereum/developer-tools.rst:100
+msgid ""
+"A marketplace that facilitates verifiable execution of computations off-"
+"chain. Allows for very expernsive computations to be used within the EVM "
+"without having to actually pay the high gas costs of executing them on-"
+"chain."
+msgstr ""
+
+# a1f8bea30dca4a949b2b5d4b95f82ea8
+#: ../../source/developing-on-ethereum/developer-tools.rst:111
+msgid "The EVM"
+msgstr ""
+
+# 506683ff6f0b45c0aa4a4ce7e3e788ef
+#: ../../source/developing-on-ethereum/developer-tools.rst:112
+msgid ""
+"The Ethereum Virtual Machine (EVM) is the runtime environment for smart "
+"contracts in Ethereum. It is not only sandboxed, but actually completely "
+"isolated, which means that code running inside the EVM has no access to "
+"network, filesystem, or other processes. Smart contracts even have "
+"limited access to other smart contracts."
+msgstr ""
+
+# 81527cd4eaf140ae8c01c525c75b8cf3
+#: ../../source/developing-on-ethereum/developer-tools.rst:114
+msgid ""
+"Contracts live on the blockchain in an Ethereum-specific binary format "
+"(EVM bytecode). However, contracts are typically written in an Ethereum "
+"high level language, compiled into byte code using an EVM compiler, and "
+"finally uploaded on the blockchain using an Ethereum client."
+msgstr ""
+
+# 3e56201beb4e4f2d834ce5766196b297
+#: ../../source/developing-on-ethereum/developing-on-ethereum.rst:3
+msgid "Developing on Ethereum"
+msgstr ""
+
+# cc882bdabaa74b2da758e3392b911b67
+#: ../../source/developing-on-ethereum/test-networks.rst:5
+msgid "Test Networks"
+msgstr ""
+
+# 150aafafed974de4ba82be6315616d43
+#: ../../source/developing-on-ethereum/test-networks.rst:8
+msgid "Morden testnet"
+msgstr ""
+
+# 9bca35b0a613428d8a8bcbe9d13b98de
+#: ../../source/developing-on-ethereum/test-networks.rst:9
+msgid ""
+"Morden is a public Ethereum alternative testnet. It is expected to "
+"continue throughout the Frontier and Homestead milestones of the "
+"software."
+msgstr ""
+
+# 5dc3a0961a1e4150a5b005c1acf57809
+#: ../../source/developing-on-ethereum/test-networks.rst:13
+msgid "Usage"
+msgstr ""
+
+# b76ae3284a5b4e8aa29858cf60923b40
+#: ../../source/developing-on-ethereum/test-networks.rst:16
+msgid "++eth (C++ client)"
+msgstr ""
+
+# b642f229f6b542c990ecee1bb2989603
+#: ../../source/developing-on-ethereum/test-networks.rst:18
+msgid ""
+"This is supported natively on 0.9.93 and above. Pass the ``--morden`` "
+"argument in when starting any of the clients. e.g.:"
+msgstr ""
+
+# 0a185872eecd4fc6aecca6fad06ea988
+#: ../../source/developing-on-ethereum/test-networks.rst:26
+msgid "PyEthApp (Python client)"
+msgstr ""
+
+# 10bf6835dff34844a022ae31e66f2a9b
+#: ../../source/developing-on-ethereum/test-networks.rst:28
+msgid "PyEthApp supports the morden network from v1.0.5 onwards:"
+msgstr ""
+
+# 8aaf07469366457f9e8db2f858cd6f51
+#: ../../source/developing-on-ethereum/test-networks.rst:35
+msgid "geth (Go client)"
+msgstr ""
+
+# 68ed212be680491b92a8129dc48acdbe
+#: ../../source/developing-on-ethereum/test-networks.rst:42
+msgid "Details"
+msgstr ""
+
+# 0c5242183f9a4669acde1da7b3ecee83
+#: ../../source/developing-on-ethereum/test-networks.rst:43
+msgid "All parameters are the same as the main Ethereum network except:"
+msgstr ""
+
+# 2d990fe34c184cd29df71ae9a64953f7
+#: ../../source/developing-on-ethereum/test-networks.rst:45
+msgid "Network Name: **Morden**"
+msgstr ""
+
+# cc04745b450d467b82603e487e318d7b
+#: ../../source/developing-on-ethereum/test-networks.rst:46
+msgid "Network Identity: 2"
+msgstr ""
+
+# 57082c15a63d44d8b28133b36175a08f
+#: ../../source/developing-on-ethereum/test-networks.rst:47
+msgid "genesis.json (given below);"
+msgstr ""
+
+# c58a4d71d6c8407a8a900c796372c389
+#: ../../source/developing-on-ethereum/test-networks.rst:48
+msgid ""
+"Initial Account Nonce (``IAN``) is 2^20 (instead of 0 in all previous "
+"networks)."
+msgstr ""
+
+# 84ac94619c554323b422e075598e5c75
+#: ../../source/developing-on-ethereum/test-networks.rst:51
+msgid "All accounts in the state trie have nonce >= ``IAN``."
+msgstr ""
+
+# b776a7a9f98d4210a121d81f5e454304
+#: ../../source/developing-on-ethereum/test-networks.rst:52
+msgid ""
+"Whenever an account is inserted into the state trie it is initialised "
+"with nonce = ``IAN``."
+msgstr ""
+
+# de225ebdd41e4c54aa9883b88eac20b8
+#: ../../source/developing-on-ethereum/test-networks.rst:55
+msgid ""
+"Genesis generic block hash: "
+"``0cd786a2425d16f152c658316c423e6ce1181e15c3295826d7c9904cba9ce303``"
+msgstr ""
+
+# 7bf48d69d3304f7e85b143e2daf600e2
+#: ../../source/developing-on-ethereum/test-networks.rst:57
+msgid ""
+"Genesis generic state root: "
+"``f3f4696bbf3b3b07775128eb7a3763279a394e382130f27c21e70233e04946a9``"
+msgstr ""
+
+# af8966a722c3428f960c413163264ff3
+#: ../../source/developing-on-ethereum/test-networks.rst:61
+msgid "Morden's genesis.json"
+msgstr ""
+
+# 297404fec63547da9afab16699ab8aea
+#: ../../source/developing-on-ethereum/test-networks.rst:84
+msgid "Getting Morden testnet ether"
+msgstr ""
+
+# 2c76687a167c4b53a459af9ae4447817
+#: ../../source/developing-on-ethereum/test-networks.rst:86
+msgid "Two ways to obtain Morden testnet ether:"
+msgstr ""
+
+# e8d14b85f1f84c148bdf5757a42ef473
+#: ../../source/developing-on-ethereum/test-networks.rst:88
+msgid "Mine using your CPU/GPU, (see :ref:`mining`)."
+msgstr ""
+
+# 8f678a7294be4e90a26eb1b04ff4d223
+#: ../../source/developing-on-ethereum/test-networks.rst:89
+msgid "Use the `Ethereum wei faucet <https://zerogox.com/ethereum/wei_faucet>`__."
+msgstr ""
+
+# 3202a08281d94a2cbb2ef50bafa476d6
+#: ../../source/developing-on-ethereum/test-networks.rst:92
+msgid "Setting up a local private testnet"
+msgstr ""
+
+# 28d86b7dd5f34edb8dbecec95793d960
+#: ../../source/developing-on-ethereum/test-networks.rst:93
+msgid ""
+"You either pre-generate or mine your own Ether on a private testnet. It "
+"is a much more cost effective way of trying out Ethereum and you can "
+"avoid having to mine or find Morden test ether."
+msgstr ""
+
+# 8338717424da4c1590b05ac56ca8550a
+#: ../../source/developing-on-ethereum/test-networks.rst:101
+msgid "The things that are required to specify in a private chain are:"
+msgstr ""
+
+# f09b901cf53a49e8b5d3ca6b95a089ad
+#: ../../source/developing-on-ethereum/test-networks.rst:98
+msgid "Custom Genesis File"
+msgstr ""
+
+# 586bb8941f3f42afa35d8513a7742ab0
+#: ../../source/developing-on-ethereum/test-networks.rst:99
+msgid "Custom Data Directory"
+msgstr ""
+
+# 9e911712048e4891a76855598b55e615
+#: ../../source/developing-on-ethereum/test-networks.rst:100
+msgid "Custom NetworkID"
+msgstr ""
+
+# f8df1dc56e9840fab626f62927ac4e44
+#: ../../source/developing-on-ethereum/test-networks.rst:101
+msgid "(Recommended) Disable Node Discovery"
+msgstr ""
+
+# 4b6d0115f6a3443e8aee653a0cb6260b
+#: ../../source/developing-on-ethereum/test-networks.rst:104
+msgid "The genesis file"
+msgstr ""
+
+# a03f27ed54fb47989bc175df6b2b27e6
+#: ../../source/developing-on-ethereum/test-networks.rst:106
+msgid ""
+"The genesis block is the start of the blockchain - the first block, block"
+" 0, and the only block that does not point to a predecessor block. The "
+"protocol ensures that no other node will agree with your version of the "
+"blockchain unless they have the same genesis block, so you can make as "
+"many private testnet blockchains as you'd like!"
+msgstr ""
+
+# 33d2e71109a8496c977512ef6685ab21
+#: ../../source/developing-on-ethereum/test-networks.rst:111
+msgid ":file:`CustomGenesis.json`"
+msgstr ""
+
+# 9f96b973e18c4a85acf16893def831f9
+#: ../../source/developing-on-ethereum/test-networks.rst:123
+msgid ""
+"Save a file called :file:`CustomGenesis.json`. You will reference this "
+"when starting your geth node using the following flag:"
+msgstr ""
+
+# 1e284fd1587d4bf9bad40bac705331f2
+#: ../../source/developing-on-ethereum/test-networks.rst:126
+msgid "``--genesis /path/to/CustomGenesis.json``"
+msgstr ""
+
+# 57c59093ffa6489283bbd67584599ded
+#: ../../source/developing-on-ethereum/test-networks.rst:129
+msgid "Command line parameters for private network"
+msgstr ""
+
+# e2481fc1f7814908ab18d41d042b7b7a
+#: ../../source/developing-on-ethereum/test-networks.rst:131
+msgid ""
+"There are some command line options (also called “flags”) that are "
+"necessary in order to make sure that your network is private. We already "
+"covered the genesis flag, but we need a few more. Note that all of the "
+"commands below are to be used in the geth Ethereum client."
+msgstr ""
+
+# 5d2505adb1e542f7ade0a2cc826c171d
+#: ../../source/developing-on-ethereum/test-networks.rst:134
+msgid "``--nodiscover``"
+msgstr ""
+
+# ec7759a5247648e0923078c4a843e379
+#: ../../source/developing-on-ethereum/test-networks.rst:136
+msgid ""
+"Use this to make sure that your node is not discoverable by people who do"
+" not manually add you. Otherwise, there is a chance that your node may be"
+" inadvertently added to a stranger's blockchain if they have the same "
+"genesis file and network id."
+msgstr ""
+
+# d190bb7603444a3186b2df963c016282
+#: ../../source/developing-on-ethereum/test-networks.rst:138
+msgid "``--maxpeers 0``"
+msgstr ""
+
+# 7719fe76944b4efc839a46d36ea106a3
+#: ../../source/developing-on-ethereum/test-networks.rst:140
+msgid ""
+"Use maxpeers 0 if you do not want anyone else connecting to your test "
+"chain. Alternatively, you can adjust this number if you know exactly how "
+"many peers you want connecting to your node."
+msgstr ""
+
+# 8ec5348ef4454caebc47c06b5e1acf56
+#: ../../source/developing-on-ethereum/test-networks.rst:142
+msgid "``--rpc``"
+msgstr ""
+
+# c9d5117390a1482db8aaeab65214d29a
+#: ../../source/developing-on-ethereum/test-networks.rst:144
+msgid ""
+"This will enable RPC interface on your node. This is generally enabled by"
+" default in Geth."
+msgstr ""
+
+# 8e70ba9b29e34c6da04d70763b683bbb
+#: ../../source/developing-on-ethereum/test-networks.rst:147
+msgid "``--rpcapi \"db,eth,net,web3\"``"
+msgstr ""
+
+# 8bde66a15e8243bb8ae61c2b33bbf29e
+#: ../../source/developing-on-ethereum/test-networks.rst:149
+msgid ""
+"This dictates what APIs that are allowed to be accessed over RPC. By "
+"default, Geth enables the web3 interface over RPC."
+msgstr ""
+
+# 88a348eb0cd94a0193a1d4124d77a735
+#: ../../source/developing-on-ethereum/test-networks.rst:151
+msgid ""
+"**IMPORTANT: Please note that offering an API over the RPC/IPC interface "
+"will give everyone access to the API who can access this interface (e.g. "
+"ÐApp's). Be careful which API's you enable. By default geth enables all "
+"API's over the IPC interface and only the db,eth,net and web3 API's over "
+"the RPC interface.**"
+msgstr ""
+
+# f66bcfcd9d214a9185fcf4532a0429fd
+#: ../../source/developing-on-ethereum/test-networks.rst:153
+msgid "``--rpcport \"8080\"``"
+msgstr ""
+
+# cf0cb97ad19d4408ad3f6d9649bf0960
+#: ../../source/developing-on-ethereum/test-networks.rst:155
+msgid ""
+"Change 8000 to any port that is open on your network. The default for "
+"geth is 8080."
+msgstr ""
+
+# c71b074714e649bfbbc56646608040e1
+#: ../../source/developing-on-ethereum/test-networks.rst:157
+msgid "``--rpccorsdomain \"http://chriseth.github.io/browser-solidity/\"``"
+msgstr ""
+
+# 243d1d54338f4c4b9356ec26165569b3
+#: ../../source/developing-on-ethereum/test-networks.rst:159
+msgid ""
+"This dictates what URLs can connect to your node in order to perform RPC "
+"client tasks. Be very careful with this and type a specific URL rather "
+"than the wildcard (*) which would allow any URL to connect to your RPC "
+"instance."
+msgstr ""
+
+# d9eb2481b06e459c85e683151a0d92a9
+#: ../../source/developing-on-ethereum/test-networks.rst:161
+msgid "``--datadir \"/home/TestChain1\"``"
+msgstr ""
+
+# 8d7f0cb9a1734b93a72f21eb3db8f6b3
+#: ../../source/developing-on-ethereum/test-networks.rst:163
+msgid ""
+"This is the data directory that your private chain data will be stored in"
+" (under the :file:`nubits` . Choose a location that is separate from your"
+" public Ethereum chain folder."
+msgstr ""
+
+# d2a9a0955a544eb380bc435797b59a1c
+#: ../../source/developing-on-ethereum/test-networks.rst:166
+msgid "``--port \"30303\"``"
+msgstr ""
+
+# 46b40b9545f24341b85c55c33be1dcd5
+#: ../../source/developing-on-ethereum/test-networks.rst:168
+msgid ""
+"This is the \"network listening port\", which you will use to connect "
+"with other peers manually."
+msgstr ""
+
+# 3c9de3562b134c8caa7057c6f66ccc14
+#: ../../source/developing-on-ethereum/test-networks.rst:171
+msgid "``--identity \"TestnetMainNode\"``"
+msgstr ""
+
+# e826c423c17c4127b1822ee8b84c6ec0
+#: ../../source/developing-on-ethereum/test-networks.rst:173
+msgid ""
+"This will set up an identity for your node so it can be identified more "
+"easily in a list of peers. Here is an example of how these identities "
+"show up on the network."
+msgstr ""
+
+# 796d796f3cee444eaaa7cbc97e4dd5d1
+#: ../../source/developing-on-ethereum/test-networks.rst:177
+msgid "Launching ``geth``"
+msgstr ""
+
+# 22a0fe39fc2d4faaaf5097bf10ff3d84
+#: ../../source/developing-on-ethereum/test-networks.rst:179
+msgid ""
+"After you have created your custom genesis block JSON file and created a "
+"directory for your blockchain data, type the following command into your "
+"console that has access to geth:"
+msgstr ""
+
+# 72beca6be9154969b3940975e882bf48
+#: ../../source/developing-on-ethereum/test-networks.rst:185
+msgid "Please change the flags to match your custom settings."
+msgstr ""
+
+# d6e5dba08c4b4719adfc0320822f44a8
+#: ../../source/developing-on-ethereum/test-networks.rst:187
+msgid ""
+"You will need to start your geth instance with your custom chain command "
+"every time you want to access your custom chain. If you just type "
+"\"geth\" in your console, it will not remember all of the flags you have "
+"set."
+msgstr ""
+
+# 697fd1ec81f6482b85dfbcda9d0e6bbe
+#: ../../source/developing-on-ethereum/test-networks.rst:190
+msgid "Pre-allocating ether to your account"
+msgstr ""
+
+# a12186d1a91a4c3789df8a44c6305c84
+#: ../../source/developing-on-ethereum/test-networks.rst:192
+msgid ""
+"A difficulty of \"0x400\" allows you to mine Ether very quickly on your "
+"private testnet chain. If you create your chain and start mining, you "
+"should have hundreds of Ether in a matter of minutes which is way more "
+"than enough to test transactions on your network. If you would still like"
+" to pre-allocate Ether to your account, you will need to:"
+msgstr ""
+
+# 656beef5a2514f8fad46420805a59d50
+#: ../../source/developing-on-ethereum/test-networks.rst:194
+msgid "Create a new Ethereum account after you create your private chain"
+msgstr ""
+
+# cf1dedbd4e4c4828a18da2058b9462d2
+#: ../../source/developing-on-ethereum/test-networks.rst:195
+msgid "Copy your new account address"
+msgstr ""
+
+# ba0ac4c0361e43069f1f05ebc6e2ba56
+#: ../../source/developing-on-ethereum/test-networks.rst:196
+msgid "Add the following command to your Custom_Genesis.json file:"
+msgstr ""
+
+# e99d9a67defe467e997c67b2006b3308
+#: ../../source/developing-on-ethereum/test-networks.rst:206
+msgid ""
+"Replace ``0x1fb891f92eb557f4d688463d0d7c560552263b5a`` with your account "
+"address."
+msgstr ""
+
+# 7f525cd794ca4f7a82f72f74ce7fec05
+#: ../../source/developing-on-ethereum/test-networks.rst:208
+msgid ""
+"Save your genesis file and rerun your private chain command. Once geth is"
+" fully loaded, close it by ."
+msgstr ""
+
+# 00fb90ba396d407c833fb50fbd27bb96
+#: ../../source/developing-on-ethereum/test-networks.rst:210
+msgid ""
+"We want to assign an address to the variable ``primary`` and check its "
+"balance."
+msgstr ""
+
+# 97ed51e034914f6eae0b10596a24d44f
+#: ../../source/developing-on-ethereum/test-networks.rst:212
+msgid ""
+"Run the command ``geth account list`` in your terminal to see what "
+"account # your new address was assigned."
+msgstr ""
+
+# 5a3fa982321f483cb4d446d0ba323f93
+#: ../../source/developing-on-ethereum/test-networks.rst:222
+msgid ""
+"Take note of which account # is the one that you pre-allocated Ether to. "
+"Alternatively, you can launch the console with ``geth console`` (keep the"
+" same parameters as when you launched ``geth`` first). Once the prompt "
+"appears, type"
+msgstr ""
+
+# b6c0ab3dd182483e8ee582cf6bfbde11
+#: ../../source/developing-on-ethereum/test-networks.rst:229
+msgid "This will return the array of account addresses you possess."
+msgstr ""
+
+# fa43fccf684e4860ada69aa144b5b93e
+#: ../../source/developing-on-ethereum/test-networks.rst:235
+msgid ""
+"Replace ``0`` with your account's index. This console command should "
+"return your primary Ethereum address."
+msgstr ""
+
+# 905b3dc9a5fa4b8d8f57cc7b745679af
+#: ../../source/developing-on-ethereum/test-networks.rst:237
+msgid "Type the following command:"
+msgstr ""
+
+# c28611d1281e4949972070d2881faa53
+#: ../../source/developing-on-ethereum/test-networks.rst:243
+msgid ""
+"This should return ``7.5`` indicating you have that much Ether in your "
+"account. The reason we had to put such a large number in the alloc "
+"section of your genesis file is because the \"balance\" field takes a "
+"number in wei which is the smallest denomination of the Ethereum currency"
+" Ether (see _`Ether`)."
+msgstr ""
+
+# 69864901bbc84998a56fe21fdb87e64d
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:3
+msgid "Web3 Base Layer Services"
+msgstr ""
+
+# a5366efc39f44526834eeedec303e55d
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:5
+msgid ""
+"In addition to the Ethereum blockchain, more components are being "
+"developed that decentralise other important aspects of web applications."
+msgstr ""
+
+# be9daf24e42340088b42cde0ac5e1969
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:10
+msgid "Swarm - Decentralised data storage and distribution"
+msgstr ""
+
+# 44775c0cd5874f79b5b34143db670d17
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:11
+msgid ""
+"Swarm is a peer to peer data sharing network in which files are addressed"
+" by the hash of their content. Similar to Bittorrent, it is possible to "
+"fetch the data from many nodes at once and as long as a single node hosts"
+" a piece of data, it will remain accessible everywhere. This approach "
+"makes it possible to distribute data without having to host any kind of "
+"server - data accessibility is location independent."
+msgstr ""
+
+# 3b35219ce0ff45cdba38e1781e92e41d
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:13
+msgid ""
+"Other nodes in the network can be incentivised to replicate and store the"
+" data themselves, obviating the need for hosting services when the "
+"original nodes are not connected to the network."
+msgstr ""
+
+# df6002d1118c4c19807e52646687ed92
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:17
+msgid "Whisper - Decentralised messaging"
+msgstr ""
+
+# 37e4bcfd942e4a66ba574722724898fb
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:18
+msgid "A protocol for private, secure communication directly between nodes."
+msgstr ""
+
+# a106c1fce2674d1087a9df1b8dfbfc08
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:22
+msgid ""
+"Furthermore, standard contracts are being created to make the development"
+" and usage of distributed applications easier:"
+msgstr ""
+
+# af87cb30bec74350852589fdbf416147
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:25
+msgid "Name registry"
+msgstr ""
+
+# ff42f996873a424e81149805ba15c317
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:27
+msgid ""
+"Because dapps can be stored anywhere, including the Swarm network, the "
+"name registry maps names to their content or location. This is a "
+"decentralised alternative to the Domain Name System (DNS)."
+msgstr ""
+
+# d93d5fa35e484a4ebd51e9e16648d168
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:30
+msgid "Contract registry"
+msgstr ""
+
+# 2ceb59686e014755acad3ca9c4623ca1
+#: ../../source/developing-on-ethereum/web3-base-layer-services.rst:32
+msgid ""
+"To publish the source code of a specific contract, its address has to be "
+"mapped to it. The contract registry stores this mapping. Users can then "
+"look up this mapping and verify the contract byte code."
+msgstr ""
+

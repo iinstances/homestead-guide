@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# 88de64c1aebd48bdb54fc6a6015966ab
+#: ../../source/about.rst:3
+msgid "The Homestead Documentation Initiative"
+msgstr ""
+
+# 12dff58bdb904722bd79910d2d31dd01
+#: ../../source/about.rst:4
+msgid "|Gitter|"
+msgstr ""
+
+# 9107ec9d32394bfc9eff38ce089db2be
+#: ../../source/about.rst:10
+msgid "Purpose and Audience"
+msgstr ""
+
+# ae9d8075ba3b409bafafa10e887fb0c1
+#: ../../source/about.rst:12
+msgid ""
+"This guide should serve to be an entry level for all Ethereum users and "
+"developers. The goal is to create documentation with information, short "
+"tutorials, and examples that will cover all of the basic and intermediate"
+" functionality of using Ethereum to interact with dapps or develop a "
+"dapp."
+msgstr ""
+
+# 44ceb3264fbb4560aaf6caa9e1c2be71
+#: ../../source/about.rst:15
+msgid ""
+"Any information that is overly specific, technical, or not necessary to "
+"accomplish the documentation's goal will remain on the Ethereum Github "
+"Wiki. It may be referenced in this guide if necessary."
+msgstr ""
+
+# 08563a8ce0214131900462843251bf15
+#: ../../source/about.rst:17
+msgid ""
+"Although much of the information will be similar between the Frontier "
+"Guide and the Homestead Guide, efforts need to be made to make sure the "
+"information ported over is still accurate. This document is client "
+"agnostic and examples and tutorials may be based on any client that the "
+"author decides to write on, as long as a distinction is made as to what "
+"client is being used in the examples/tutorials."
+msgstr ""
+
+# f571f70413c74e06b864b9480c537afb
+#: ../../source/about.rst:20
+msgid ""
+"Although overly specific and technical documentation will not be included"
+" in the first iterations of this guide, community use and popularity of "
+"this guide will dictate future decisions to move Github wiki "
+"documentation to this format."
+msgstr ""
+
+# 710a4a98dde14a28b35228dae54dd823
+#: ../../source/about.rst:22
+msgid "Examples of overly specific and technical documentation include:"
+msgstr ""
+
+# 103411c29f99410bbd481972f0840b14
+#: ../../source/about.rst:24
+msgid "ETHash, CASPER, ABI, RLP, or other technical specs."
+msgstr ""
+
+# 8887d48863b848098bcdfef9b7e953b6
+#: ../../source/about.rst:25
+msgid ""
+"Full API specs for protocols. Caveat: If an example, information, or "
+"tutorial needs to reference API calls for a client or interface in order "
+"to fulfill its example it is acceptable to reference the specific call. "
+"Be sure to make a reference where the user can find remaining pieces of "
+"the specific documentation that may be on the GitHub Wiki."
+msgstr ""
+
+# 68c83e5abe60477dbd30f49ddf733d34
+#: ../../source/about.rst:28
+msgid "Resources for Examplary Documentation"
+msgstr ""
+
+# 07b9d98e7c264025b515ddd99eb3fae4
+#: ../../source/about.rst:30
+msgid ""
+"Here are some examples of previous Ethereum documentation + good examples"
+" of documentation."
+msgstr ""
+
+# 91d0e6aaffda4373832999fab9c63343
+#: ../../source/about.rst:32
+msgid "Solidity Docs - https://ethereum.github.io/solidity/docs/home/"
+msgstr ""
+
+# 6e7c478db3bb473e88b35a265f03e84c
+#: ../../source/about.rst:33
+msgid "Frontier Guide - https://ethereum.gitbooks.io/frontier-guide/content/"
+msgstr ""
+
+# 582bf2f743aa4ded8b4103cc76e7779e
+#: ../../source/about.rst:34
+msgid ""
+"Gav’s TurboEthereum Guide - "
+"https://gavofyork.gitbooks.io/turboethereum/content/"
+msgstr ""
+
+# 44907db8c3e54ef7a380aa73e44cbf7b
+#: ../../source/about.rst:35
+msgid ""
+"Ancient EthereumBuilder’s Guide - "
+"https://ethereumbuilders.gitbooks.io/guide/content/en/index.html"
+msgstr ""
+
+# a1f4725247f8489f88375c0885e93fe4
+#: ../../source/about.rst:36
+msgid ""
+"Other Ethereum Links: https://souptacular.gitbooks.io/ethereum-tutorials-"
+"and-tips-by-hudson/content/giant_ethereum_resource_list.html"
+msgstr ""
+
+# f40f6b1719e34ee68f19c7f210596660
+#: ../../source/about.rst:37
+msgid "Django Docs - https://docs.djangoproject.com/en/1.9/"
+msgstr ""
+
+# fa7782cedaf942ee990cf56955c7f01f
+#: ../../source/about.rst:40
+msgid "Restructured Text Markup, Sphinx"
+msgstr ""
+
+# 95fdae1a64c248629e11e3cd7d0ad40d
+#: ../../source/about.rst:42
+msgid ""
+"Best Cheat Sheet - https://github.com/ralsina/rst-cheatsheet/blob/master"
+"/rst-cheatsheet.rst"
+msgstr ""
+
+# f4d7a121a8404595872f4a8ab0f5690c
+#: ../../source/about.rst:43
+msgid ""
+"Quick Reference - "
+"http://docutils.sourceforge.net/docs/user/rst/quickref.html"
+msgstr ""
+
+# 8b73862feb8b402eaa926c323c029461
+#: ../../source/about.rst:44
+msgid ""
+"Official Cheat Sheet - "
+"http://docutils.sourceforge.net/docs/user/rst/cheatsheet.txt -> "
+"http://docutils.sourceforge.net/docs/user/rst/cheatsheet.html"
+msgstr ""
+
+# ef672b5ea6dc4c6e8b05347af701ea06
+#: ../../source/about.rst:45
+msgid "RST Primer http://sphinx-doc.org/rest.html"
+msgstr ""
+
+# 0ea8706417e044949f92ffca76748cdb
+#: ../../source/about.rst:46
+msgid "http://sphinx-doc.org/markup/inline.html"
+msgstr ""
+
+# c4e49cbdbb1f46d8a4925738ae0fd9b4
+#: ../../source/about.rst:49
+msgid "Compilation and Deployment"
+msgstr ""
+
+# c238f20d14b04ad5b0a7c4d87f15a6bc
+#: ../../source/about.rst:51
+msgid ""
+"We use `make` with the autogenerated read-the-docs `Makefile` to build "
+"the doc."
+msgstr ""
+
+# 4ef7630fb9cc47528ccc0007ead9da18
+#: ../../source/about.rst:60
+msgid "Processing Tips"
+msgstr ""
+
+# 44559a8ff72743f2a5c8dfe102c2645d
+#: ../../source/about.rst:62
+msgid ""
+"Fix section delimiter lines (always use 80-long ones to have correct "
+"lengt, unless the title is greater than 80 chars in length)"
+msgstr ""
+
+# a90c1608546347a2acc62c4976f4a903
+#: ../../source/about.rst:73
+msgid "Referencing Old Documentation"
+msgstr ""
+
+# 97e2321f3cd44688bec7eb5099d515c3
+#: ../../source/about.rst:75
+msgid ""
+"old-docs-for-reference folder has all of the Frontier Gitbook and "
+"Ethereum Wiki doc. Feel free to copy/paste information from those "
+"documents that is still relevant."
+msgstr ""
+
+# 577f81350c404db4b084a93e45b6e7bc
+#: ../../source/about.rst:78
+msgid "Migrate and Convert Old Wiki Content Using Pandoc"
+msgstr ""
+
+# f7aa89fbe10d44309b4e9500fa7655cd
+#: ../../source/about.rst:80
+msgid ""
+"If you still want to clone the absolute latest Ethereum Wiki and Frontier"
+" Guide docs:"
+msgstr ""
+

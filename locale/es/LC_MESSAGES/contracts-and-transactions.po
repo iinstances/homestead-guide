@@ -1,0 +1,1785 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# 71442ef14f17467cafbcb5f1bddbecb8
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:3
+msgid "Accessing Contracts and Transactions"
+msgstr ""
+
+# 2d1e0648080a475fbf0e3fcd26f12968
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:6
+msgid "RPC"
+msgstr ""
+
+# a10869b036804d67b292cae8eb13075f
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:7
+msgid ""
+"In previous sections we have seen how contracts can be written, deployed "
+"and interacted with. Now it's time to dive in the details of "
+"communicating with the Ethereum network and smart contracts."
+msgstr ""
+
+# d7256937299f44c7b3e9c08ed8a40ff2
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:10
+msgid ""
+"An Ethereum node offers a `RPC "
+"<https://wikipedia.org/wiki/Remote_procedure_call>`_ interface. This "
+"interface gives Ðapp's access to the Ethereum blockchain and "
+"functionality that the node provides, such as compiling smart contract "
+"code. It uses a subset of the `JSON-RPC 2.0 "
+"<http://www.jsonrpc.org/specification>`_ specification (no support for "
+"notifications or named parameters) as serialisation protocol and is "
+"available over HTTP and IPC (unix domain sockets on linux/OSX and named "
+"pipe's on Windows)."
+msgstr ""
+
+# 6e68dad8c6a740c79fc04519bcd1f7d6
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:15
+msgid ""
+"If you are not interested in the details but are looking for an easy to "
+"use javascript library you can skip the following sections and continue "
+":ref:`here <using_web3.js>`."
+msgstr ""
+
+# 98b61eb502d04c1db29edb5f5d00f834
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:19
+msgid "Conventions"
+msgstr ""
+
+# 4953a4a702dd48a6b70d5ee84bcd8612
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:20
+msgid ""
+"The RPC interface uses a couple of conventions that are not part of the "
+"JSON-RPC 2.0 specification:"
+msgstr ""
+
+# d9f46eabde454ada8e19aa23a49cb5e5
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:22
+msgid ""
+"Numbers are hex encoded. This decision was made because some languages "
+"have no or limited support for working with extremly large numbers. To "
+"prevent these type of errors numbers are hex encoded and it is up to the "
+"deverloper to parse these numbers and handle them appropriately. See the "
+"`hex encoding section <https://github.com/ethereum/wiki/wiki/JSON-RPC"
+"#output-hex-values>`_ on the wiki for examples."
+msgstr ""
+
+# 671be0643f2a4cdb96f7f3dde72d2763
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:25
+msgid ""
+"Default block number, several RPC methods accept a block number. In some "
+"cases it's not possible to give a block number or not very convenient. "
+"For these cases the default block number can be one of these strings "
+"[\"earliest\", \"latest\", \"pending\"]. See the `wiki page "
+"<https://github.com/ethereum/wiki/wiki/JSON-RPC#the-default-block-"
+"parameter>`_ for a list of RPC methods that use the default block "
+"parameters."
+msgstr ""
+
+# e2bcfe993d7d4cd394b56db7a64304fd
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:31
+msgid "Deploy contract"
+msgstr ""
+
+# aa865d370e644071b1e727b1d521945b
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:32
+msgid ""
+"We will go through the different steps to deploy the following contract "
+"using only the RPC interface."
+msgstr ""
+
+# 0cbdf67a1a114e41a6c92ae3f5324a98
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:44
+msgid ""
+"The first thing to do is make sure the HTTP RPC interface is enabled. "
+"This means for geth we supply the ``--rpc`` flag on startup and for eth "
+"the ``-j`` flag. In this example we use the geth node on a private "
+"development chain. Using this approach we don't need ether on the real "
+"network."
+msgstr ""
+
+# 2951398516824d588c3522b151676a18
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:51
+msgid "This will start the HTTP RPC interface on ``http://localhost:8545``."
+msgstr ""
+
+# ef76c0cf8c014ea0aaacdcdb474fbbbb
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:53
+msgid ""
+"geth supports `CORS <https://en.wikipedia.org/wiki/Cross-"
+"origin_resource_sharing>`_, see the ``--rpccorsdomain`` flag for more "
+"information."
+msgstr ""
+
+# 9f99c399bda046d1b97d6b6103a68c9f
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:55
+msgid ""
+"We can verify that the interface is running by retrieving the coinbase "
+"address and balance using `curl <https://curl.haxx.se/download.html>`_. "
+"Please note that data in these examples will differ on your local node. "
+"If you want to try these command replace the request params accordingly."
+msgstr ""
+
+# d49dba47160d404792567b5730461cc5
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:66
+msgid ""
+"Remember when we said that numbers are hex encoded? In this case the "
+"balance is returned in Wei as a hex string. If we want to have the "
+"balance in Ether as a number we can use web3 from the geth console."
+msgstr ""
+
+# 268a13637e5340b9b7830b347d023180
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:74
+msgid ""
+"Now that we have some ether on our private development chain we can "
+"deploy the contract. The first step is to verify that the solidity "
+"compiler is available. We can retrieve available compilers using the "
+"``eth_getCompilers`` RPC method."
+msgstr ""
+
+# 84a84aaa8c304de6b88dbb1ad725b864
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:82
+msgid ""
+"We can see that the solidity compiler is available. If it's not available"
+" follow `these <http://solidity.readthedocs.org/en/latest/installing-"
+"solidity.html>`_ instructions."
+msgstr ""
+
+# 8b112cedec1e4fb3b69ff273ac8aaf3f
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:85
+msgid ""
+"The next step is to compile the Multiply7 contract to byte code that can "
+"be send to the EVM."
+msgstr ""
+
+# 74323c01aa6a40ee957b07a8d37aa921
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:92
+msgid ""
+"Now that we have the compiled code we need to determine how much gas it "
+"costs to deploy it. The RPC interface has an ``eth_estimateGas`` method "
+"that will give us an estimate."
+msgstr ""
+
+# 1b150ea985e847a196ccd2ff53a46f5d
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:100
+msgid "And finally deploy the contract."
+msgstr ""
+
+# a3b40675125544dca321a3aca38d6f62
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:107
+msgid ""
+"The transaction is accepted by the node and a transaction hash is "
+"returned. We can use this hash to track the transaction."
+msgstr ""
+
+# 78245811e3d346a4a3b01385d88f61c7
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:109
+msgid ""
+"The next step is to determine the address where our contract is deployed."
+" Each executed transaction will create a receipt. This receipt contains "
+"various information about the transaction such as in which block the "
+"transaction was included and how much gas was used by the EVM. If a "
+"transaction creates a contract it will also contain the contract address."
+" We can retrieve the receipt with the ``eth_getTransactionReceipt`` RPC "
+"method."
+msgstr ""
+
+# 399107da05d140ed8e60b5dbe7dd0b50
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:118
+msgid ""
+"We can see that our contract was created on "
+"``0x6ff93b4b46b41c0c3c9baee01c255d3b4675963d``. If you got null instead "
+"of a receipt the transaction has not been included in a block yet. Wait "
+"for a moment and check if your miner is running and retry it."
+msgstr ""
+
+# 9d6ca8e8e05e4bdc89cdeb44c0979ced
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:123
+msgid "Interacting with smart contracts"
+msgstr ""
+
+# 52bf9b34e6fc49dab1706d6eaff9836a
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:124
+msgid ""
+"Now that our contract is deployed we can interact with it. There are 2 "
+"methods for this, sending a transaction or using call as previously "
+":ref:`explained <interacting_with_a_contract>`. In this example we will "
+"be sending a transaction to the multiply method of the contract."
+msgstr ""
+
+# fc29aec8d276464b9d99da1c003fbe13
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:127
+msgid ""
+"If we look at the documentation for the `eth_sendTransaction "
+"<https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendtransaction>`_ we"
+" can see that we need to supply several arguments. In our case we need to"
+" specify the ``from``, ``to`` and ``data`` arguments. ``From`` is the "
+"public address of our account and ``to`` the contract address. The "
+"``data`` argument is a bit harder. It contains a payload that defines "
+"which method must be called and with which arguments. This is were the "
+"ABI comes into play. The ABI defines how to define and encode data for "
+"the EVM. You can read all the details about the ABI `here "
+"<https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI>`_."
+msgstr ""
+
+# 89a8eba446fe479ea4dcabae5eb33095
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:133
+msgid ""
+"The bytes of the payload is the function selector and defines which "
+"method is called. This is done by taking the first 4 bytes from the "
+"Keccak hash over the function name and its argument types and hex encode "
+"it. The `multiply` function accepts an `uint` which is an `alias "
+"<http://solidity.readthedocs.org/en/latest/types.html#integers>`_ for "
+"`uint256`. This leaves us with:"
+msgstr ""
+
+# 259f40a18212414ba9f6a3d7a04bb4a2
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:142
+msgid ""
+"See for details `this page <https://github.com/ethereum/wiki/wiki"
+"/Ethereum-Contract-ABI#function-selector>`_."
+msgstr ""
+
+# 417516b136304dce9c39852fea3f2892
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:144
+msgid ""
+"The next step is to encode the arguments. We only have one uint256, lets "
+"assume we supply the value 6. The ABI has a `section "
+"<https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#argument-"
+"encoding>`_ which specifies how to encode uint256 types."
+msgstr ""
+
+# 34023bb4e37c4f21a87e5b5e5be5ca7e
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:147
+msgid ""
+"`int<M>: enc(X) is the big-endian two's complement encoding of X, padded "
+"on the higher-oder (left) side with 0xff for negative X and with zero "
+"bytes for positive X such that the length is a multiple of 32 bytes.`"
+msgstr ""
+
+# 4337df890a994eb1b5ef6d02e545410d
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:150
+msgid ""
+"This encodes to "
+"``0000000000000000000000000000000000000000000000000000000000000006``."
+msgstr ""
+
+# cc728849367d434aac6869a699266117
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:152
+msgid ""
+"Combining the function selector and the encoded argument our ``data`` "
+"will be "
+"``0xc6888fa10000000000000000000000000000000000000000000000000000000000000006``."
+msgstr ""
+
+# 91173d3a11fa442b8f43741d0c28b427
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:154
+msgid "Lets try it:"
+msgstr ""
+
+# 15bb7c1a84824660bed42a72c4282a49
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:161
+msgid ""
+"Since we sent a transaction we got the transaction hash returned. If we "
+"retrieve the receipt we can see something new:"
+msgstr ""
+
+# 68508ff2f2f44c3786be0594011a0dc4
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:186
+msgid ""
+"The receipt contains a log. This log was generated by the EVM on "
+"transaction execution and included in the receipt. If we look at the "
+"multipy function we can see that the Print event was raised with the "
+"input times 7. Since the argument for the Print event was a uint256 we "
+"can decode it according to the ABI rules which will leave us with the "
+"expected decimal 42. Apart from the data it is worth noting that topics "
+"can be used to determine which event created the log:"
+msgstr ""
+
+# 9278ff95b02346f4bf5800b9b3bb9704
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:196
+msgid ""
+"You can read more about events, topics and indexing in the `Solidity "
+"tutorial "
+"<http://solidity.readthedocs.org/en/latest/contracts.html#events>`_."
+msgstr ""
+
+# ab9231c341524a6a8ba26c1722c50f8f
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:198
+msgid ""
+"This was just a brief introduction into some of the most common tasks. "
+"See for a full list of available RPC methods the `RPC wiki page "
+"<https://github.com/ethereum/wiki/wiki/JSON-RPC#json-rpc-methods>`_."
+msgstr ""
+
+# 3c029cc2eba840a19b1e5b5d0a468fee
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:204
+msgid "Web3.js"
+msgstr ""
+
+# fa93e72b456c4d039b8843a9ee44f12d
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:205
+msgid ""
+"As we have seen in the previous example using the JSON-RPC interface can "
+"be quite tedious and error-prone, especially when we have to deal with "
+"the ABI. Web3.js is a javascript library that works on top of the "
+"Ethereum RPC interface. Its goal is to provide a more user friendly "
+"interface and reducing the chance for errors."
+msgstr ""
+
+# c56511e33e154bf5ac051ad666ea1804
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:209
+msgid "Deploying the Multiply7 contract using web3 would look like:"
+msgstr ""
+
+# c362bd3f99dd4dc58115e053447daf53
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:226
+msgid "Load a deployed contract and send a transaction:"
+msgstr ""
+
+# 19da36fc1c834f82ba7f560a02e3266c
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:236
+msgid ""
+"Register a callback which is called when the ``Print`` event created a "
+"log."
+msgstr ""
+
+# 6cd480fab78143388b5e80547b7e64da
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:243
+msgid ""
+"See for more information the `web3.js "
+"<https://github.com/ethereum/wiki/wiki/JavaScript-API>`_ wiki page."
+msgstr ""
+
+# 985fbccbb304470f898b42435812dfea
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:246
+msgid "Console"
+msgstr ""
+
+# 7f8aa82008ab49129c771a7a8afd67af
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:247
+msgid ""
+"The geth `console <https://github.com/ethereum/go-ethereum/wiki"
+"/JavaScript-Console>`_ offers a command line interface with a javascript "
+"runtime. It can connect to a local or remote geth or eth node. It will "
+"load the web3.js library that users can use. This allows users to deploy "
+"and interact with smart contract from the console using web3.js. In fact "
+"the examples in the :ref:`Web3.js <using_web3.js>` section can by copied "
+"into the console."
+msgstr ""
+
+# de8aa5fb401f4fe89c5389a396c5243d
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:253
+msgid "Viewing Contracts and Transactions"
+msgstr ""
+
+# 9aaaa6a573bb4c08a38faddc7f424b4a
+#: ../../source/contracts-and-transactions/accessing-contracts-and-transactions.rst:254
+msgid ""
+"There are several online blockchain explorers available that will allow "
+"you to inspect the Ethereum blockchain. See for a list: :ref:`Blockchain "
+"explorers <blockchain_explorers>`."
+msgstr ""
+
+# 7d94e24f5f584a1381f1c7b86c33d48a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:5
+msgid "Account Types, Gas, and Transactions"
+msgstr ""
+
+# 898aa867d04c429da53223453e1d57a8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:8
+msgid "EOA vs contract accounts"
+msgstr ""
+
+# b8fe7bb814434edbb19796a5050eaec8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:12
+msgid "There are two types of accounts in Ethereum"
+msgstr ""
+
+# bfdaabb13d1d43b2bcb64be7ea959db6
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:11
+msgid "Externally Owned Accounts"
+msgstr ""
+
+# ec4992737e324aac81055cee271524d7
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:12
+msgid "Contracts Accounts"
+msgstr ""
+
+# 66c9f381f23244f69dc65d5dbe92fe39
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:15
+msgid "Externally owned accounts (EOAs)"
+msgstr ""
+
+# 62abea93711c469aa0d62b02f7ec7c25
+# 5393a89a888f48c4a6a3efe78fb8aa91
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:17
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:24
+msgid "Can have an Ether balance."
+msgstr ""
+
+# 1845935e160841acb5fa8d3074a1d678
+# b43bfa5445fb486a9e833a6a9a196bc0
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:18
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:25
+msgid "Can send transactions."
+msgstr ""
+
+# 21f7c935c64d45db91d14b2aa49b4b02
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:19
+msgid "Are controlled by private keys."
+msgstr ""
+
+# d355e763b7ec4e33a072b934a645982a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:20
+msgid "Has no code."
+msgstr ""
+
+# d8935f79dcfb482c9ca70fd7903aa7e1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:23
+msgid "Contract accounts"
+msgstr ""
+
+# a69ff949e7ba4f02b1e734376b19afed
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:26
+msgid "Can send messages."
+msgstr ""
+
+# c13b4cc0607b4d51859d44f2335160a8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:27
+msgid "Contracts are controlled by their contract code."
+msgstr ""
+
+# eb6c75805e2d4924b42c203fe5ad0f6f
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:28
+msgid ""
+"Only send transactions in response to other transactions that they have "
+"received. Therefore, all action on the Ethereum block chain is set in "
+"motion by transactions fired from externally owned accounts."
+msgstr ""
+
+# ee6e4236ee24427dae93c242d57708e8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:29
+msgid ""
+"Every time a contract account receives a transaction its code activates, "
+"allowing it to read and write to internal storage and send other "
+"transactions/messages or create contracts."
+msgstr ""
+
+# f24701fe66da4654807c30c8ce5ae8ea
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:31
+msgid ""
+"All Ether balances and values are denominated in units of wei: 1 Ether is"
+" 1e18 wei."
+msgstr ""
+
+# a0cc6495c2ef4fc5a1d4f52a1fd5dafd
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:33
+msgid ""
+"\"Contracts\" in Ethereum should not be seen as something that should be "
+"\"fulfilled\" or \"complied with\"; rather, they are more like "
+"\"autonomous agents\" that live inside of the Ethereum execution "
+"environment, always executing a specific piece of code when \"poked\" by "
+"a message or transaction, and having direct control over their own ether "
+"balance and their own key/value store to keep track of persistent "
+"variables."
+msgstr ""
+
+# 747b15003c3340f6b0125a895dd5033b
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:36
+msgid "What is a transaction?"
+msgstr ""
+
+# 7beaf4106c0b4093bfae378bb193ec61
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:37
+msgid ""
+"The term \"transaction\" is used in Ethereum to refer to the signed data "
+"package that stores a message to be sent from an externally owned "
+"account."
+msgstr ""
+
+# 588ad437ae3b49f8ac23c2ae33e9bb08
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:45
+msgid "Transactions contain:"
+msgstr ""
+
+# 9f36c0cf7642483fb641600a2fbac335
+# ee6b5870cc9145f7a576b9de030f7987
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:40
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:53
+msgid "The recipient of the message."
+msgstr ""
+
+# 2dd2acbd07e24e1abc252c6806d621f5
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:41
+msgid "A signature identifying the sender."
+msgstr ""
+
+# 3403adcbbb2240f794fc9714d5c4bd93
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:42
+msgid ""
+"``VALUE`` field - The amount of wei to transfer from the sender to the "
+"recipient."
+msgstr ""
+
+# a25d8c1a7cf94353a64fe83cb9766f58
+# eacd9f4a59ad456984072cc6110fb668
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:43
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:55
+msgid "An optional data field."
+msgstr ""
+
+# 95c2f81e9cee452c882d288f8bdc7782
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:44
+msgid ""
+"A ``STARTGAS`` value, representing the maximum number of computational "
+"steps the transaction execution is allowed to take."
+msgstr ""
+
+# 45fa84db58d544768735fb0ed38138c2
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:45
+msgid ""
+"A ``GASPRICE`` value, representing the fee the sender pays per "
+"computational step."
+msgstr ""
+
+# 89933697d19943a2850e9c8eab5bae58
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:48
+msgid "What is a message?"
+msgstr ""
+
+# a2da1bfd68be4f2e8d8d7f093fb71395
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:49
+msgid ""
+"Contracts have the ability to send \"messages\" to other contracts. "
+"Messages are virtual objects that are never serialized and exist only in "
+"the Ethereum execution environment."
+msgstr ""
+
+# 35055b4975a34166b951c86e721fe505
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:56
+msgid "A message contains:"
+msgstr ""
+
+# 9f59e344ab52498c9d316d104009de74
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:52
+msgid "The sender of the message (implicit)."
+msgstr ""
+
+# 3a79c6b009534e42bb907952ff6a7d5a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:54
+msgid ""
+"``VALUE`` field - The amount of wei to transfer alongside the message to "
+"the contract address."
+msgstr ""
+
+# f05ab96dcb4946848c1d6b2c670e3113
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:56
+msgid "A ``STARTGAS`` value."
+msgstr ""
+
+# f3524fbd543f40b68c6b89e8debe8435
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:58
+msgid ""
+"Essentially, a message is like a transaction, except it is produced by a "
+"contract and not an external actor. A message is produced when a contract"
+" currently executing code executes the ``CALL`` opcode, which produces "
+"and executes a message. Like a transaction, a message leads to the "
+"recipient account running its code. Thus, contracts can have "
+"relationships with other contracts in exactly the same way that external "
+"actors can."
+msgstr ""
+
+# 0a5dd9ffcb874cb2878faf9919d2f208
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:61
+msgid "What is gas?"
+msgstr ""
+
+# b73800d770c9457cb64b3cd5fcf0b997
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:62
+msgid ""
+"Ethereum implements an execution environment on the blockchain called the"
+" Ethereum Virtual Machine (EVM). When you are running a decentralized "
+"application (dApp), every instruction is executed on every node of the "
+"network. This has a cost: for every operation in a contract that can be "
+"executed there is a specified cost, expressed in number of gas units."
+msgstr ""
+
+# 7162e004b1fd44248792e6a06ad26ae1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:64
+msgid ""
+"Gas is name for the execution fee for every operation made on an Ethereum"
+" blockchain. Its price is expressed in ether and it's decided by the "
+"miners, which can refuse to process transaction with less than a certain "
+"gas price. To get gas you simply need to add ether to your account. The "
+"Ethereum client automatically converts Ether to gas and gas to Ether when"
+" transactions are processed."
+msgstr ""
+
+# b0bd9b2652d448108efdb17019144605
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:66
+msgid ""
+"The Ethereum protocol charges a fee per computational step that is "
+"executed in a contract or transaction to prevent deliberate attacks and "
+"abuse on the Ethereum network. Every transaction is required to include a"
+" gas limit and a fee that it is willing to pay per gas. Miners have the "
+"choice of including the transaction and collecting the fee or not. If the"
+" total number of gas used by the computational steps spawned by the "
+"transaction, including the original message and any sub-messages that may"
+" be triggered, is less than or equal to the gas limit, then the "
+"transaction processes. If the total gas exceeds the gas limit, then all "
+"changes are reverted, except that the transaction is still valid and the "
+"fee can still be collected by the miner. This means that it is wiser to "
+"send transactions with a gas limit well above the estimates"
+msgstr ""
+
+# e6e5b96bb2e248068d4d9131b92e3ea0
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:69
+msgid "Estimating transaction costs"
+msgstr ""
+
+# 3ad473219da94e0c87bbe2bd7b21a455
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:70
+msgid "The total cost of a transaction is based on 2 factors:"
+msgstr ""
+
+# 345441b02a6945f7ae26c4c553e6907f
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:72
+msgid "``gasUsed`` is the total gas that is consumed by the transaction"
+msgstr ""
+
+# c2aa4ae8ed314e62b236bd9c3d1cdc1a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:74
+msgid ""
+"``gasPrice`` price (in ether) of one unit of gas specified in the "
+"transaction"
+msgstr ""
+
+# ca6e0a7d58a2404db0f0ac7dc08a0c07
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:76
+msgid "**Total cost = gasUsed * gasPrice**"
+msgstr ""
+
+# 527b7fb688e24c94896ce27c1fb69a86
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:79
+msgid "gasUsed"
+msgstr ""
+
+# b9340c1ba6f148a4949ac5a9ef09817a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:80
+msgid ""
+"Each operation in the EVM was assigned a number of how much gas it "
+"consumes. ``gasUsed`` is summing up all the gas for all the operations "
+"executed. There is a `spreadsheet "
+"<http://ethereum.stackexchange.com/q/52/42>`_ which offers a glimpse to "
+"some of the analysis behind them."
+msgstr ""
+
+# 06438476f96c4c0db5f144f67e1e59e9
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:82
+msgid ""
+"For estimating ``gasUsed``, there is an `estimateGas API "
+"<http://ethereum.stackexchange.com/q/266/42>`_ that can be used but has "
+"some caveats."
+msgstr ""
+
+# f1278dcb185947dfa0b514d0779cca10
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:85
+msgid "gasPrice"
+msgstr ""
+
+# b1cd361e5a894686b8d7f8c1c81ae02b
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:86
+msgid ""
+"A user constructs and signs a transaction, and each user may specify "
+"whatever ``gasPrice`` they desire, this includes zero. However, the "
+"Ethereum clients launched at Frontier had a default gasPrice of 0.05e12 "
+"wei. As miners optimize for their revenue, if most transactions are being"
+" submitted with a gasPrice of 0.05e12 wei, it would be difficult to "
+"convince a miner to accept a transaction that specified a lower, or zero,"
+" gasPrice."
+msgstr ""
+
+# 457234822255459286b3b0d1765434f1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:89
+msgid "Example transaction cost"
+msgstr ""
+
+# aa6daf13979544a0a1b712b57f470aba
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:91
+msgid ""
+"Let’s take a contract that just adds 2 numbers. The EVM OPCODE ``ADD`` "
+"consumes 3 gas."
+msgstr ""
+
+# 42f07236cbca43af83cae4031b71511a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:93
+msgid ""
+"The approximate cost, using the default gas price (as of January 2016), "
+"would be:"
+msgstr ""
+
+# db1d96d78e934967953c7fa32060355f
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:95
+msgid "3 \\* 0.05e12 = 1.5e11 wei"
+msgstr ""
+
+# 9145e4f5e75f4148bc2211f5cc0caec0
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:97
+msgid "Since 1 Ether is 1e18 wei, the total cost would be 0.00000015 Ether."
+msgstr ""
+
+# e14fa158d2ff4988ab6fb88d526634d2
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:99
+msgid ""
+"This is a simplification since it ignores some costs, such as the cost of"
+" passing the 2 numbers to contract, before they can even be added."
+msgstr ""
+
+# fd77eb47b63244d280f9d91fe3eed24d
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:102
+msgid "`question <http://ethereum.stackexchange.com/q/324/42>`_"
+msgstr ""
+
+# 6ebcdab7fd9649658ac6925e4cf4e73b
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:103
+msgid "`gas fees <http://ether.fund/tool/gas-fees>`_"
+msgstr ""
+
+# 45d52fd4df38483f9cf2327f0f4f84b3
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:104
+msgid "`gas cost calculator <http://ether.fund/tool/calculator>`_"
+msgstr ""
+
+# 05c8235143d846cf93c6c7b359c8e618
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:105
+msgid ""
+"`Ethereum Gas Prices "
+"<https://docs.google.com/spreadsheets/d/1m89CVujrQe5LAFJ8-YAUCcNK950dUzMQPMJBxRtGCqs>`_"
+msgstr ""
+
+# 3308cc513b5a46e2a5c177ecd5093297
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:108
+msgid "Operation Name"
+msgstr ""
+
+# 421035cd0c2b4fe1897084d4bf200f9c
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:108
+msgid "Gas Cost"
+msgstr ""
+
+# 4cad59c8c3e74fef876321738dccef4c
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:108
+msgid "Remark"
+msgstr ""
+
+# b28c45f18bbc4166b07554aa0ed8dee1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:110
+msgid "step"
+msgstr ""
+
+# 9c23ec92af964e3c80f25c78a5abb99d
+# aaeebf575bfa4303b8428aaa46952f61
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:110
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:119
+msgid "1"
+msgstr ""
+
+# 60a046edca2f4864bb8a2fa856f75aba
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:110
+msgid "default amount per an execution cycle"
+msgstr ""
+
+# 32148207a9d54fc2b2e107cd55de8c5a
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:111
+msgid "stop"
+msgstr ""
+
+# b3e5c6485beb4deebbc49e76fea63279
+# c4140a6a80324174b0762fb3983b15cf
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:111
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:112
+msgid "0"
+msgstr ""
+
+# a612ec4ccf65426c9d0c102d6b281ee8
+# e7b861d8103848099eb61445d6029658
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:111
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:112
+msgid "free"
+msgstr ""
+
+# 4add0be902bc4f0d97d4c445838fc188
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:112
+msgid "suicide"
+msgstr ""
+
+# 7dbde11eea344b5599aaad2658b55be3
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:113
+msgid "sha3"
+msgstr ""
+
+# a437d62679604fb49e0de291258ef094
+# 5df5dbcdbc38446fa4827259e2cce634
+# cb883466c3f74de182bb1c2ecc63a967
+# 3c64bffdc82049f088a39a6e49004691
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:113
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:114
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:116
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:118
+msgid "20"
+msgstr ""
+
+# 2e8e274973c640a2bf9936759cae8444
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:114
+msgid "sload"
+msgstr ""
+
+# b657ed199fd3467ead6160a308230246
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:114
+msgid "get from permanent storage"
+msgstr ""
+
+# b3f8275d2de94a5584ea9e78ce836496
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:115
+msgid "sstore"
+msgstr ""
+
+# dcaa78d1e94a4ec7b1696002b92b0970
+# 9f9f239e36d54390af62608d24bd11b0
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:115
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:117
+msgid "100"
+msgstr ""
+
+# 011f98d28f684997b356f490d5178096
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:115
+msgid "put into permanent storage"
+msgstr ""
+
+# b3a7e87abbcf409893cd942324deddd1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:116
+msgid "balance"
+msgstr ""
+
+# b2e8f7da451e428cafe46cf3f59e5d64
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:117
+msgid "create"
+msgstr ""
+
+# 04bc8e7ca204496ba8c27bf927dd3e76
+# 4439a8a36ea642f09e52ee24f8f8ff92
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:117
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:122
+msgid "contract creation"
+msgstr ""
+
+# 8218ead3c0374e7f9bc427b7c61f37ee
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:118
+msgid "call"
+msgstr ""
+
+# 4b93c12952fe4cb187541cbb2500e7a1
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:118
+msgid "initiating a read only call"
+msgstr ""
+
+# 2e4280211d834a4f9b55961fe997eb72
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:119
+msgid "memory"
+msgstr ""
+
+# 93ebd58d5f464a30853e7c45aed6a906
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:119
+msgid "every additional word when expanding memory"
+msgstr ""
+
+# b5dbcfbb95f641eeb828e611859250d2
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:120
+msgid "txdata"
+msgstr ""
+
+# f0f61c08efef44eb9c417e5099924f99
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:120
+msgid "5"
+msgstr ""
+
+# 4e59ce00f8354e10913d3b4b0bdc8e44
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:120
+msgid "every byte of data or code for a transaction"
+msgstr ""
+
+# 2fb414cd3cb4414d8154b99bdc0f74e7
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:121
+msgid "transaction"
+msgstr ""
+
+# d9b72e45438c4250b043a7bbd9d52400
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:121
+msgid "500"
+msgstr ""
+
+# e246f0d35507447cb0c98aa6f1d48508
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:121
+msgid "base fee transaction"
+msgstr ""
+
+# 58e8954417934f36a1ce6cdd2fdd5020
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:122
+msgid "53000"
+msgstr ""
+
+# d0ccd8097d404d64b71b752430fab563
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:122
+msgid "changed in homestead from 21000"
+msgstr ""
+
+# 389211de5434433da8d03b01fbbb1eb6
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:126
+msgid "Account interactions example - betting contract"
+msgstr ""
+
+# 94f708f452604c198487e69bc924ad5f
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:127
+msgid "As previously mentioned, there are two types of accounts:"
+msgstr ""
+
+# 2e8a500dee7d4b4c9038dcb14fb79f67
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:129
+msgid ""
+"**Externally owned account (EOAs)**: an account controlled by a private "
+"key, and if you own the private key associated with the EOA you have the "
+"ability to send ether and messages from it."
+msgstr ""
+
+# 8d19dacac39042c38fc022c2864797a0
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:130
+msgid "**Contract**: an account that has its own code, and is controlled by code."
+msgstr ""
+
+# 4bbeea825a4b473c983c71d43831e19b
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:132
+msgid ""
+"By default, the Ethereum execution environment is lifeless; nothing "
+"happens and the state of every account remains the same. However, any "
+"user can trigger an action by sending a transaction from an externally "
+"owned account, setting Ethereum's wheels in motion. If the destination of"
+" the transaction is another EOA, then the transaction may transfer some "
+"ether but otherwise does nothing. However, if the destination is a "
+"contract, then the contract in turn activates, and automatically runs its"
+" code."
+msgstr ""
+
+# d04c05c0fb5245ceb82cf0e832214df8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:134
+msgid ""
+"The code has the ability to read/write to its own internal storage (a "
+"database mapping 32-byte keys to 32-byte values), read the storage of the"
+" received message, and send messages to other contracts, triggering their"
+" execution in turn. Once execution stops, and all sub-executions "
+"triggered by a message sent by a contract stop (this all happens in a "
+"deterministic and synchronous order, ie. a sub-call completes fully "
+"before the parent call goes any further), the execution environment halts"
+" once again, until woken by the next transaction."
+msgstr ""
+
+# e2760af2d4804c4d9cb0ee135dcadfb9
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:136
+msgid "Contracts generally serve four purposes:"
+msgstr ""
+
+# c76955f57fcd4508ad1412640c43e0e9
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:138
+msgid ""
+"Maintain a data store representing something which is useful to either "
+"other contracts or to the outside world; one example of this is a "
+"contract that simulates a currency, and another is a contract that "
+"records membership in a particular organization."
+msgstr ""
+
+# 0df6dd962dde4256b9fd7b4f410d55be
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:139
+msgid ""
+"Serve as a sort of externally owned account with a more complicated "
+"access policy; this is called a \"forwarding contract\" and typically "
+"involves simply resending incoming messages to some desired destination "
+"only if certain conditions are met; for example, one can have a "
+"forwarding contract that waits until two out of a given three private "
+"keys have confirmed a particular message before resending it (ie. "
+"multisig). More complex forwarding contracts have different conditions "
+"based on the nature of the message sent; the simplest use case for this "
+"functionality is a withdrawal limit that is overrideable via some more "
+"complicated access procedure."
+msgstr ""
+
+# fb9d0a0df901453581d9976f5e9cc320
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:140
+msgid ""
+"Manage an ongoing contract or relationship between multiple users. "
+"Examples of this include a financial contract, an escrow with some "
+"particular set of mediators, or some kind of insurance. One can also have"
+" an open contract that one party leaves open for any other party to "
+"engage with at any time; one example of this is a contract that "
+"automatically pays a bounty to whoever submits a valid solution to some "
+"mathematical problem, or proves that it is providing some computational "
+"resource."
+msgstr ""
+
+# 3226f2ad483843159a164f2e4c8d1692
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:141
+msgid ""
+"Provide functions to other contracts; essentially serving as a software "
+"library."
+msgstr ""
+
+# 37dee4a3e616416e963f0005ccae18f9
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:143
+msgid ""
+"Contracts interact with each other through an activity that is "
+"alternately called either \"calling\" or \"sending messages\". A "
+"\"message\" is an object containing some quantity of ether (a special "
+"internal currency used in Ethereum with the primary purpose of paying "
+"transaction fees), a byte-array of data of any size, the addresses of a "
+"sender and a recipient. When a contract receives a message it has the "
+"option of returning some data, which the original sender of the message "
+"can then immediately use. In this way, sending a message is exactly like "
+"calling a function."
+msgstr ""
+
+# e8f97f8ee9d04559bee0ad973a5cdc82
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:145
+msgid ""
+"Because contracts can play such different roles, we expect that contracts"
+" will be interacting with each other. As an example, consider a situation"
+" where Alice and Bob are betting 100 GavCoin that the temperature in San "
+"Francisco will not exceed 35ºC at any point in the next year. However, "
+"Alice is very security-conscious, and as her primary account uses a "
+"forwarding contract which only sends messages with the approval of two "
+"out of three private keys. Bob is paranoid about quantum cryptography, so"
+" he uses a forwarding contract which passes along only messages that have"
+" been signed with Lamport signatures alongside traditional ECDSA (but "
+"because he's old fashioned, he prefers to use a version of Lamport sigs "
+"based on SHA256, which is not supported in Ethereum directly)."
+msgstr ""
+
+# 52f686b2083d4c5fb8e117b435560097
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:147
+msgid ""
+"The betting contract itself needs to fetch data about the San Francisco "
+"weather from some contract, and it also needs to talk to the GavCoin "
+"contract when it wants to actually send the GavCoin to either Alice or "
+"Bob (or, more precisely, Alice or Bob's forwarding contract). We can show"
+" the relationships between the accounts thus:"
+msgstr ""
+
+# 7930b02dd894471d9d43564dcdcb06c4
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:153
+msgid "When Bob wants to finalize the bet, the following steps happen:"
+msgstr ""
+
+# 3c8a342760f64bae938e9a7f2cce2127
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:155
+msgid ""
+"A transaction is sent, triggering a message from Bob's EOA to Bob's "
+"forwarding contract."
+msgstr ""
+
+# e580050d13d94973b45a83f2d7935767
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:156
+msgid ""
+"Bob's forwarding contract sends the hash of the message and the Lamport "
+"signature to a contract which functions as a Lamport signature "
+"verification library."
+msgstr ""
+
+# 4023f3ca0a8c4d45b44f3b8d17500eca
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:157
+msgid ""
+"The Lamport signature verification library sees that Bob wants a "
+"SHA256-based Lamport sig, so it calls the SHA256 library many times as "
+"needed to verify the signature."
+msgstr ""
+
+# 5318f2d378124b8e963f64cb1ab12e6e
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:158
+msgid ""
+"Once the Lamport signature verification library returns 1, signifying "
+"that the signature has been verified, it sends a message to the contract "
+"representing the bet."
+msgstr ""
+
+# 4ead5994b73245f5a009f6fd53a1cf71
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:159
+msgid ""
+"The bet contract checks the contract providing the San Francisco "
+"temperature to see what the temperature is."
+msgstr ""
+
+# a5bdd3bfee4b4271bee982a3c3df13e5
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:160
+msgid ""
+"The bet contract sees that the response to the messages shows that the "
+"temperature is above 35ºC, so it sends a message to the GavCoin contract "
+"to move the GavCoin from its account to Bob's forwarding contract."
+msgstr ""
+
+# e4cbaf092edd44e79dd7968c8e5e0de8
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:162
+msgid ""
+"Note that the GavCoin is all \"stored\" as entries in the GavCoin "
+"contract's database; the word \"account\" in the context of step 6 simply"
+" means that there is a data entry in the GavCoin contract storage with a "
+"key for the bet contract's address and a value for its balance. After "
+"receiving this message, the GavCoin contract decreases this value by some"
+" amount and increases the value in the entry corresponding to Bob's "
+"forwarding contract's address. We can see these steps in the following "
+"diagram:"
+msgstr ""
+
+# 0df95c3697c24bd8bd7db7d3dfe9eb33
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:169
+msgid "Signing transactions offline"
+msgstr ""
+
+# 57e82a8ba1bc4885b0fc68c2f7d1830c
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:170
+msgid ""
+"[ Maybe add this to the FAQ and point to the ethkey section of "
+"turboethereum guide? ]"
+msgstr ""
+
+# 1381ab4e03a7413781f192bca070d4d7
+#: ../../source/contracts-and-transactions/account-types-gas-and-transactions.rst:172
+msgid ""
+"`Resilience Raw Transaction Broadcaster <https://github.com/resilience-"
+"me/broadcaster/>`_"
+msgstr ""
+
+# a5b05b419cbc42a0a6372bfd0ed9e592
+#: ../../source/contracts-and-transactions/contracts.rst:3
+msgid "Contracts"
+msgstr ""
+
+# 37192fa5616f4b19a533234320719232
+#: ../../source/contracts-and-transactions/contracts.rst:6
+msgid "What is a contract?"
+msgstr ""
+
+# 615c38704ac44849b50062856c943c66
+#: ../../source/contracts-and-transactions/contracts.rst:8
+msgid ""
+"A contract is a collection of code (its functions) and data (its state) "
+"that resides at a specific address on the Ethereum blockchain. Contract "
+"accounts are able to pass messages between themselves as well as doing "
+"practically Turing complete computation. Contracts live on the blockchain"
+" in a Ethereum-specific binary format called Ethereum Virtual Machine "
+"(EVM) bytecode."
+msgstr ""
+
+# e394ffd21f6b4269885212cbae98dd5b
+#: ../../source/contracts-and-transactions/contracts.rst:14
+msgid ""
+"Contracts are typically written in some high level language such as "
+"`Solidity <https://solidity.readthedocs.org/en/latest/>`_ and then "
+"compiled into bytecode to be uploaded on the blockchain."
+msgstr ""
+
+# d079fba274bf4629b63335f280579371
+#: ../../source/contracts-and-transactions/contracts.rst:18
+msgid ""
+"Other languages also exist, notably Serpent and LLL, which are described "
+"further in the :ref:`ethereum-high-level-languages` section of this "
+"documentation."
+msgstr ""
+
+# 720b80ec7e8542ebbbabc2ebbcdee8f1
+#: ../../source/contracts-and-transactions/contracts.rst:21
+msgid "Writing a contract"
+msgstr ""
+
+# 96c37159b5554c65bded72244c42b585
+#: ../../source/contracts-and-transactions/contracts.rst:23
+msgid ""
+"No language would be complete without a Hello World program. Operating "
+"within the Ethereum environment, Solidity has no obvious way of "
+"\"outputting\" a string. The closest we can do is to use a log event to "
+"place a string into the blockchain:"
+msgstr ""
+
+# d4e6bd8ad2b843b682cf22d636ccf44d
+#: ../../source/contracts-and-transactions/contracts.rst:36
+msgid ""
+"This contract will create a log entry on the blockchain of type Print "
+"with a parameter \"Hello, World!\" each time it is executed."
+msgstr ""
+
+# fcc30ccfc5b94398ba2c477691a536bd
+#: ../../source/contracts-and-transactions/contracts.rst:39
+msgid ""
+"`Solidity documentation <https://solidity.readthedocs.org/en/latest/>`_ "
+"has more examples and guidelines to writing Solidty code."
+msgstr ""
+
+# 962b9989dd494ecaab8d52d9dfd34dbb
+#: ../../source/contracts-and-transactions/contracts.rst:42
+msgid "Compiling a contract"
+msgstr ""
+
+# 9bb6a13c410b4a13954ceb39245b5e00
+#: ../../source/contracts-and-transactions/contracts.rst:44
+msgid ""
+"Compilation of solidity contracts can be accomplished via a number of "
+"mechanisms."
+msgstr ""
+
+# 98ae60428c284223b84fc6962ccc0621
+#: ../../source/contracts-and-transactions/contracts.rst:47
+msgid "Using the ``solc`` compiler via the command line."
+msgstr ""
+
+# 900f7c11835143bfbb484e6f245e4e3b
+#: ../../source/contracts-and-transactions/contracts.rst:48
+msgid ""
+"Using ``web3.eth.compile.solidity`` in the javascript console provided by"
+" ``geth`` or ``eth++`` (This still requires the ``solc`` compiler to be "
+"installed)."
+msgstr ""
+
+# 7b85f13f89734e3493736fa03dc9dfad
+#: ../../source/contracts-and-transactions/contracts.rst:51
+msgid ""
+"The `online Solidity realtime compiler <https://chriseth.github.io"
+"/browser-solidity/>`_."
+msgstr ""
+
+# f0c91b8e0bbd49b0a8d2bf31dd6b89f0
+#: ../../source/contracts-and-transactions/contracts.rst:52
+msgid ""
+"The `Meteor dapp Cosmo for building solidity contracts "
+"<https://github.com/SilentCicero/meteor-dapp-cosmo>`_."
+msgstr ""
+
+# 7af49fc47ebe46a3876627950aec3a3f
+#: ../../source/contracts-and-transactions/contracts.rst:53
+msgid "The `Mix IDE <https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE>`_."
+msgstr ""
+
+# 04e867c2ff1d4bb6a0f4ba9b527de0f6
+#: ../../source/contracts-and-transactions/contracts.rst:54
+msgid "The `Ethereum Wallet <https://github.com/ethereum/mist/releases>`_."
+msgstr ""
+
+# 4e17619c82334292b4a76c5c5dca61c9
+#: ../../source/contracts-and-transactions/contracts.rst:56
+msgid ""
+"More information on solc and compiling Solidity contract code can be "
+"found `here <https://solidity.readthedocs.org/en/latest/frequently-asked-"
+"questions.html#how-do-i-compile-contracts>`_."
+msgstr ""
+
+# 96082b46ba5b4173be4b63d713a9bb76
+#: ../../source/contracts-and-transactions/contracts.rst:60
+msgid "Setting up the solidity compiler in geth"
+msgstr ""
+
+# ef0b2b28a21c4537b0b573e92152236e
+#: ../../source/contracts-and-transactions/contracts.rst:62
+msgid ""
+"If you start up your ``geth`` node, you can check which compilers are "
+"available."
+msgstr ""
+
+# 5c2691e062654c23a5963d9757439121
+#: ../../source/contracts-and-transactions/contracts.rst:70
+msgid ""
+"This command returns an array of strings indicating which compilers are "
+"currently available."
+msgstr ""
+
+# 264dcf1f7bec4cfcb22ebf585d1372a2
+#: ../../source/contracts-and-transactions/contracts.rst:74
+msgid ""
+"The ``solc`` compiler is installed with ``cpp-ethereum``.  Alternatively,"
+" you can `build it yourself <https://github.com/ethereum/go-ethereum/wiki"
+"/Building-Ethereum>`_."
+msgstr ""
+
+# 38fc268f081942de869903c00b2d2579
+#: ../../source/contracts-and-transactions/contracts.rst:79
+msgid ""
+"If your ``solc`` executable is in a non-standard location you can specify"
+" a custom path to the ``solc`` executable using th ``--solc`` flag."
+msgstr ""
+
+# f4b60d3d00d041af98c05f90a5c4f08f
+#: ../../source/contracts-and-transactions/contracts.rst:86
+msgid "Alternatively, you can set this option at runtime via the console:"
+msgstr ""
+
+# 930fd441145e45f39a8e3ea36cd670af
+#: ../../source/contracts-and-transactions/contracts.rst:99
+msgid "Compiling a simple contract"
+msgstr ""
+
+# c5231cbb3371402a8acdc7cfbb856039
+#: ../../source/contracts-and-transactions/contracts.rst:101
+msgid "Let's compile a simple contract source:"
+msgstr ""
+
+# 6475ca2de7134d4e9483b53bda558ff4
+#: ../../source/contracts-and-transactions/contracts.rst:107
+msgid ""
+"This contract offers a single method **multiply** which is called with a "
+"positive integer ``a`` and returns ``a * 7``."
+msgstr ""
+
+# a520c0eb56734110bc2f6b05e71501e5
+#: ../../source/contracts-and-transactions/contracts.rst:110
+msgid ""
+"You are ready to compile solidity code in the ``geth`` JS console using "
+"`eth\\.compile\\.solidity\\(\\) <https://github.com/ethereum/wiki/wiki"
+"/JavaScript-API#web3ethcompilesolidity>`_:"
+msgstr ""
+
+# 59919dc1589446658c3b94065b955bf1
+#: ../../source/contracts-and-transactions/contracts.rst:150
+msgid ""
+"The compiler is also available via `RPC "
+"<https://github.com/ethereum/wiki/wiki/JSON-RPC>`__ and therefore via "
+"`web3\\.js <https://github.com/ethereum/wiki/wiki/JavaScript "
+"API#web3ethcompilesolidity>`__ to any in-browser Ðapp connecting to "
+"``geth`` via RPC/IPC."
+msgstr ""
+
+# f6d98f34c72649cca667432369ab71ee
+#: ../../source/contracts-and-transactions/contracts.rst:157
+msgid ""
+"The following example shows how you interface ``geth`` via JSON-RPC to "
+"use the compiler."
+msgstr ""
+
+# e6ab9a5e28df435bbad47a73e1fd81f5
+#: ../../source/contracts-and-transactions/contracts.rst:165
+msgid ""
+"The compiler output for one source will give you contract objects each "
+"representing a single contract. The actual return value of "
+"``eth.compile.solidity`` is a map of contract name to contract object "
+"pairs. Since our contract's name is ``test``, "
+"``eth.compile.solidity(source).test`` will give you the contract object "
+"for the test contract containing the following fields:"
+msgstr ""
+
+# 0609783e47e245f9997caa7eff341a14
+#: ../../source/contracts-and-transactions/contracts.rst:174
+msgid "code"
+msgstr ""
+
+# 9824a07547e6412e82163ab6df45cdd7
+#: ../../source/contracts-and-transactions/contracts.rst:176
+msgid "The compiled EVM bytecode"
+msgstr ""
+
+# f9c850199be345fd8161b7e0d4a7ff01
+#: ../../source/contracts-and-transactions/contracts.rst:177
+msgid "info"
+msgstr ""
+
+# 7f50d3b8bc5b49a7a959caa2c4981628
+#: ../../source/contracts-and-transactions/contracts.rst:179
+msgid "Additional metadata output from the compiler"
+msgstr ""
+
+# 6a84c875d6ca4dc6990c13e97cc5c684
+#: ../../source/contracts-and-transactions/contracts.rst:180
+msgid "source"
+msgstr ""
+
+# 366f6fee0563415fae7cad9ed4eca2f0
+#: ../../source/contracts-and-transactions/contracts.rst:182
+msgid "The source code"
+msgstr ""
+
+# 08e7fd8d68164a52b069cd0ecf2b335a
+#: ../../source/contracts-and-transactions/contracts.rst:183
+msgid "language"
+msgstr ""
+
+# b67f8e4c17e6497f91dca03c597a3ba9
+#: ../../source/contracts-and-transactions/contracts.rst:185
+msgid "The contract language (Solidity, Serpent, LLL)"
+msgstr ""
+
+# d492bd68dd9445baa2f6c8c96b90eeb2
+#: ../../source/contracts-and-transactions/contracts.rst:186
+msgid "languageVersion"
+msgstr ""
+
+# 3f7268e8273d49c4a9c96c7cab91d184
+#: ../../source/contracts-and-transactions/contracts.rst:188
+msgid "The contract language version"
+msgstr ""
+
+# 5f84b2aef4694895aa3636062d6cd6ea
+#: ../../source/contracts-and-transactions/contracts.rst:189
+msgid "compilerVersion"
+msgstr ""
+
+# f963d708e7334a4f9774ccb87204405b
+#: ../../source/contracts-and-transactions/contracts.rst:191
+msgid "The solidity compiler version that was used to compile this contract."
+msgstr ""
+
+# 3f900afa78f048d4913fc3879cc47c76
+#: ../../source/contracts-and-transactions/contracts.rst:192
+msgid "abiDefinition"
+msgstr ""
+
+# f76f159e1144450f97822eae9cef290e
+#: ../../source/contracts-and-transactions/contracts.rst:194
+msgid ""
+"The `Application Binary Interface Definition "
+"<https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI>`__"
+msgstr ""
+
+# 5196ac9e48154b85884269ac7682cf97
+#: ../../source/contracts-and-transactions/contracts.rst:195
+msgid "userDoc"
+msgstr ""
+
+# 16f42c6fbe6f4f13a2fe1ee828e7629e
+#: ../../source/contracts-and-transactions/contracts.rst:197
+msgid ""
+"The `NatSpec Doc <https://github.com/ethereum/wiki/wiki/Ethereum-Natural-"
+"Specification-Format>`__ for users."
+msgstr ""
+
+# 3ed29f959e844f39a62cf47bb612f383
+#: ../../source/contracts-and-transactions/contracts.rst:198
+msgid "developerDoc"
+msgstr ""
+
+# 93e531db63034a6fb7a1ad8e6d0109e4
+#: ../../source/contracts-and-transactions/contracts.rst:200
+msgid ""
+"The `NatSpec Doc <https://github.com/ethereum/wiki/wiki/Ethereum-Natural-"
+"Specification-Format>`__ for developers."
+msgstr ""
+
+# b44f1c465f774c05b2cca93ee22cc625
+#: ../../source/contracts-and-transactions/contracts.rst:203
+msgid ""
+"The immediate structuring of the compiler output (into ``code`` and "
+"``info``) reflects the two very different **paths of deployment**. The "
+"compiled EVM code is sent off to the blockchain with a contract creation "
+"transaction while the rest (info) will ideally live on the decentralised "
+"cloud as publicly verifiable metadata complementing the code on the "
+"blockchain."
+msgstr ""
+
+# eb98d4306adf4cea972928c7aefcdc3c
+#: ../../source/contracts-and-transactions/contracts.rst:209
+msgid ""
+"If your source contains multiple contracts, the output will contain an "
+"entry for each contact, the corresponding contract info object can be "
+"retrieved with the name of the contract as attribute name. You can try "
+"this by inspecting the most current GlobalRegistrar code:"
+msgstr ""
+
+# befe0119648d47d1a9fd477e42052de9
+#: ../../source/contracts-and-transactions/contracts.rst:220
+msgid "Create and deploy a contract"
+msgstr ""
+
+# 77ca141f4eae445c8ca64031af56ebbd
+#: ../../source/contracts-and-transactions/contracts.rst:222
+msgid ""
+"Before you begin this section, make sure you have both an unlocked "
+"account as well as some funds."
+msgstr ""
+
+# b702ed3ff8dd4fe48c54aa40c2ade295
+#: ../../source/contracts-and-transactions/contracts.rst:225
+msgid ""
+"You will now create a contract on the blockchain by `sending a "
+"transaction <https://github.com/ethereum/wiki/wiki/JavaScript-"
+"API#web3ethsendtransaction>`__ to the empty address with the EVM code "
+"from the previous section as data."
+msgstr ""
+
+# 325d218eec7944869c1088361cf34cfe
+#: ../../source/contracts-and-transactions/contracts.rst:228
+msgid ""
+"This can be accomplished much easier using the `online Solidity realtime "
+"compiler <https://chriseth.github.io/browser-solidity/>`_ or the `Mix IDE"
+" <https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE>`_ program."
+msgstr ""
+
+# e8870e49d48943b78ece908fd0a9c3e3
+#: ../../source/contracts-and-transactions/contracts.rst:239
+msgid ""
+"All binary data is serialised in hexadecimal form. Hex strings always "
+"have a hex prefix ``0x``."
+msgstr ""
+
+# e47ed3e54f4c440188ce15617433d99b
+#: ../../source/contracts-and-transactions/contracts.rst:243
+msgid ""
+"Note that ``arg1, arg2, ...`` are the arguments for the contract "
+"constructor, in case it accepts any.  If the contract does not require "
+"any constructor arguments then these arguments can be omitted."
+msgstr ""
+
+# 7c46ddc53d56478c8d8fc40b2946ec14
+#: ../../source/contracts-and-transactions/contracts.rst:247
+msgid ""
+"It is worth pointing out that this step requires you to pay for "
+"execution. Your balance on the account (that you put as sender in the "
+"``from`` field) will be reduced according to the gas rules of the EVM "
+"once your transaction makes it into a block. After some time, your "
+"transaction should appear included in a block confirming that the state "
+"it brought about is a consensus. Your contract now lives on the "
+"blockchain."
+msgstr ""
+
+# 9ffb1a011e6e4026a8cf201b7e363e9a
+#: ../../source/contracts-and-transactions/contracts.rst:254
+msgid "The asynchronous way of doing the same looks like this:"
+msgstr ""
+
+# 3465bf524f1c46909fd4fbe0521e9c85
+#: ../../source/contracts-and-transactions/contracts.rst:267
+msgid "Interacting with a contract"
+msgstr ""
+
+# edd460084ad741a396f026c544d2c10a
+#: ../../source/contracts-and-transactions/contracts.rst:269
+msgid ""
+"Interaction with a contract is typically done using an abstraction layer "
+"such as the `eth.contract\\(\\) <https://github.com/ethereum/wiki/wiki"
+"/JavaScript-API#web3ethcontract>`_ function which returns a javascript "
+"object with all of the contract functions available as callable functions"
+" in javascript."
+msgstr ""
+
+# 4d8870ce449a42c0a55754206ed24b70
+#: ../../source/contracts-and-transactions/contracts.rst:275
+msgid ""
+"The standard way to describe the available functions of a contract is the"
+" `ABI definition <https://github.com/ethereum/wiki/wiki/Ethereum-"
+"Contract-ABI>`_. This object is an array which describles the call "
+"signature and return values for each available contract function."
+msgstr ""
+
+# 45b0419aead0451a9e21e85adedbcbd2
+#: ../../source/contracts-and-transactions/contracts.rst:285
+msgid ""
+"Now all the function calls specified in the ABI are made available on the"
+" contract instance. You can just call those methods on the contract "
+"instance in one of two ways."
+msgstr ""
+
+# 318abd67f7614ad8a9037eca33cf7fce
+#: ../../source/contracts-and-transactions/contracts.rst:296
+msgid ""
+"When called using ``sendTransaction`` the function call is executed via "
+"sending a transaction.  This will cost ether to send and the call will be"
+" recorded forever on the blockchain.  The return value of calls made in "
+"this manner is the hash of the stransaction."
+msgstr ""
+
+# 4311d42cdbdd4c948ffbb1a5224e6fba
+#: ../../source/contracts-and-transactions/contracts.rst:301
+msgid ""
+"When called using ``call`` the function is executed locally in the EVM "
+"and the return value of the function is returned with the function.  "
+"Calls made in this manner are not recorded on the blockchain and thus, "
+"cannot modify the internal state of the contract.  This manner of call is"
+" referred to as a **constant** function call.  Calls made in this manner "
+"do not cost any ether."
+msgstr ""
+
+# bbbd02ff324945a69786e185da3cfcaf
+#: ../../source/contracts-and-transactions/contracts.rst:308
+msgid ""
+"You should use ``call`` if you are interested only in the return value "
+"and use ``sendTransaction`` if you only care about *side effects* on the "
+"state of the contract."
+msgstr ""
+
+# ac19885d9c2444f38da89c4590c789be
+#: ../../source/contracts-and-transactions/contracts.rst:312
+msgid ""
+"In the example above, there are no side effects, therefore "
+"``sendTransaction`` only burns gas and increases the entropy of the "
+"universe."
+msgstr ""
+
+# 69c95f350e6d4fa3b98c43beb37554d5
+#: ../../source/contracts-and-transactions/contracts.rst:317
+msgid "Contract metadata"
+msgstr ""
+
+# 3e3a4805b22e441ca1399d866c9e8349
+#: ../../source/contracts-and-transactions/contracts.rst:319
+msgid ""
+"In the previous sections we explained how you create a contract on the "
+"blockchain. Now we will deal with the rest of the compiler output, the "
+"**contract metadata** or contract info."
+msgstr ""
+
+# 88ac84e127304bfda20f645e668c3492
+#: ../../source/contracts-and-transactions/contracts.rst:323
+msgid ""
+"When interacting with a contract you did not create you might want "
+"documentation or to look at the source code.  Contract authors are "
+"encouraged to make such information available by registering it on the "
+"blockchain or through a third party service, such as `EtherChain "
+"<https://www.etherchain.org/contracts>`_. The ``admin`` API provides "
+"convenience methods to fetch this bundle for any contract that chose to "
+"register."
+msgstr ""
+
+# 45a11ded38564a789d11d50dbb150a26
+#: ../../source/contracts-and-transactions/contracts.rst:339
+msgid "The underlying mechanism that makes this work is is that:"
+msgstr ""
+
+# f25070be9b8b4aa79f879e0f012d7d0b
+#: ../../source/contracts-and-transactions/contracts.rst:341
+msgid ""
+"contract info is uploaded somewhere identifiable by a *URI* which is "
+"publicly accessible"
+msgstr ""
+
+# c1af5098916b41c087f96663ef572e0d
+#: ../../source/contracts-and-transactions/contracts.rst:343
+msgid "anyone can find out what the *URI* is only knowing the contracts address"
+msgstr ""
+
+# be5792d1d3bf4d448ca7be2e83e82313
+#: ../../source/contracts-and-transactions/contracts.rst:346
+msgid ""
+"These requirements are achieved using a 2 step blockchain registry. The "
+"first step registers the contract code (hash) with a content hash in a "
+"contract called ``HashReg``. The second step registers a url with the "
+"content hash in the ``UrlHint`` contract. These `registry contracts "
+"<https://github.com/ethereum/go-"
+"ethereum/blob/develop/common/registrar/contracts.go>`__ were part of the "
+"Frontier release and have carried on into Homestead."
+msgstr ""
+
+# e63245544ffa409bbca60ae59502a461
+#: ../../source/contracts-and-transactions/contracts.rst:353
+msgid ""
+"By using this scheme, it is sufficient to know a contract's address to "
+"look up the url and fetch the actual contract metadata info bundle."
+msgstr ""
+
+# 793f30fc2aeb43e48175d6fe12937c0f
+#: ../../source/contracts-and-transactions/contracts.rst:355
+msgid ""
+"So if you are a conscientious contract creator, the steps are the "
+"following:"
+msgstr ""
+
+# ef31e8fdd09b4496b8cf0cbe63efddf8
+#: ../../source/contracts-and-transactions/contracts.rst:357
+msgid "Deploy the contract itself to the blockchain"
+msgstr ""
+
+# 78d881ea26ba4e58b044b7d82e159ee4
+#: ../../source/contracts-and-transactions/contracts.rst:358
+msgid "Get the contract info json file."
+msgstr ""
+
+# 983b4c553f444397ab57b2a208ead1d0
+#: ../../source/contracts-and-transactions/contracts.rst:359
+msgid "Deploy contract info json file to any url of your choice"
+msgstr ""
+
+# 10610454ec7844f4bb00d6a175c91e26
+#: ../../source/contracts-and-transactions/contracts.rst:360
+msgid "Register codehash ->content hash -> url"
+msgstr ""
+
+# 24d26317bd2544d798e50facea6d6c45
+#: ../../source/contracts-and-transactions/contracts.rst:362
+msgid ""
+"The JS API makes this process very easy by providing helpers. Call "
+"``admin.register`` to extract info from the contract, write out its json "
+"serialisation in the given file, calculates the content hash of the file "
+"and finally registers this content hash to the contract's code hash. Once"
+" you deployed that file to any url, you can use ``admin.registerUrl`` to "
+"register the url with your content hash on the blockchain as well. (Note "
+"that in case a fixed content addressed model is used as document store, "
+"the url-hint is no longer necessary.)"
+msgstr ""
+
+# a69d14eb7815449996bf388836b495f1
+#: ../../source/contracts-and-transactions/contracts.rst:394
+msgid "Testing contracts and transactions"
+msgstr ""
+
+# e67a388885774596ab5b9bc142438d7b
+#: ../../source/contracts-and-transactions/contracts.rst:396
+msgid ""
+"Often you need to resort to a low level strategy of testing and debugging"
+" contracts and transactions. This section introduces some debug tools and"
+" practices you can use. In order to test contracts and transactions "
+"without real-word consequences, you best test it on a private blockchain."
+" This can be achieved with configuring an alternative network id (select "
+"a unique integer) and/or disable peers. It is recommended practice that "
+"for testing you use an alternative data directory and ports so that you "
+"never even accidentally clash with your live running node (assuming that "
+"runs using the defaults. Starting your ``geth`` with in VM debug mode "
+"with profiling and highest logging verbosity level is recommended:"
+msgstr ""
+
+# 1e6137b160894514836656fec2b516a2
+#: ../../source/contracts-and-transactions/contracts.rst:411
+msgid ""
+"Before you can submit any transactions, you need set up your private test"
+" chain. See :ref:`test-networks`."
+msgstr ""
+
+# cebc5bdd18b24e7da7e50dee52cd5ed6
+#: ../../source/contracts-and-transactions/contracts.rst:438
+msgid ""
+"After you create transactions, you can force process them with the "
+"following lines:"
+msgstr ""
+
+# 556d064f3fc24744ace03dd88a020de4
+#: ../../source/contracts-and-transactions/contracts.rst:446
+msgid "You can check your pending transactions with:"
+msgstr ""
+
+# 663a67d01b60441d93e190ce4b6b8169
+#: ../../source/contracts-and-transactions/contracts.rst:457
+msgid ""
+"If you submitted contract creation transaction, you can check if the "
+"desired code actually got inserted in the current blockchain:"
+msgstr ""
+
+# 2d5ae8c79bd04492878e9869b7d47146
+#: ../../source/contracts-and-transactions/contracts-and-transactions.rst:3
+msgid "Contracts and Transactions"
+msgstr ""
+

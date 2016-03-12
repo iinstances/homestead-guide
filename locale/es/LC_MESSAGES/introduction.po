@@ -1,0 +1,3255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# e93eee9ce74b4af4bf6da4381ec9a23c
+#: ../../source/introduction/contributors.rst:3
+msgid "Contributors"
+msgstr ""
+
+# fee367fc760445e9b615a82d0bc7012f
+#: ../../source/introduction/contributors.rst:5
+msgid ""
+"This documentation was built collectively by the Ethereum community as "
+"part of a project called the `Homestead Documentation Initiative "
+"<https://www.reddit.com/r/ethereum/comments/45116k/call_to_action_homestead_documentation_initiative/>`_"
+" which was coordinated by:"
+msgstr ""
+
+# 4acaccf77a96489897f005ca7fd1cfd9
+#: ../../source/introduction/contributors.rst:10
+msgid "`Hudson Jameson (\"Souptacular\") <https://github.com/Souptacular>`_"
+msgstr ""
+
+# 45281e56ac9a446bac668c6addecbc91
+#: ../../source/introduction/contributors.rst:11
+msgid "`Viktor Trón (\"zelig\") <https://github.com/zelig>`_"
+msgstr ""
+
+# 08eb158568e64a689e48cd4e1aa8674b
+#: ../../source/introduction/contributors.rst:12
+msgid "`Hugh Lang <https://github.com/hughlang>`_"
+msgstr ""
+
+# a65bf7d1cce64f5194b3faa47e5bff83
+#: ../../source/introduction/contributors.rst:14
+msgid ""
+"We would like to thank everybody who helped in this effort for `their "
+"contributions <https://github.com/ethereum/homestead-"
+"guide/graphs/contributors>`_:"
+msgstr ""
+
+# f2554a23ecdc457a85c98453a09ce2c3
+#: ../../source/introduction/contributors.rst:18
+msgid "`Bertie Dinneen <https://github.com/bdinn1>`_"
+msgstr ""
+
+# d847b992a6244909baed60378a02aac6
+#: ../../source/introduction/contributors.rst:19
+msgid "`Alex Fisher <https://github.com/alexfisher>`_"
+msgstr ""
+
+# 9b6a98beddee4a70ba63eccbb5538b64
+#: ../../source/introduction/contributors.rst:20
+msgid "`Taylor Gerring <https://github.com/tgerring>`_"
+msgstr ""
+
+# 00c39d9f49964aa090116acb833ce16c
+#: ../../source/introduction/contributors.rst:21
+msgid "`Joël Hubert <https://github.com/jmahhh>`_"
+msgstr ""
+
+# 21092e9bb63d44e19865b1e362034d7d
+#: ../../source/introduction/contributors.rst:22
+msgid "`Guangmian Kung <https://github.com/gmkung>`_"
+msgstr ""
+
+# 780d9da40d82490ea2e5919738eb6ed2
+#: ../../source/introduction/contributors.rst:23
+msgid "`Chris Peel <https://github.com/christianpeel>`_"
+msgstr ""
+
+# 6c2e64915a4c4a369861c0d6dae1e8cd
+#: ../../source/introduction/contributors.rst:24
+msgid "`Colm Ragu <https://github.com/colm>`_"
+msgstr ""
+
+# 6701bdbb141547c7960ed276895824d4
+#: ../../source/introduction/contributors.rst:25
+msgid "`Laurent Raufaste <https://github.com/lra>`_"
+msgstr ""
+
+# 605f1566972241de8d51c720cdf544ce
+#: ../../source/introduction/contributors.rst:26
+msgid "`Josh Stark <https://github.com/jjmstark>`_"
+msgstr ""
+
+# 1c83465ace624a23893299abb5055510
+#: ../../source/introduction/contributors.rst:27
+msgid "`Scott Stevenson <https://github.com/ScottStevenson>`_"
+msgstr ""
+
+# a9739ddfa0d64880a0c2eda826d5da2b
+#: ../../source/introduction/contributors.rst:28
+msgid "`Bob Summerwill <https://github.com/bobsummerwill>`_"
+msgstr ""
+
+# a9ab161e513349bb88f52ffa03b2cf3f
+#: ../../source/introduction/contributors.rst:29
+msgid "`Alex van de Sande <https://github.com/alexvandesande>`_"
+msgstr ""
+
+# 68b9630660f34c9c959981761beffc98
+#: ../../source/introduction/contributors.rst:30
+msgid "`Sudeep Singh <https://github.com/c0d3inj3cT>`_"
+msgstr ""
+
+# cc993246b58a4d6e94f383f1d592d5a0
+#: ../../source/introduction/contributors.rst:31
+msgid "`Luca Zeug <https://github.com/luclu>`_"
+msgstr ""
+
+# 6fad094954d946aab1e0ba72fc200fe4
+#: ../../source/introduction/contributors.rst:32
+msgid "`John Mooney <https://github.com/mooneyj>`_"
+msgstr ""
+
+# 1784ff080d504ad8a1ad6c0d4d890e2b
+#: ../../source/introduction/contributors.rst:33
+msgid "`Erik Edrosa <https://github.com/OrangeShark>`_"
+msgstr ""
+
+# 4a86eb1bd1094ae18b098a7411321f5e
+#: ../../source/introduction/contributors.rst:34
+msgid "`Andrew Mazzola <https://github.com/admazzola>`_"
+msgstr ""
+
+# a4ec3e700b2345cfa98c1264decd3c81
+#: ../../source/introduction/contributors.rst:35
+msgid "`Rocky Fikki <https://github.com/rfikki>`_"
+msgstr ""
+
+# 9f0a42f838f34d8dbb2a2acd84e675c8
+#: ../../source/introduction/contributors.rst:37
+msgid "And these pseudonymous contributors:"
+msgstr ""
+
+# 862eca9394524b99a2eec47f3016bbba
+#: ../../source/introduction/contributors.rst:39
+msgid "`klmoney <https://github.com/klmoney>`_"
+msgstr ""
+
+# f100ab428ef14d93b822aabd021b0407
+#: ../../source/introduction/contributors.rst:40
+msgid "`LiteBit <https://github.com/LiteBit>`_"
+msgstr ""
+
+# 4100c9d25ca4473195841122df96309a
+#: ../../source/introduction/contributors.rst:41
+msgid "`azulmarino <https://github.com/azulmarino>`_"
+msgstr ""
+
+# 8f023077b19149f88d3e2b7983b0aaf3
+#: ../../source/introduction/contributors.rst:42
+msgid "`ethers <https://github.com/ethers>`_"
+msgstr ""
+
+# 25e42a48e8084a799145fb3523c5a3aa
+#: ../../source/introduction/contributors.rst:43
+msgid "`madhancr <https://github.com/madhancr>`_"
+msgstr ""
+
+# a2b243f4bc304ca885a730f390eede15
+#: ../../source/introduction/contributors.rst:44
+msgid "`bas\\-vk <https://github.com/bas-vk>`_"
+msgstr ""
+
+# b6ccb824712c48d3a6d21cfd2bb990aa
+#: ../../source/introduction/disclaimer.rst:3
+msgid "Disclaimer"
+msgstr ""
+
+# 87ef49dd378a4611aafe565df4bfeb9b
+#: ../../source/introduction/disclaimer.rst:4
+msgid "**Safety caveats**"
+msgstr ""
+
+# bf0a41ac7a97455399a6101a8d8d5cc0
+#: ../../source/introduction/disclaimer.rst:7
+msgid "Security warnings"
+msgstr ""
+
+# 6a34c58631a2485c9f822faa6dc32e6a
+#: ../../source/introduction/disclaimer.rst:9
+msgid ""
+"**You are responsible for your own computer security.** If your machine "
+"is compromised you **will** lose your ether, access to any contracts and "
+"maybe more."
+msgstr ""
+
+# a5c6d5dd528e44b5bf288ac9a9b56c7e
+#: ../../source/introduction/disclaimer.rst:11
+msgid ""
+"**You are responsible for your own actions.** If you mess something up or"
+" break any laws while using this software, it's your fault, and your "
+"fault only."
+msgstr ""
+
+# b9023f86e5fb45e78e34567100d2626f
+#: ../../source/introduction/disclaimer.rst:13
+msgid ""
+"**You are responsible for your own karma.** Don't be a jerk and respect "
+"others."
+msgstr ""
+
+# 8b548cb4ec96435a9fecdaf4f1409aaa
+#: ../../source/introduction/disclaimer.rst:15
+msgid ""
+"This software is open source under a `GNU Lesser General Public License "
+"<https://www.gnu.org/licenses/lgpl-3.0.en.html>`__ license."
+msgstr ""
+
+# 2853730fdfca4102a4df2a46e8aa3a76
+#: ../../source/introduction/disclaimer.rst:18
+msgid "Legal warning: Disclaimer of Liabilites and Warranties"
+msgstr ""
+
+# 335ee7784edb44fc991a20483ff75480
+#: ../../source/introduction/disclaimer.rst:21
+msgid "Short version"
+msgstr ""
+
+# a3323f0f26b24aa8ba27ea8383fbf6f3
+#: ../../source/introduction/disclaimer.rst:23
+msgid ""
+"**The user expressly knows and agrees that the user is using the ethereum"
+" platform at the user’s sole risk.**"
+msgstr ""
+
+# 5efa1fffc0064cda83a5c43c1a9d4ef4
+#: ../../source/introduction/disclaimer.rst:24
+msgid ""
+"**The user represents that the user has an adequate understanding of the "
+"risks, usage and intricacies of cryptographic tokens and blockchain-based"
+" open source software, eth platform and eth.**"
+msgstr ""
+
+# 2e86c0d9c9f143e39cac8cdcf3180f08
+#: ../../source/introduction/disclaimer.rst:25
+msgid ""
+"**The user acknowledges and agrees that, to the fullest extent permitted "
+"by any applicable law, the disclaimers of liability contained herein "
+"apply to any and all damages or injury whatsoever caused by or related to"
+" risks of, use of, or inability to use, eth or the ethereum platform "
+"under any cause or action whatsoever of any kind in any jurisdiction, "
+"including, without limitation, actions for breach of warranty, breach of "
+"contract or tort (including negligence) and that neither stiftung "
+"ethereum nor the ethereum team shall be liable for any indirect, "
+"incidental, special, exemplary or consequential damages, including for "
+"loss of profits, goodwill or data.**"
+msgstr ""
+
+# 65e362e215314391ac8e570e4e1a2f49
+#: ../../source/introduction/disclaimer.rst:26
+msgid ""
+"**Some jurisdictions do not allow the exclusion of certain warranties or "
+"the limitation or exclusion of liability for certain types of damages. "
+"Therefore, some of the above limitations in this section may not apply to"
+" a user. In particular, nothing in these terms shall affect the statutory"
+" rights of any user or exclude injury arising from any willful misconduct"
+" or fraud of stiftung ethereum.**"
+msgstr ""
+
+# 1619e3deb437403ebcb7fcfbf607854a
+#: ../../source/introduction/disclaimer.rst:29
+msgid "Long Version: Terms and Conditions"
+msgstr ""
+
+# 6e84e9fc217446e08f1d29a5c81a1b60
+#: ../../source/introduction/disclaimer.rst:31
+msgid ""
+"The following Terms and Conditions (“Terms”) govern the use of the "
+"Ethereum open source software platform (“Ethereum Platform”). Prior to "
+"any use of the Ethereum Platform, the User confirms to understand and "
+"expressly agrees to all of the Terms. All capitalized terms in this "
+"agreement will be given the same effect and meaning as in the Terms. The "
+"group of developers and other personnel that is now, or will be, employed"
+" by, or contracted with, Stiftung Ethereum (“Stiftung Ethereum”) is "
+"termed the “Ethereum Team.” The Platform will be developed by persons and"
+" entities who support Ethereum, including both volunteers and developers "
+"who are paid by nonprofit entities interested in supporting the Ethereum "
+"Platform."
+msgstr ""
+
+# 1b95da82d5f848839e2507a5d49381f2
+#: ../../source/introduction/disclaimer.rst:33
+msgid ""
+"The user acknowledges the following serious risks to any use the Ethereum"
+" Platform and ETH and expressly agrees not to hold liable Ethereum "
+"Stiftung or Ethereum Team should any of these risks occur:"
+msgstr ""
+
+# 2f242270e9434988b01a0f8cd9e154e3
+#: ../../source/introduction/disclaimer.rst:36
+msgid "Risk of Regulatory Actions in One or More Jurisdictions"
+msgstr ""
+
+# 804af227960b42b7a938d95ed6d2c4b8
+#: ../../source/introduction/disclaimer.rst:38
+msgid ""
+"The Ethereum Platform and ETH could be impacted by one or more regulatory"
+" inquiries or regulatory action, which could impede or limit the ability "
+"of Stiftung Ethereum to continue to develop the Ethereum Platform, or "
+"which could impeded or limit the ability of User to use Ethereum Platform"
+" or ETH."
+msgstr ""
+
+# 0998072ef1e44399b0b469a8d52b4530
+#: ../../source/introduction/disclaimer.rst:41
+msgid "Risk of Alternative, Unofficial Ethereum Networks"
+msgstr ""
+
+# 8ea8ca3cba7a48b8a4f42ae863bfb388
+#: ../../source/introduction/disclaimer.rst:43
+msgid ""
+"It is possible that alternative Ethereum-based networks could be "
+"established, which utilize the same open source source code and open "
+"source protocol underlying the Ethereum Platform. The Ethereum network "
+"may compete with these alternative Ethereum-based networks, which could "
+"potentially negatively impact the Ethereum Platform and ETH."
+msgstr ""
+
+# 22e19f158b78470d8cb740321298ede5
+#: ../../source/introduction/disclaimer.rst:46
+msgid ""
+"Risk of Insufficient Interest in the Ethereum Platform or Distributed "
+"Applications"
+msgstr ""
+
+# b85ff9a6069a42dc829e0d5c66718ab0
+#: ../../source/introduction/disclaimer.rst:48
+msgid ""
+"It is possible that the Ethereum Platform will not be used by a large "
+"number of external businesses, individuals, and other organizations and "
+"that there will be limited public interest in the creation and "
+"development of distributed applications. Such a lack of interest could "
+"impact the development of the Ethereum Platform and potential uses of "
+"ETH. It cannot predict the success of its own development efforts or the "
+"efforts of other third parties."
+msgstr ""
+
+# 932338ba9fb742b6a50c899bd426b46b
+#: ../../source/introduction/disclaimer.rst:51
+msgid ""
+"Risk that the Ethereum Platform, As Developed, Will Not Meet the "
+"Expectations of User"
+msgstr ""
+
+# 3f91dcd0f833404e9dadced51e977d57
+#: ../../source/introduction/disclaimer.rst:53
+msgid ""
+"The User recognizes that the Ethereum Platform is under development and "
+"may undergo significant changes before release. User acknowledges that "
+"any expectations regarding the form and functionality of the Ethereum "
+"Platform held by the User may not be met upon release of the Ethereum "
+"Platform, for any number of reasons including a change in the design and "
+"implementation plans and execution of the implementation of the Ethereum "
+"Platform."
+msgstr ""
+
+# 58e9ffa2196943a8aafb6f253912dc89
+#: ../../source/introduction/disclaimer.rst:56
+msgid ""
+"Risk of Security Weaknesses in the Ethereum Platform Core Infrastructure "
+"Software"
+msgstr ""
+
+# 5de8bcfa030c4ebf8c9327c1dc895230
+#: ../../source/introduction/disclaimer.rst:58
+msgid ""
+"The Ethereum Platform rests on open-source software, and there is a risk "
+"that the Ethereum Stiftung or the Ethereum Team, or other third parties "
+"not directly affiliated with the Stiftung Ethereum, may introduce "
+"weaknesses or bugs into the core infrastructural elements of the Ethereum"
+" Platform causing the system to lose ETH stored in one or more User "
+"accounts or other accounts or lose sums of other valued tokens issued on "
+"the Ethereum Platform."
+msgstr ""
+
+# f2a6014c05e54f7ca2e0a33f22030444
+#: ../../source/introduction/disclaimer.rst:61
+msgid ""
+"Risk of Weaknesses or Exploitable Breakthroughs in the Field of "
+"Cryptography"
+msgstr ""
+
+# 103104abc388440dad70895fc6894fe3
+#: ../../source/introduction/disclaimer.rst:63
+msgid ""
+"Cryptography is an art, not a science. And the state of the art can "
+"advance over time Advances in code cracking, or technical advances such "
+"as the development of quantum computers, could present risks to "
+"cryptocurrencies and the Ethereum Platform, which could result in the "
+"theft or loss of ETH. To the extent possible, Stiftung Ethereum intends "
+"to update the protocol underlying the Ethereum Platform to account for "
+"any advances in cryptography and to incorporate additional security "
+"measures, but cannot it cannot predict the future of cryptography or the "
+"success of any future security updates."
+msgstr ""
+
+# 770b8ad6c5454d9c98bbd8cacc944121
+#: ../../source/introduction/disclaimer.rst:66
+msgid "Risk of Ether Mining Attacks"
+msgstr ""
+
+# 5ff7a24d31b045c5ab20f1e016f409a0
+# e9ff92dffc9345a190e48469a5f7b00a
+#: ../../source/introduction/disclaimer.rst:68
+#: ../../source/introduction/disclaimer.rst:73
+msgid ""
+"As with other cryptocurrencies, the blockchain used for the Ethereum "
+"Platform is susceptible to mining attacks, including but not limited to "
+"double-spend attacks, majority mining power attacks, “selfish-mining” "
+"attacks, and race condition attacks. Any successful attacks present a "
+"risk to the Ethereum Platform, expected proper execution and sequencing "
+"of ETH transactions, and expected proper execution and sequencing of "
+"contract computations. Despite the efforts of the Ethereum Stiftung and "
+"Team, known or novel mining attacks may be successful."
+msgstr ""
+
+# 5980b613242e4646aa18af9145dadc40
+#: ../../source/introduction/disclaimer.rst:71
+msgid "Risk of Rapid Adoption and Increased Demand"
+msgstr ""
+
+# a652613e5a224bde9344048969554606
+#: ../../source/introduction/disclaimer.rst:76
+msgid ""
+"Risk of Rapid Adoption and Insufficiency of Computational Application "
+"Processing Power on the Ethereum Platform"
+msgstr ""
+
+# a1e050ba98ca44329831d3e6538b1dfc
+#: ../../source/introduction/disclaimer.rst:78
+msgid ""
+"If the Ethereum Platform is rapidly adopted, the demand for transaction "
+"processing and distributed application computations could rise "
+"dramatically and at a pace that exceeds the rate with which ETH miners "
+"can bring online additional mining power. Under such a scenario, the "
+"entire Ethereum Platform could become destabilized, due to the increased "
+"cost of running distributed applications. In turn, this could dampen "
+"interest in the Ethereum Platform and ETH. Insufficiency of computational"
+" resources and an associated rise in the price of ETH could result in "
+"businesses being unable to acquire scarce computational resources to run "
+"their distributed applications. This would represent revenue losses to "
+"businesses or worst case, cause businesses to cease operations because "
+"such operations have become uneconomical due to distortions in the "
+"crypto-economy."
+msgstr ""
+
+# edf92345bcd14a728687502fd6462241
+#: ../../source/introduction/disclaimer.rst:80
+msgid ""
+"Acknowledgment, Acceptance of all Risks and Disclaimer of Warranties and "
+"Liabilities **THE USER EXPRESSLY KNOWS AND AGREES THAT THE USER IS USING "
+"THE ETHEREUM PLATFORM AT THE USER’S SOLE RISK. THE USER REPRESENTS THAT "
+"THE USER HAS AN ADEQUATE UNDERSTANDING OF THE RISKS, USAGE AND "
+"INTRICACIES OF CRYPTOGRAPHIC TOKENS AND BLOCKCHAIN-BASED OPEN SOURCE "
+"SOFTWARE, ETH PLATFORM AND ETH. THE USER ACKNOWLEDGES AND AGREES THAT, TO"
+" THE FULLEST EXTENT PERMITTED BY ANY APPLICABLE LAW, THE DISCLAIMERS OF "
+"LIABILITY CONTAINED HEREIN APPLY TO ANY AND ALL DAMAGES OR INJURY "
+"WHATSOEVER CAUSED BY OR RELATED TO RISKS OF, USE OF, OR INABILITY TO USE,"
+" ETH OR THE ETHEREUM PLATFORM UNDER ANY CAUSE OR ACTION WHATSOEVER OF ANY"
+" KIND IN ANY JURISDICTION, INCLUDING, WITHOUT LIMITATION, ACTIONS FOR "
+"BREACH OF WARRANTY, BREACH OF CONTRACT OR TORT (INCLUDING NEGLIGENCE) AND"
+" THAT NEITHER STIFTUNG ETHEREUM NOR ETHERUM TEAM SHALL BE LIABLE FOR ANY "
+"INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, "
+"INCLUDING FOR LOSS OF PROFITS, GOODWILL OR DATA. SOME JURISDICTIONS DO "
+"NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR "
+"EXCLUSION OF LIABILITY FOR CERTAIN TYPES OF DAMAGES. THEREFORE, SOME OF "
+"THE ABOVE LIMITATIONS IN THIS SECTION MAY NOT APPLY TO A USER. IN "
+"PARTICULAR, NOTHING IN THESE TERMS SHALL AFFECT THE STATUTORY RIGHTS OF "
+"ANY USER OR EXCLUDE INJURY ARISING FROM ANY WILLFUL MISCONDUCT OR FRAUD "
+"OF STIFTUNG ETHEREUM.**"
+msgstr ""
+
+# d7162d74454b4e7db8771115fc0c79ff
+#: ../../source/introduction/disclaimer.rst:84
+msgid "Dispute Resolution"
+msgstr ""
+
+# 2637065b544842a7aeef6b8f05beb82a
+#: ../../source/introduction/disclaimer.rst:86
+msgid ""
+"All disputes or claims arising out of, relating to, or in connection with"
+" the Terms, the breach thereof, or use of the Ethereum Platform shall be "
+"finally settled under the Rules of Arbitration of the International "
+"Chamber of Commerce by one or more arbitrators appointed in accordance "
+"with said Rules. All claims between the parties relating to these Terms "
+"that are capable of being resolved by arbitration, whether sounding in "
+"contract, tort, or otherwise, shall be submitted to ICC arbitration. "
+"Prior to commencing arbitration, the parties have a duty to negotiate in "
+"good faith and attempt to resolve their dispute in a manner other than by"
+" submission to ICC arbitration. The arbitration panel shall consist of "
+"one arbitrator only, unless the ICC Court of Arbitration determines that "
+"the dispute is such as to warrant three arbitrators. If the Court "
+"determines that one arbitrator is sufficient, then such arbitrator shall "
+"be Swiss resident. If the Court determines that three arbitrators are "
+"necessary, then each party shall have 30 days to nominate an arbitrator "
+"of its choice -- in the case of the Claimant, measured from receipt of "
+"notification of the ICC Court’s decision to have three arbitrators; in "
+"the case of Respondent, measured from receipt of notification of "
+"Claimant’s nomination. All nominations must be Swiss resident. If a party"
+" fails to nominate an arbitrator, the Court will do so. The Court shall "
+"also appoint the chairman. All arbitrators shall be and remain "
+"“independent” of the parties involved in the arbitration. The place of "
+"arbitration shall be Zug, Switzerland. The language of the arbitration "
+"shall be English. In deciding the merits of the dispute, the tribunal "
+"shall apply the laws of Switzerland and any discovery shall be limited "
+"and shall not involve any depositions or any other examinations outside "
+"of a formal hearing. The tribunal shall not assume the powers of amiable "
+"compositeur or decide the case ex aequo et bono. In the final award, the "
+"tribunal shall fix the costs of the arbitration and decide which of the "
+"parties shall bear such costs in what proportion. Every award shall be "
+"binding on the parties. The parties undertake to carry out the award "
+"without delay and waive their right to any form of recourse against the "
+"award in so far as such waiver can validly be made."
+msgstr ""
+
+# a249d7618b4a487b833e87bc625bba52
+#: ../../source/introduction/disclaimer.rst:89
+msgid "Force Majeure"
+msgstr ""
+
+# 070f1d7b20f546a7a273e4d43ad6ff71
+#: ../../source/introduction/disclaimer.rst:91
+msgid "**STIFTUNG ETHEREUM** is finally not liable for:"
+msgstr ""
+
+# b8f0ffa8a9b1464db13e586946765002
+#: ../../source/introduction/disclaimer.rst:93
+msgid "unavoidable casualty,"
+msgstr ""
+
+# 1a3777d91ef04c9e8137fb8ab2c5c271
+#: ../../source/introduction/disclaimer.rst:94
+msgid "delays in delivery of materials,"
+msgstr ""
+
+# 9164463350034b478a3a4b23b7174edc
+#: ../../source/introduction/disclaimer.rst:95
+msgid "embargoes,"
+msgstr ""
+
+# cea985c9c6a642509eb7b545c051b8d7
+#: ../../source/introduction/disclaimer.rst:96
+msgid "government orders,"
+msgstr ""
+
+# 82aeb736a45f474583764a0f18670855
+#: ../../source/introduction/disclaimer.rst:97
+msgid "acts of civil or military authorities,"
+msgstr ""
+
+# 233b5e46f99e4d05992103659e1d77f5
+#: ../../source/introduction/disclaimer.rst:98
+msgid "lack of energy, or"
+msgstr ""
+
+# af41c396efd4420a9d5ec1786e186ac8
+#: ../../source/introduction/disclaimer.rst:99
+msgid ""
+"any similar unforeseen event that renders performance commercially "
+"implausible."
+msgstr ""
+
+# 53a67e0a8f1c485e943b0d20eb3aa3d8
+#: ../../source/introduction/disclaimer.rst:103
+msgid "Disclosure of Agency inquiries"
+msgstr ""
+
+# a6ab2dfe36714e7fb94099b62944393a
+#: ../../source/introduction/disclaimer.rst:105
+msgid ""
+"Stiftung Ethereum has never been contacted by any agency anywhere in the "
+"world in a way which requires that contact not to be disclosed."
+msgstr ""
+
+# 6d4c01b0662c4aaf8c10aa1ffc522e44
+#: ../../source/introduction/disclaimer.rst:107
+msgid ""
+"Stiftung Ethereum will publicly disclose any sort of inquiry from "
+"government agencies that falls outside the scope of regular business "
+"operations."
+msgstr ""
+
+# 0a4bdfe6bd2a4fe180cb7fce805b668b
+#: ../../source/introduction/glossary.rst:3
+msgid "Glossary"
+msgstr ""
+
+# 030c2ff8dd3f483d9af33453d76a247c
+#: ../../source/introduction/glossary.rst:303
+msgid "2-way pegging"
+msgstr ""
+
+# 04949f3196a946d0bda0e4853694d758
+#: ../../source/introduction/glossary.rst:305
+msgid ""
+"Locking down the exchange rate of the coins/tokens in two chains (usually"
+" a main and a side chain) in both directions."
+msgstr ""
+
+# 918caaa3d2a24060950dc1581bf882b8
+#: ../../source/introduction/glossary.rst:399
+msgid "account"
+msgstr ""
+
+# 6e1d991d2bba4a87bb841857e1bcabff
+#: ../../source/introduction/glossary.rst:401
+msgid ""
+"Accounts are a central part of the Ethereum network and are an essential "
+"part of any transaction or contract. In Ethereum, there are two types of "
+"accounts: Externally Owned accounts (EOA) and Contract accounts."
+msgstr ""
+
+# 76c5044e6c344621af34ce40b6f08a90
+#: ../../source/introduction/glossary.rst:53
+msgid "address"
+msgstr ""
+
+# 731da79b919d42da945c4bd5375f1893
+#: ../../source/introduction/glossary.rst:55
+msgid ""
+"An address is the representation of a public key belonging to a "
+"particular user; for example, the address associated with the private key"
+" may look like cd2a3d9f938e13cd947ec05abc7fe734df8dd826. Note that in "
+"practice, the address is technically the hash of a public key, but for "
+"simplicity it's better to ignore this distinction. A new `checksum-"
+"enabled address scheme <https://github.com/ethereum/EIPs/issues/55>`_ was"
+" introduced with the release of the Mist Ethereum wallet version 0.5.0."
+msgstr ""
+
+# b97500510e04421084b49de7fc6b375b
+#: ../../source/introduction/glossary.rst:360
+msgid "ASIC"
+msgstr ""
+
+# b135498a0666477384e07e6f000389eb
+#: ../../source/introduction/glossary.rst:362
+msgid ""
+"Application-specific integrated circuit, in this case referring to an "
+"integrated circuit custom built for cryptocurrency mining."
+msgstr ""
+
+# b5bea7fb2bad4710ab2be2138787a3c2
+#: ../../source/introduction/glossary.rst:339
+msgid "attach"
+msgstr ""
+
+# e5a1401c17794c52815b86195c0af468
+#: ../../source/introduction/glossary.rst:341
+msgid "The command used to initiate the Ethereum Javascript console."
+msgstr ""
+
+# 63be9ea2141b4a8591b6600157c37326
+#: ../../source/introduction/glossary.rst:140
+msgid "balance"
+msgstr ""
+
+# 94e0c4995d5c48d2ad41346abced014b
+#: ../../source/introduction/glossary.rst:142
+msgid "The amount of cryptocurrency (in this case) belonging to an account."
+msgstr ""
+
+# 471bd151bfd64a5dad1f4e1f6152790c
+#: ../../source/introduction/glossary.rst:348
+msgid "base layer service"
+msgstr ""
+
+# 29cfe41e007e4bfbaa6d48a9677a29fb
+#: ../../source/introduction/glossary.rst:350
+msgid ""
+"Services such as SWARM and Whisper which are built into the Ethereum "
+"platform."
+msgstr ""
+
+# a5d6e046966541d995f299e9c3b04c00
+#: ../../source/introduction/glossary.rst:46
+msgid "block"
+msgstr ""
+
+# 1a79b398154a495996bd603b26768198
+#: ../../source/introduction/glossary.rst:48
+msgid ""
+"A block is a package of data that contains zero or more transactions, the"
+" hash of the previous block (\"parent\"), and optionally other data. The "
+"total set of blocks, with every block except for the initial \"genesis "
+"block\" containing the hash of its parent, is called the blockchain and "
+"contains the entire transaction history of a network. Note that some "
+"blockchain-based cryptocurrencies instead use the word \"ledger\" for a "
+"blockchain; the two are roughly equivalent, although in systems that use "
+"the term \"ledger\" each block generally contains a full copy of the "
+"current state (e.g. currency balances, partially fulfilled contracts, "
+"registrations) of every account allowing users to discard outdated "
+"historical data."
+msgstr ""
+
+# ae01375844e34e1fbccf6a6e3e64d5fd
+#: ../../source/introduction/glossary.rst:288
+msgid "block header"
+msgstr ""
+
+# b5c6d30b1a294aa294044556d4692eaa
+#: ../../source/introduction/glossary.rst:290
+msgid ""
+"The data in a block which is unique to its content and the circumstances "
+"in which it was created. It includes the hash of the previous block's "
+"header, the version of the software the block is mined with, the "
+"timestamp and the merkle root hash of the contents of the block."
+msgstr ""
+
+# e888999d61214bc9b688712b651bfba8
+#: ../../source/introduction/glossary.rst:294
+msgid "block propagation"
+msgstr ""
+
+# 4b791c5cbfa14c4eab9b6128453bc673
+#: ../../source/introduction/glossary.rst:296
+msgid ""
+"The process of transmitting a confirmed block to all other nodes in the "
+"network."
+msgstr ""
+
+# 169223df42074de4ba929cc6352f3b56
+#: ../../source/introduction/glossary.rst:228
+msgid "block validation"
+msgstr ""
+
+# a9cea0c8291940a6b9e7c1f2c40f3095
+#: ../../source/introduction/glossary.rst:230
+msgid ""
+"The checking of the coherence of the cryptographic signature of the block"
+" with the history stored in the entire blockchain."
+msgstr ""
+
+# ece29e0bb1e544ceaf639f318a8b2978
+#: ../../source/introduction/glossary.rst:372
+msgid "block(chain) explorer"
+msgstr ""
+
+# b0474ffd4ac4456ca921c17ec4ff7481
+#: ../../source/introduction/glossary.rst:374
+msgid ""
+"A website that allows easy searching and extraction of data from the "
+"blockchain."
+msgstr ""
+
+# 10b9b88300674e8fa06222833c19161b
+#: ../../source/introduction/glossary.rst:116
+msgid "blockchain"
+msgstr ""
+
+# ac9c56a2608d486091eaa3d7b3232f95
+#: ../../source/introduction/glossary.rst:118
+msgid ""
+"An ever-extending series of data blocks that grows as new transactions "
+"are confirmed as part of a new block. Each new block is chained to the "
+"existing blockchain by a cryptographic proof-of-work."
+msgstr ""
+
+# d3098b50812c43c7a181ed071d40257e
+#: ../../source/introduction/glossary.rst:231
+msgid "blocktime"
+msgstr ""
+
+# 2c0bd5102a4f4463a384fe9a7006437f
+#: ../../source/introduction/glossary.rst:233
+msgid "The average time interval between the mining of two blocks."
+msgstr ""
+
+# 38f350e2ed6648fa92f13294d5baaaa4
+#: ../../source/introduction/glossary.rst:273
+msgid "bootnode"
+msgstr ""
+
+# b7fd70cf134444a68773c29cc16a4fdb
+#: ../../source/introduction/glossary.rst:275
+msgid ""
+"The nodes which can be used to initiate the discovery process when "
+"running a node. The endpoints of these nodes are recorded in the Ethereum"
+" source code."
+msgstr ""
+
+# e2228d1e215d450e872b2b971dd33a38
+#: ../../source/introduction/glossary.rst:177
+msgid "CASPER"
+msgstr ""
+
+# eb7c1636b005415bb8f97208f42f5af5
+#: ../../source/introduction/glossary.rst:179
+msgid ""
+"Casper is a security-deposit based economic consensus protocol. This "
+"means that nodes, so called “bonded validators”, have to place a security"
+" deposit (an action we call “bonding”) in order to serve the consensus by"
+" producing blocks. If a validator produces anything that Casper considers"
+" “invalid”, the deposit is forfeited along with the privilege of "
+"participating in the consensus process."
+msgstr ""
+
+# 6f8fb1bae7d64bb4b388273b7610965d
+#: ../../source/introduction/glossary.rst:312
+msgid "checksum"
+msgstr ""
+
+# 7466ed4cf86a4808b29c50360ba26269
+#: ../../source/introduction/glossary.rst:314
+msgid ""
+"A count of the number of bits in a transmission that is included with the"
+" unit so that the receiving end can verify that the entirety of the "
+"message has been transmitted."
+msgstr ""
+
+# ab9178d65ed94fedaffc43e92f5e9eb8
+#: ../../source/introduction/glossary.rst:405
+msgid "CLL (obsolete)"
+msgstr ""
+
+# f20b45dfe7b546d3b4707cef373fb11a
+#: ../../source/introduction/glossary.rst:407
+msgid ""
+"Acronym for C Like Language, which Mutan was. This acronym has been "
+"phased out."
+msgstr ""
+
+# 4044bf23bdd84e0da3f5abeb21f07f8b
+#: ../../source/introduction/glossary.rst:137
+msgid "coinbase"
+msgstr ""
+
+# 35eed0532cf442ef8b160964365463a5
+#: ../../source/introduction/glossary.rst:139
+msgid ""
+"Coinbase is analogous to etherbase, but is a more generic term for all "
+"cryptocurrency platforms."
+msgstr ""
+
+# f3447d73f9024f0184212407ee69f69f
+#: ../../source/introduction/glossary.rst:279
+msgid "compiler"
+msgstr ""
+
+# f1feffedebfa4497b206bfa7a235c94c
+#: ../../source/introduction/glossary.rst:281
+msgid ""
+"A program that translates pieces of code written in high level languages "
+"into low level executable code."
+msgstr ""
+
+# ab2e1c3f4b2044a2933ee091139707a7
+#: ../../source/introduction/glossary.rst:180
+msgid "consensus"
+msgstr ""
+
+# 29730631fd8044eab80b9d68156fec2f
+#: ../../source/introduction/glossary.rst:182
+msgid ""
+"The agreement among all nodes in the network about the state of the "
+"Ethereum network."
+msgstr ""
+
+# b6e295eeb6fb4b56b2dfd9b3c19e27d8
+#: ../../source/introduction/glossary.rst:207
+msgid "consortium chain"
+msgstr ""
+
+# adf9b9525dda48edaf76efb36297050f
+#: ../../source/introduction/glossary.rst:209
+msgid ""
+"A blockchain where the consensus process is controlled by a pre-selected "
+"set of nodes."
+msgstr ""
+
+# c996e25f077441388ee5b8ee1eb1b1d6
+#: ../../source/introduction/glossary.rst:92
+msgid "contract"
+msgstr ""
+
+# 58bb4ad06caa44dcafc2ae60bbb879ca
+#: ../../source/introduction/glossary.rst:94
+msgid ""
+"A persistent piece of code on the Ethereum blockchain that encompasses a "
+"set of data and executable functions. These functions execute when "
+"Ethereum transactions are made to them with certain input parameters. "
+"Based on the input parameters, the functions will execute and interact "
+"with data within and outside of the contract."
+msgstr ""
+
+# b2022e7189a7453dbc19eb72e855b79b
+#: ../../source/introduction/glossary.rst:219
+msgid "crypto-fuel"
+msgstr ""
+
+# 9632944384984c8d8374ffea2b0f305f
+#: ../../source/introduction/glossary.rst:221
+msgid ""
+"Similar to 'gas', referring to the amount of cryptocurrency required to "
+"power a transaction."
+msgstr ""
+
+# 3a8a263ee09443da9360b52c07f57e23
+#: ../../source/introduction/glossary.rst:222
+msgid "cryptoeconomics"
+msgstr ""
+
+# 170b0e93c8684c08b502fbe2fecf7525
+#: ../../source/introduction/glossary.rst:224
+msgid "The economics of cryptocurrencies."
+msgstr ""
+
+# 32d116d8aa8443a0b0304f585c145d3c
+#: ../../source/introduction/glossary.rst:342
+msgid "daemon"
+msgstr ""
+
+# 88a8c18007bc48aca18d13d08959dce6
+#: ../../source/introduction/glossary.rst:344
+msgid ""
+"A computer program that runs as a background process instead of in direct"
+" control by an interactive user."
+msgstr ""
+
+# ffac90acb745482e8cacaf1bc6670f51
+#: ../../source/introduction/glossary.rst:258
+msgid "DAG"
+msgstr ""
+
+# faa18e06d1f34dea9ce17589a6cb3dd8
+#: ../../source/introduction/glossary.rst:260
+msgid ""
+"DAG stands for Directed Acyclic Graph. It is a graph, a set of nodes and "
+"links between nodes, that has very special properties. Ethereum uses a "
+"DAG in Ethash, the Ethereum Proof of Work (POW) algorithm.The Ethash DAG "
+"takes a long time to be generated, which is done by a Miner node into a "
+"cache file for each Epoch. The file data is then used when a value from "
+"this graph is required by the algorithm."
+msgstr ""
+
+# b6d26ccd41794a9fb5174bd9aee60396
+#: ../../source/introduction/glossary.rst:80
+msgid "DAO"
+msgstr ""
+
+# 0a002c0d3af34a719f083ef0197154cb
+#: ../../source/introduction/glossary.rst:82
+msgid "See Decentralized Autonomous Organisation."
+msgstr ""
+
+# 78da81c0f34642d6816e04401d6b0778
+#: ../../source/introduction/glossary.rst:49
+msgid "dappĐapp"
+msgstr ""
+
+# 73827e9ebd36407089d639b5d7e6fbad
+#: ../../source/introduction/glossary.rst:52
+msgid ""
+"Unofficially stands for either \"distributed app\" or \"eth app\". Some "
+"say it is pronounced Ethapp due to the use of the uppercase eth letter Ð."
+msgstr ""
+
+# 437a05a1b4c6485a96a551eaad008e4a
+#: ../../source/introduction/glossary.rst:158
+msgid "decentralisation"
+msgstr ""
+
+# b012ffec51bc444fa752a0830de0c275
+#: ../../source/introduction/glossary.rst:160
+msgid ""
+"The concept of moving the control and execution of computational "
+"processes away from a central entity."
+msgstr ""
+
+# 8661270d842d4d60b37dd1dd935d4693
+#: ../../source/introduction/glossary.rst:10
+msgid "decentralized application"
+msgstr ""
+
+# efcf2decdd72476491ec7f4070e517ea
+#: ../../source/introduction/glossary.rst:12
+msgid ""
+"A program which is run by many people which either uses or creates a "
+"decentralized network for some specific purpose (e.g. connecting buyers "
+"and sellers in some marketplace, sharing files, online file storage, "
+"maintaining a currency). Ethereum-based decentralized applications (also "
+"called Đapps, where the Đ is the Norse letter \"eth\") typically consist "
+"of an HTML/Javascript webpage and a special Javascript API for sending "
+"transactions to the blockchain, reading data from the blockchain, and "
+"interacting with Whisper and Swarm. A Đapp typically also has a specific "
+"associated contract on the blockchain, though Đapps that facilitate the "
+"creation of many contracts are quite possible."
+msgstr ""
+
+# 90aca5ee9f6745549e7f423516eca5d4
+#: ../../source/introduction/glossary.rst:40
+msgid "decentralized autonomous organization"
+msgstr ""
+
+# 1e6c2af3329a429794fa45c9dbbef27c
+#: ../../source/introduction/glossary.rst:42
+msgid ""
+"Decentralized organizations where the method of governance is in some "
+"fashion \"autonomous\", i.e. it's not controlled by some form of "
+"discussion process or committee."
+msgstr ""
+
+# d487c9a5ed914f0993b8a0a84b952f62
+#: ../../source/introduction/glossary.rst:13
+msgid "decentralized organization"
+msgstr ""
+
+# e07d1b16b2df475f8ad8d014dddb5979
+#: ../../source/introduction/glossary.rst:15
+msgid ""
+"An organization that has no centralized leadership, instead using a "
+"combination of formal democratic voting processes and stigmergic self-"
+"organization as their primary operating principles. A less impressive but"
+" sometimes confused concept is a \"geographically distributed "
+"organization\", an organization where people work far apart from each "
+"other and which may even have no office at all; GDOs can still have "
+"formal centralized leadership."
+msgstr ""
+
+# 02305c14a4a340adb32994d3cc99cf5c
+#: ../../source/introduction/glossary.rst:25
+msgid "deposit"
+msgstr ""
+
+# 2596c7d704474f87b2eb3fdac87b7531
+#: ../../source/introduction/glossary.rst:27
+msgid ""
+"Digital property placed into a contract involving another party such that"
+" if certain conditions are not satisfied that property is automatically "
+"forfeited to the counterparty."
+msgstr ""
+
+# 2a74023c6b48481c8162d8996f989406
+#: ../../source/introduction/glossary.rst:396
+msgid "difficulty"
+msgstr ""
+
+# 1c95c0f573ba48f28ae544a2417d1119
+#: ../../source/introduction/glossary.rst:398
+msgid ""
+"In very general terms, the amount of effort required to mine a new block."
+" With the launch of Homestead, the `difficulty adjustment algorithm will "
+"change "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_."
+msgstr ""
+
+# a3f9a772d2e94a1d8c1780a98e4ea076
+#: ../../source/introduction/glossary.rst:327
+msgid "digital signature"
+msgstr ""
+
+# ab2c2c01add44dacb08184e03309a3c8
+#: ../../source/introduction/glossary.rst:329
+msgid ""
+"A mathematical scheme for demonstrating the authenticity of a digital "
+"message or documents."
+msgstr ""
+
+# bc1407c0ea234409a0b2f20be980ad96
+#: ../../source/introduction/glossary.rst:125
+msgid "discovery (peer)"
+msgstr ""
+
+# 007fad41be114c34bda63e278c6e7f4d
+#: ../../source/introduction/glossary.rst:127
+msgid ""
+"The process of 'gossiping' with other nodes in the network to find out "
+"the state of other nodes on the network."
+msgstr ""
+
+# 16264673a3c14d0095fdcace2f4e00d2
+#: ../../source/introduction/glossary.rst:161
+msgid "distributed hash table"
+msgstr ""
+
+# 59cb87cb713d424a9d106c94612e2992
+#: ../../source/introduction/glossary.rst:163
+msgid ""
+"A distributed hash table (DHT) is a class of a decentralized distributed "
+"system that provides a lookup service similar to a hash table: (key, "
+"value) pairs are stored in a DHT, and any participating node can "
+"efficiently retrieve the value associated with a given key."
+msgstr ""
+
+# ba0fafa9fb1640f2967671063ecac582
+#: ../../source/introduction/glossary.rst:243
+msgid "double spend"
+msgstr ""
+
+# 7619d0aabe934349851d656d81c9f865
+#: ../../source/introduction/glossary.rst:245
+#, python-format
+msgid ""
+"A deliberate blockchain fork, where a user with a large amount of mining "
+"power sends a transaction to purchase some produce, then after receiving "
+"the product creates another transaction sending the same coins to "
+"themselves. The attacker then creates a block, at the same level as the "
+"block containing the original transaction but containing the second "
+"transaction instead, and starts mining on the fork. If the attacker has "
+"more than 50% of all mining power, the double spend is guaranteed to "
+"succeed eventually at any block depth. Below 50%, there is some "
+"probability of success, but it is usually only substantial at a depth up "
+"to about 2-5; for this reason, most cryptocurrency exchanges, gambling "
+"sites and financial services wait until six blocks have been produced "
+"(\"six confirmations\") before accepting a payment."
+msgstr ""
+
+# d52546b32b384584b27f34c317903204
+#: ../../source/introduction/glossary.rst:86
+msgid "elliptic curve (cryptography)"
+msgstr ""
+
+# 9bdaa886b17e4328ad95b8ffca9de5f3
+#: ../../source/introduction/glossary.rst:88
+msgid ""
+"Refers to an approach to public-key cryptography based on the algebraic "
+"structure of elliptic curves over finite fields. See `elliptic curve "
+"cryptography "
+"<https://en.wikipedia.org/wiki/Elliptic_curve_cryptography>`_."
+msgstr ""
+
+# 8aca50f35d914685a8c1e1e3156407a4
+#: ../../source/introduction/glossary.rst:324
+msgid "encryption"
+msgstr ""
+
+# bdb8e00769ec40df86be0c6283459adf
+#: ../../source/introduction/glossary.rst:326
+msgid ""
+"Encryption is the conversion of electronic data into a form unreadable by"
+" anyone except the owner of the correct decryption key. It can further be"
+" described as a process by which a document (plaintext) is combined with "
+"a shorter string of data, called a key (e.g. "
+"c85ef7d79691fe79573b1a7064c19c1a9819ebdbd1faaab1a8ec92344438aaf4), to "
+"produce an output (ciphertext) which can be \"decrypted\" back into the "
+"original plaintext by someone else who has the key, but which is "
+"incomprehensible and computationally infeasible to decrypt for anyone who"
+" does not have the key."
+msgstr ""
+
+# fb5314f58a92453b8dcd2b1d504acb81
+#: ../../source/introduction/glossary.rst:59
+msgid "EOA"
+msgstr ""
+
+# bdf9997661a946c0ab664a91e12df5ce
+#: ../../source/introduction/glossary.rst:61
+msgid ""
+"Externally Owned Account. An account controlled by a private key. If you "
+"own the private key associated with the EOA you have the ability to send "
+"ether and messages from it. This differs from a contract account that has"
+" it's own code and is controlled by code. EOAs and contract accounts may "
+"be combined into a single account type during Serenity."
+msgstr ""
+
+# 72fd2560c8e142aa8eb2dddec58af642
+#: ../../source/introduction/glossary.rst:83
+msgid "epoch"
+msgstr ""
+
+# d1dbd58514874c4cbecb63859eb2ee5b
+#: ../../source/introduction/glossary.rst:85
+msgid ""
+"Epoch is the interval between each regeneration of the DAG used as seed "
+"by the PoW algorithm Ethash. The epoch in specified as 30000 blocks."
+msgstr ""
+
+# a4293e2595fb46c7a071a58a0a32d63f
+#: ../../source/introduction/glossary.rst:408
+msgid "ES1, ES2, and ES3 (obsolete)"
+msgstr ""
+
+# 03008e42c83b48d6a8a7155707d0400f
+#: ../../source/introduction/glossary.rst:410
+msgid ""
+"\"Ethereum Script\" versions 1,2 and 3. There were early versions of what"
+" would become the Ethereum Virtual Machine (EVM)."
+msgstr ""
+
+# b481ee5313b4467095224f1925cd2f4a
+#: ../../source/introduction/glossary.rst:22
+msgid "escrow"
+msgstr ""
+
+# aaad7d5a2c2f4967b70dd656777d74c7
+#: ../../source/introduction/glossary.rst:24
+msgid ""
+"If two low-reputation entities are engaged in commerce, the payer may "
+"wish to leave the funds with a high-reputation third party and instruct "
+"that party to send the funds to the payee only when the product is "
+"delivered. This reduces the risk of the payer or payee committing fraud."
+msgstr ""
+
+# dffd1a05dc834b84ba85e14d3ec1a001
+#: ../../source/introduction/glossary.rst:378
+msgid "eth"
+msgstr ""
+
+# 773f004209834add9be351b28ce95e4d
+#: ../../source/introduction/glossary.rst:380
+msgid ""
+"Ethereum client implemented in the C++ programming language, based on the"
+" protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# ed48b20fb01642ad90fe87ffa6efdede
+#: ../../source/introduction/glossary.rst:56
+msgid "ether"
+msgstr ""
+
+# ab52158a93be491fae5d7a3a9d76d9e2
+#: ../../source/introduction/glossary.rst:58
+msgid ""
+"Ether is the name of the currency used within Ethereum. It is used to pay"
+" for computations within the EVM."
+msgstr ""
+
+# 72ebcf6c02b84453bec06a300f3e7857
+#: ../../source/introduction/glossary.rst:134
+msgid "etherbase"
+msgstr ""
+
+# e1fa33f5c9134b83a7704fa873f5c67b
+#: ../../source/introduction/glossary.rst:136
+msgid ""
+"It is the default name of the account on your node that acts as your "
+"primary account. If you do mining, mining rewards will be credited to "
+"this account."
+msgstr ""
+
+# cbad200d896149639a8afb0678b67635
+#: ../../source/introduction/glossary.rst:390
+msgid "ethereumh"
+msgstr ""
+
+# 7f3674e094c84ec3a14537072232c247
+#: ../../source/introduction/glossary.rst:392
+msgid ""
+"Ethereum client implemented in the Haskell programming language, based on"
+" the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# 04c419e32a7c485198e0fd22eca444d4
+#: ../../source/introduction/glossary.rst:387
+msgid "ethereumj"
+msgstr ""
+
+# d93c4d43a81f4d53a335e444f4f3f815
+#: ../../source/introduction/glossary.rst:389
+msgid ""
+"Ethereum client implemented in the Java programming language, based on "
+"the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# caa76f4a9e744a3fae4318b0f7f48682
+#: ../../source/introduction/glossary.rst:381
+msgid "ethereumjs"
+msgstr ""
+
+# a905581091854d2f8224d52c39c84e05
+#: ../../source/introduction/glossary.rst:383
+msgid ""
+"Ethereum client implemented in the Javascript/Node programming language, "
+"based on the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# 6dfbaa13ef264bae8d8b9ccba9617cd5
+#: ../../source/introduction/glossary.rst:149
+msgid "EVM"
+msgstr ""
+
+# e701c2d2dc4b44218e6e1f69e495cfd9
+#: ../../source/introduction/glossary.rst:151
+msgid ""
+"Ethereum Virtual Machine, the decentralized computing platform which "
+"forms the core of the Ethereum platform."
+msgstr ""
+
+# ce431cdc8d934c52897ceb1112cb8222
+#: ../../source/introduction/glossary.rst:276
+msgid "exchange"
+msgstr ""
+
+# fb4273ad99a54fae964bc2d99c9917ae
+#: ../../source/introduction/glossary.rst:278
+msgid ""
+"An online marketplace which facilitates the exchange of crypto or fiat "
+"currencies based on the market exchange rate."
+msgstr ""
+
+# e185adb4cb334cd2b08f928bcfa12507
+#: ../../source/introduction/glossary.rst:357
+msgid "fast sync"
+msgstr ""
+
+# 3f0d6dfc6fa74a83854176609fa1229c
+#: ../../source/introduction/glossary.rst:359
+msgid ""
+"Instead of processing the entire block-chain one link at a time, and "
+"replay all transactions that ever happened in history, fast syncing "
+"downloads the transaction receipts along the blocks, and pulls an entire "
+"recent state database."
+msgstr ""
+
+# e2b9a8d5883345e9b71ea2820b1ad5b8
+#: ../../source/introduction/glossary.rst:309
+msgid "faucet"
+msgstr ""
+
+# cb22aee943494b0d986a8cf33567c148
+#: ../../source/introduction/glossary.rst:311
+msgid "A website that dispenses (normally testnet) cryptocurrencies for free."
+msgstr ""
+
+# 364b1a2d215d45c78131dcbf7eaf1fa1
+#: ../../source/introduction/glossary.rst:192
+msgid "frontier"
+msgstr ""
+
+# a83653baa5a443fa80a8ecfab08002b7
+#: ../../source/introduction/glossary.rst:194
+msgid ""
+"Ethereum was planned to be released in four major steps with Frontier "
+"being the name for the first phase. The Frontier release went live on "
+"July 30th, 2015. The command line Frontier phase was mainly meant to get "
+"mining operations going with the full reward of 5 ether per block and "
+"also to promote the emergence of ether exchanges. Frontier surpassed "
+"earlier modest expectations and has nurtured tremendous growth of the "
+"ecosystem."
+msgstr ""
+
+# 35d6166568e548f6a589a178fabcf4fb
+#: ../../source/introduction/glossary.rst:62
+msgid "gas"
+msgstr ""
+
+# 3339b90ca14445a0886dcc2b37e9291f
+#: ../../source/introduction/glossary.rst:64
+msgid ""
+"Name for the execution fee for every operation made on an Ethereum "
+"blockchain."
+msgstr ""
+
+# d770c66f62b347fdb0bcd78a8e208144
+#: ../../source/introduction/glossary.rst:65
+msgid "gas limit"
+msgstr ""
+
+# 43a6a2612581467c8beea9cf43a2faca
+#: ../../source/introduction/glossary.rst:67
+#, python-format
+msgid ""
+"Gas limit can apply to both individual transactions and to blocks. For "
+"individual transactions, the gas limit represents the maximum amount of "
+"gas you indicate you are willing to pay for a contract execution "
+"transaction. It is meant to protect users from getting their ether "
+"depleted when trying to execute buggy or malicious contracts. The block "
+"gas limit represents the maximum cumulative gas used for all the "
+"transactions in a block. With the launch of Homestead, the block gas "
+"limit floor will increase from 3,141,592 gas to 4,712,388 gas (~50% "
+"increase)."
+msgstr ""
+
+# 07221b0a23264c84a9277e5482d629f3
+#: ../../source/introduction/glossary.rst:68
+msgid "gas price"
+msgstr ""
+
+# 0865976dde874cdc8f16c0441485fbc0
+#: ../../source/introduction/glossary.rst:70
+#, python-format
+msgid ""
+"Price in ether of one unit of gas specified in a transaction. With the "
+"launch of Homestead, the default gas price reduces from 50 shannon to 20 "
+"shannon (~60% reduction)."
+msgstr ""
+
+# 699a9a77a58f47bf9e00fdadfbdedb28
+#: ../../source/introduction/glossary.rst:128
+msgid "gas price oracle"
+msgstr ""
+
+# 2036db34dcbd4eabb9f50c5e38cd1976
+#: ../../source/introduction/glossary.rst:130
+msgid ""
+"A helper function of the Geth client that tries to find an appropriate "
+"default gas price when sending transactions."
+msgstr ""
+
+# dcbe5ea3566444f1b682a42795c5c45b
+#: ../../source/introduction/glossary.rst:282
+msgid "genesis block"
+msgstr ""
+
+# 6dc061348275477d9ec7aab93f73d1ed
+#: ../../source/introduction/glossary.rst:284
+msgid "The first block in a blockchain."
+msgstr ""
+
+# f5b29082e328457e9ff3a414ddd78636
+#: ../../source/introduction/glossary.rst:375
+msgid "geth"
+msgstr ""
+
+# 7d7904f2ceec4ab6992c74490a8d1a15
+#: ../../source/introduction/glossary.rst:377
+msgid ""
+"Ethereum client implemented in the Golang programming language, based on "
+"the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# c3a0bc9bb211497ab3f2ee4cb1288a85
+#: ../../source/introduction/glossary.rst:252
+msgid "GHOST"
+msgstr ""
+
+# b860747e97504ab098f43003545b9771
+#: ../../source/introduction/glossary.rst:254
+msgid ""
+"Greedy Heaviest-Observed Sub-Tree is an alternative chain-selection "
+"method that is designed to incentivise stale blocks (uncles) as well, "
+"thus reducing the incentive for pool mining. In GHOST, even the "
+"confirmation given by stale blocks to previous blocks are considered "
+"valid, and the miners of the stale blocks are also rewarded with a mining"
+" reward."
+msgstr ""
+
+# 6c6130ceb92743fd94b3608568336183
+#: ../../source/introduction/glossary.rst:216
+msgid "hash"
+msgstr ""
+
+# 79dc077122524b66b4e4ded300464ee1
+#: ../../source/introduction/glossary.rst:218
+msgid ""
+"A cryptographic function which takes an input (or 'message') and returns "
+"a fixed-size alphanumeric string, which is called the hash value "
+"(sometimes called a message digest, a digital fingerprint, a digest or a "
+"checksum). A hash function (or hash algorithm) is a process by which a "
+"document (i.e. a piece of data or file) is processed into a small piece "
+"of data (usually 32 bytes) which looks completely random, and from which "
+"no meaningful data can be recovered about the document, but which has the"
+" important property that the result of hashing one particular document is"
+" always the same. Additionally, it is crucially important that it is "
+"computationally infeasible to find two documents that have the same hash."
+" Generally, changing even one letter in a document will completely "
+"randomize the hash; for example, the SHA3 hash of \"Saturday\" is "
+"c38bbc8e93c09f6ed3fe39b5135da91ad1a99d397ef16948606cdcbd14929f9d, whereas"
+" the SHA3 hash of Caturday is "
+"b4013c0eed56d5a0b448b02ec1d10dd18c1b3832068fbbdc65b98fa9b14b6dbf. Hashes "
+"are usually used as a way of creating a globally agreed-upon identifier "
+"for a particular document that cannot be forged."
+msgstr ""
+
+# 1eb174a64b9b40bc9da87da614e2afb5
+#: ../../source/introduction/glossary.rst:237
+msgid "hashrate"
+msgstr ""
+
+# cfd2023d877746409f9654498dda7c53
+#: ../../source/introduction/glossary.rst:239
+msgid "The number of hash calculations made per second."
+msgstr ""
+
+# af838377bb6947d3a7bcfce331e672dd
+#: ../../source/introduction/glossary.rst:402
+msgid "HLL (obsolete)"
+msgstr ""
+
+# afc1dae544e14c1d87aa0c62ed4a39e1
+#: ../../source/introduction/glossary.rst:404
+msgid ""
+"Acronym for Higher Level Language, which is what Serpent and Solidity "
+"are. HLL is what early Ðapp developers called Ethereum programming "
+"languages that did not touch the low level elements. This phrase has been"
+" phased out."
+msgstr ""
+
+# f8198dfd1b814767be43a4de95a25943
+#: ../../source/introduction/glossary.rst:183
+msgid "homestead"
+msgstr ""
+
+# 245f5a2650f941da8bd57b69c0ac1051
+#: ../../source/introduction/glossary.rst:185
+msgid ""
+"Homestead is the second major version release of the Ethereum platform. "
+"Homestead includes several protocol changes and a networking change that "
+"makes possible further network upgrades: `EIP\\-2 Main homestead hardfork"
+" changes "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_; "
+"`EIP\\-7 Hardfork EVM update (DELEGATECALL) "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md>`_; `EIP\\-8 "
+"devp2p forward compatibility "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md>`_. Homestead"
+" will launch when block 1,150,000 is reached on the Mainnet. On the "
+"Testnet, Homestead will launch at block 494,000."
+msgstr ""
+
+# 7a4ae7aa35144cec9ef9036ce8acd445
+#: ../../source/introduction/glossary.rst:28
+msgid "hostage"
+msgstr ""
+
+# 6435c69a9a6049e3999ef901aa95529b
+#: ../../source/introduction/glossary.rst:30
+msgid ""
+"Digital property placed into a contract such that if certain conditions "
+"are not satisfied that property is automatically either destroyed or "
+"donated to charity or basic income funds, perhaps with widely distributed"
+" benefit but necessarily with no significant benefit to any specific "
+"individual."
+msgstr ""
+
+# 2d26e1f0075646feb0c2f1ea62d3b64c
+#: ../../source/introduction/glossary.rst:315
+msgid "ICAP"
+msgstr ""
+
+# ff4f96f3f2d34f06b6f51acef7c84564
+#: ../../source/introduction/glossary.rst:317
+msgid ""
+"Interexchange Client Address Protocol, an IBAN-compatible system for "
+"referencing and transacting to client accounts aimed to streamline the "
+"process of transferring funds, worry-free between exchanges and, "
+"ultimately, making KYC and AML concerns a thing of the past."
+msgstr ""
+
+# 5fdd86b01cc2444c9e4127a64e5df8a1
+#: ../../source/introduction/glossary.rst:369
+msgid "ICAP format"
+msgstr ""
+
+# ae48ba7e667a41b8ae6ec655af09a392
+#: ../../source/introduction/glossary.rst:371
+msgid ""
+"The format of the IBANs defined using the `Inter-exchange Client Address "
+"Protocol <https://github.com/ethereumjs/ethereumjs-icap>`_."
+msgstr ""
+
+# e4ac22cf131b4d3b8fe7d1202afb27ac
+#: ../../source/introduction/glossary.rst:16
+msgid "identity"
+msgstr ""
+
+# 801965193e7e4c9eb1af434751992abc
+#: ../../source/introduction/glossary.rst:18
+msgid ""
+"A set of cryptographically verifiable interactions that have the property"
+" that they were all created by the same person"
+msgstr ""
+
+# 00d596091407481488aff2763cfbd9b1
+#: ../../source/introduction/glossary.rst:37
+msgid "incentive compatibility"
+msgstr ""
+
+# 8f8a4faef40a438c81f49ab703efdda8
+#: ../../source/introduction/glossary.rst:39
+msgid ""
+"A protocol is incentive-compatible if everyone is better off \"following "
+"the rules\" than attempting to cheat, at least unless a very large number"
+" of people agree to cheat together at the same time."
+msgstr ""
+
+# b06b42ea8a00419187dc8580b69c6d11
+#: ../../source/introduction/glossary.rst:336
+msgid "IPC"
+msgstr ""
+
+# 71ae8d2d7b884c47bbc67f78e8dfcb54
+#: ../../source/introduction/glossary.rst:338
+msgid ""
+"Interprocess communication (IPC) is a set of programming interfaces that "
+"allow a programmer to coordinate activities among different program "
+"processes that can run concurrently in an operating system."
+msgstr ""
+
+# dbdf457f2b8a4f6d9233c52552742e88
+#: ../../source/introduction/glossary.rst:264
+msgid "issueance"
+msgstr ""
+
+# 3e9d626f62c54960bf5bbba8a052cd5f
+#: ../../source/introduction/glossary.rst:266
+msgid ""
+"The minting and granting of new cryptocurrency to a miner who has found a"
+" new block."
+msgstr ""
+
+# d222fe74cdf94d87a4edf01203249b93
+#: ../../source/introduction/glossary.rst:351
+msgid "js"
+msgstr ""
+
+# 1facb5104128441eb4694c61e86c954a
+#: ../../source/introduction/glossary.rst:353
+msgid "Javascript."
+msgstr ""
+
+# 3d8648f1b347448dab0407a9e41d7f2d
+#: ../../source/introduction/glossary.rst:366
+msgid "keyfile"
+msgstr ""
+
+# 19137c54129840008cac346d2dc633eb
+#: ../../source/introduction/glossary.rst:368
+msgid ""
+"Every account's private key/address pair exists as a single keyfile. "
+"These are JSON text files which contains the encrypted private key of the"
+" account, which can only be decrypted with the password entered during "
+"account creation."
+msgstr ""
+
+# b86ed84866ab456eba4ef2ca46ba755f
+#: ../../source/introduction/glossary.rst:131
+msgid "light client"
+msgstr ""
+
+# 4084b17c3660475586fa7774b4f283a8
+#: ../../source/introduction/glossary.rst:133
+msgid ""
+"A client program that allows users in low-capacity environments to still "
+"be able to execute and check the execution of transactions without "
+"needing to run a full Ethereum node (Geth)."
+msgstr ""
+
+# 35568af53b7d4ab9aab1e8bd4f938041
+#: ../../source/introduction/glossary.rst:363
+msgid "memory-hard"
+msgstr ""
+
+# c2f00c9543694d4bb145729328febb2a
+#: ../../source/introduction/glossary.rst:365
+msgid ""
+"Memory hard functions are processes that experience a drastic decrease in"
+" speed or feasibility when the amount of available memory even slightly "
+"decreases."
+msgstr ""
+
+# 561fbb1968ba4b7e9b05dfecb48402f8
+#: ../../source/introduction/glossary.rst:74
+msgid "message"
+msgstr ""
+
+# 0de24350f5344c6b8d148d13f6aa1350
+#: ../../source/introduction/glossary.rst:76
+msgid ""
+"A data transfer mechanism contracts use to communicate with other "
+"contracts. Messages can also be described as virtual objects that are "
+"never serialized and exist only in the Ethereum execution environment."
+msgstr ""
+
+# 6c1cf484b66f45888b1273f6c7ecd011
+#: ../../source/introduction/glossary.rst:186
+msgid "metropolis"
+msgstr ""
+
+# a3e89ecf3338430d863fbb8d7822ee2a
+#: ../../source/introduction/glossary.rst:188
+msgid ""
+"The third stage of Ethereum's release. This is the stage when the user "
+"interfaces come out (e.g. Mist), including a Dapp store, and non-"
+"technical users should feel comfortable joining at this point."
+msgstr ""
+
+# 10c3875ba1294064bf3c39147bd1545f
+#: ../../source/introduction/glossary.rst:210
+msgid "micropayment"
+msgstr ""
+
+# f958f5503ef44914adfcc904047af564
+#: ../../source/introduction/glossary.rst:212
+msgid ""
+"A micropayment is a financial transaction involving a very small sum of "
+"money (<1 USD) and usually one that occurs online."
+msgstr ""
+
+# 0b6f624257e240c58687c3b3c01e1c5a
+#: ../../source/introduction/glossary.rst:104
+msgid "mining"
+msgstr ""
+
+# f6c664da60064f50845e8b4bd4626f92
+#: ../../source/introduction/glossary.rst:106
+msgid ""
+"The process of verifying transactions and contract execution on the "
+"Ethereum blockchain in exchange for a reward in ether with the mining of "
+"every block."
+msgstr ""
+
+# af3f01d2f3a3406ab09c8d44ef47e4d5
+#: ../../source/introduction/glossary.rst:107
+msgid "mining pool"
+msgstr ""
+
+# 8d971f5a34d747c490517335adcd7bb2
+#: ../../source/introduction/glossary.rst:109
+msgid ""
+"The pooling of resources by miners, who share their processing power over"
+" a network, to split the reward equally, according to the amount of work "
+"they contributed to solving a block."
+msgstr ""
+
+# 4b67564e3ae64cf1ade51f88e4fc6ca8
+#: ../../source/introduction/glossary.rst:110
+msgid "mining reward"
+msgstr ""
+
+# a277e46ed4ea4add8d7aecf30e20692c
+#: ../../source/introduction/glossary.rst:112
+msgid ""
+"The amount of cryptographic tokens (in this case ether) that is given to "
+"the miner who mined a new block."
+msgstr ""
+
+# fb988c6660954451a0726b2dfd6c1e6b
+#: ../../source/introduction/glossary.rst:198
+msgid "morden"
+msgstr ""
+
+# f8dcfd3ca4424dffbda94b8149e90d22
+#: ../../source/introduction/glossary.rst:200
+msgid ""
+"Morden is the first Ethereum alternative testnet. It is expected to "
+"continue throughout the Frontier and Homestead era."
+msgstr ""
+
+# b0a1eeab3804427a8e014ca8d9b74c4e
+#: ../../source/introduction/glossary.rst:164
+msgid "NAT"
+msgstr ""
+
+# 5f8fdc74fd174f3e80338151cb934fb0
+#: ../../source/introduction/glossary.rst:166
+msgid ""
+"Network address translation (NAT) is a methodology of remapping one IP "
+"address space into another by modifying network address information in "
+"Internet Protocol (IP) datagram packet headers while they are in transit "
+"across a traffic routing device."
+msgstr ""
+
+# 0adb966153e94cbf934337db95fac1d9
+#: ../../source/introduction/glossary.rst:234
+msgid "network hashrate"
+msgstr ""
+
+# bde388c0c56f4c21a8233d36ef6c7023
+#: ../../source/introduction/glossary.rst:236
+msgid ""
+"The number of hash calculations the network can make per second "
+"collectively."
+msgstr ""
+
+# ecdadea5463e4438b7c7bfcdb443350f
+#: ../../source/introduction/glossary.rst:285
+msgid "network id"
+msgstr ""
+
+# f37981c7439e412c9dd6b5353cece7e8
+#: ../../source/introduction/glossary.rst:287
+msgid "A number which identifies a particular version of the Ethereum network."
+msgstr ""
+
+# ce921d9006cc4663ab008623e2535969
+#: ../../source/introduction/glossary.rst:167
+msgid "nonce"
+msgstr ""
+
+# 9635a18f34aa47f7a5705d9e77c2e3ca
+#: ../../source/introduction/glossary.rst:169
+msgid ""
+"Number Used Once or Number Once. A nonce, in information technology, is a"
+" number generated for a specific use, such as session authentication. "
+"Typically, a nonce is some value that varies with time, although a very "
+"large random number is sometimes used. In general usage, nonce means “for"
+" the immediate occasion” or “for now.” In the case of Blockchain Proof of"
+" Work scenarios, the hash value, found by a Miner, matching the network's"
+" Difficulty thus proving the Block Validity is called Nonce as well."
+msgstr ""
+
+# 7ad3c3c7f6fa43da8f3f20bd520d7c7a
+#: ../../source/introduction/glossary.rst:195
+msgid "olympic"
+msgstr ""
+
+# b45eb3156fd141e1aca5c5f50321e36f
+#: ../../source/introduction/glossary.rst:197
+msgid ""
+"The Frontier pre-release, which launched on May 9th 2015. It was meant "
+"for developers to help test the limits of the Ethereum blockchain."
+msgstr ""
+
+# dd3477489fab43d9852122c49e28c3e7
+#: ../../source/introduction/glossary.rst:393
+msgid "parity"
+msgstr ""
+
+# 9536c7274339497e901c626b4e2fadee
+#: ../../source/introduction/glossary.rst:395
+msgid ""
+"Ethereum client implemented in the Rust programming language, based on "
+"the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# b495b4b527f544848c08db9614edce95
+#: ../../source/introduction/glossary.rst:255
+msgid "patricia merkle tree"
+msgstr ""
+
+# 27b4a59c0c5d41acb38dda48d55b0af5
+#: ../../source/introduction/glossary.rst:257
+msgid ""
+"Merkle Patricia trees provide a cryptographically authenticated data "
+"structure that can be used to store all (key, value) bindings. They are "
+"fully deterministic, meaning that a Patricia tree with the same "
+"(key,value) bindings is guaranteed to be exactly the same down to the "
+"last byte and therefore have the same root hash, provide the holy grail "
+"of O(log(n)) efficiency for inserts, lookups and deletes, and are much "
+"easier to understand and code than more complex comparison-based "
+"alternatives like red-black trees."
+msgstr ""
+
+# 44bdddae89dd42c398f51481ed8a24af
+#: ../../source/introduction/glossary.rst:119
+msgid "peer"
+msgstr ""
+
+# f9eb5ef2298d414a964dc67db9194b37
+#: ../../source/introduction/glossary.rst:121
+msgid ""
+"Other computers on the network also running an Ethereum node (Geth) with "
+"an exact copy of the blockchain that you have."
+msgstr ""
+
+# c292642766b1494bb6fd433a099df78e
+#: ../../source/introduction/glossary.rst:155
+msgid "peer to peer network"
+msgstr ""
+
+# c800dd37d462482fa3422f629363175b
+#: ../../source/introduction/glossary.rst:157
+msgid ""
+"A network of computers that are collectively able to perform "
+"functionalities normally only possible with centralized, server-based "
+"services."
+msgstr ""
+
+# 03fe6b8c3c404dae896284512974146d
+#: ../../source/introduction/glossary.rst:300
+msgid "pegging"
+msgstr ""
+
+# c5b119cfb0b0455c9d1a2342f1a18a6e
+#: ../../source/introduction/glossary.rst:302
+msgid ""
+"Locking down the exchange rate of the coins/tokens in two chains (usually"
+" a main and a side chain) in a certain directiom."
+msgstr ""
+
+# d5226c3de443408597330248e7b623ea
+#: ../../source/introduction/glossary.rst:291
+msgid "pending transaction"
+msgstr ""
+
+# fe75298c989d4f31817c168ea5d3f0cd
+#: ../../source/introduction/glossary.rst:293
+msgid "A transaction that is not yet confirmed by the Ethereum network."
+msgstr ""
+
+# a72358491cdb4af39c55343cb5f8fd93
+#: ../../source/introduction/glossary.rst:330
+msgid "port"
+msgstr ""
+
+# b8b24e33ecdd4d4db3bbfab2f10e24f7
+#: ../../source/introduction/glossary.rst:332
+msgid ""
+"A network port is a communication endpoint used by a one of the existing "
+"standards of establishing a network conversation (e.g. TCP, UDP)."
+msgstr ""
+
+# 8b0032706228457eb0584191b7fef17f
+#: ../../source/introduction/glossary.rst:267
+msgid "presale"
+msgstr ""
+
+# 4d9a731b5ce046ac84dcca204d7c1622
+#: ../../source/introduction/glossary.rst:269
+msgid "Sale of cryptocurrency before the actual launch of the network."
+msgstr ""
+
+# 777605a4e41646d998cd5c5fcfd1ee47
+#: ../../source/introduction/glossary.rst:204
+msgid "private chain"
+msgstr ""
+
+# 53e163e5e8564e05afb3869b83efe847
+#: ../../source/introduction/glossary.rst:206
+msgid ""
+"A fully private blockchain is a blockchain where write permissions are "
+"kept centralized to one organization."
+msgstr ""
+
+# d0aca5ca4703468bad047dc0d9c04ed4
+#: ../../source/introduction/glossary.rst:318
+msgid "private key"
+msgstr ""
+
+# 87b6eee436c8485db9f7c8375a6bf9d5
+#: ../../source/introduction/glossary.rst:320
+msgid ""
+"A private key is a string of characters known only to the owner, that is "
+"paired with a public key to set off algorithms for text encryption and "
+"decryption."
+msgstr ""
+
+# 8c53a54562f24fe38ad57529ef817eb4
+#: ../../source/introduction/glossary.rst:174
+msgid "proof-of-stake"
+msgstr ""
+
+# 66eaeb899252431d8aec0813ba0baa37
+#: ../../source/introduction/glossary.rst:176
+msgid ""
+"An alternative method of mining blocks that require miners to demonstrate"
+" their possession of a certain amount of the currency of the network in "
+"question. This works on the principle that miners will be disincentivised"
+" to try to undermine a network in which they have a stake. PoS is less "
+"wasteful than PoW, but is still often used together with it to provide "
+"added security to the network."
+msgstr ""
+
+# a74c73d7b9034c8280f1c55622117e82
+#: ../../source/introduction/glossary.rst:171
+msgid "proof-of-work"
+msgstr ""
+
+# d727947740114f9da67c0659647576ca
+#: ../../source/introduction/glossary.rst:173
+msgid ""
+"Often seen in its abbreviated form \"PoW\", it refers to a mathematical "
+"value that can act as the proof of having solved a resource and time "
+"consuming computational problem."
+msgstr ""
+
+# e4f5d15d250e40c8b00677c4efb9590c
+#: ../../source/introduction/glossary.rst:225
+msgid "protocol"
+msgstr ""
+
+# 024b90426d624039a98be5931bc09787
+#: ../../source/introduction/glossary.rst:227
+msgid ""
+"A standard used to define a method of exchanging data over a computer "
+"network."
+msgstr ""
+
+# 7823fa726b3f4496bf30d85dfdeeea70
+#: ../../source/introduction/glossary.rst:321
+msgid "public key"
+msgstr ""
+
+# b0dc7103192c4ebd87290534db86c452
+#: ../../source/introduction/glossary.rst:323
+msgid ""
+"A string of characters derived from a private key that can be made "
+"public. The public key can be used to verify the authenticity of any "
+"signature created using the private key."
+msgstr ""
+
+# 990f3e4ef21e4030b87d5cddb952051a
+#: ../../source/introduction/glossary.rst:384
+msgid "pyethereum"
+msgstr ""
+
+# 10c3787f7e9d465cbc295c2a9d929afd
+#: ../../source/introduction/glossary.rst:386
+msgid ""
+"Ethereum client implemented in the Python programming language, based on "
+"the protocol as defined in the Ethereum Yellow Paper."
+msgstr ""
+
+# 36883a8df2d449d7a8bceef81320274d
+#: ../../source/introduction/glossary.rst:19
+msgid "reputation"
+msgstr ""
+
+# 6e24ba20ce2e42a7ae358f6cf4055fe2
+#: ../../source/introduction/glossary.rst:21
+msgid ""
+"The property of an identity that other entities believe that identity to "
+"be either (1) competent at some specific task, or (2) trustworthy in some"
+" context, i.e. not likely to betray others even if short-term profitable."
+msgstr ""
+
+# 3d37f36e6d0d4c439ae5277569abc97e
+#: ../../source/introduction/glossary.rst:333
+msgid "RPC"
+msgstr ""
+
+# 78afb302e5d14603a2025e4bbfaf6601
+#: ../../source/introduction/glossary.rst:335
+msgid ""
+"Remote Procedure Call, a protocol that a program uses to request a "
+"service from a program located in another computer in a network without "
+"having to understand the network details."
+msgstr ""
+
+# e668c4d132ba4e1689c20f99282426cb
+#: ../../source/introduction/glossary.rst:98
+msgid "selfdestruct"
+msgstr ""
+
+# b5cf2931dd874cd9a7a47d945d3c604f
+#: ../../source/introduction/glossary.rst:100
+msgid ""
+"A global variable in the Solidity language that allows you to "
+"`\\\"destroy the current contract, sending its funds to the given "
+"address\\\" "
+"<https://solidity.readthedocs.org/en/latest/miscellaneous.html#global-"
+"variables>`_. ``selfdestruct`` acts as an alias to the deprecated "
+"``suicide`` terminology in accordance with `EIP 6 \\- Renaming SUICIDE "
+"OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_. It"
+" frees up space on the blockchain and prevents future execution of the "
+"contract. The contract's address will still persist, but ether sent to it"
+" will be lost forever. The possibility to kill a contract has to be "
+"implemented by the contract creator him/herself using the Solidity "
+"``selfdestruct`` function."
+msgstr ""
+
+# f7f86a283f904b8e8d2450833487a1ea
+#: ../../source/introduction/glossary.rst:189
+msgid "serenity"
+msgstr ""
+
+# 43295d20d6d64338bf6db766ad2a2d1d
+#: ../../source/introduction/glossary.rst:191
+msgid ""
+"The fourth stage of Ethereum's release. This is when things are going to "
+"get fancy: the network is going to change its mining process from Proof-"
+"of-Work to Proof-of-Stake."
+msgstr ""
+
+# f5ca702427314388a00b3125d88a3676
+#: ../../source/introduction/glossary.rst:240
+msgid "serialization"
+msgstr ""
+
+# 1beb3df3210c4ec0a98c5e74895a26c8
+#: ../../source/introduction/glossary.rst:242
+msgid ""
+"The process of converting a data structure into a sequence of bytes. "
+"Ethereum internally uses an encoding format called recursive-length "
+"prefix encoding (RLP), described in the `RLP section of the wiki "
+"<https://github.com/ethereum/wiki/wiki/RLP>`_."
+msgstr ""
+
+# a847a8215fa148758b93dac0aa58d452
+#: ../../source/introduction/glossary.rst:146
+msgid "serpent"
+msgstr ""
+
+# 53f9956ef88942f6aa0bcc41686585ea
+#: ../../source/introduction/glossary.rst:148
+msgid ""
+"Serpent is a high-level language whose syntax is similar to that of "
+"Python and it is designed to compile to code for the Ethereum Virtual "
+"Machine."
+msgstr ""
+
+# 6db564883da4442d9241cd0c2adcc892
+#: ../../source/introduction/glossary.rst:213
+msgid "sharding"
+msgstr ""
+
+# f8e71b65ec8f416ba2b28c46fea47ec2
+#: ../../source/introduction/glossary.rst:215
+msgid ""
+"The splitting of the space of possible accounts (contracts are accounts "
+"too) into subspaces, for example, based on first digits of their "
+"numerical addresses. This allows for contract executions to be executed "
+"within 'shards' instead of network wide, allowing for faster transactions"
+" and greater scalability."
+msgstr ""
+
+# 5ad0328409df4bf19b8ad04d13cc66f5
+#: ../../source/introduction/glossary.rst:297
+msgid "sidechain"
+msgstr ""
+
+# c32c713416bf484397c4965f0d562d7d
+#: ../../source/introduction/glossary.rst:299
+msgid ""
+"A blockchain that branches off a main blockchain and checks in "
+"periodically with the main blockchain. Besides that it runs independently"
+" from the main chain, and any security compromises in the sidechain will "
+"not affect the main chain."
+msgstr ""
+
+# 7319e2a4cf634faf95faed64fce6b4af
+#: ../../source/introduction/glossary.rst:122
+msgid "signing"
+msgstr ""
+
+# 079f7f4dbe224740a1daf81895dd8ec3
+#: ../../source/introduction/glossary.rst:124
+msgid ""
+"Producing a piece of data from the data to be signed using your private "
+"key, to proof that the data originates from you."
+msgstr ""
+
+# 088e78dccef040c3bec43676b3c2bf1b
+#: ../../source/introduction/glossary.rst:143
+msgid "solidity"
+msgstr ""
+
+# c6caef929696453f876fbddc007b00bb
+#: ../../source/introduction/glossary.rst:145
+msgid ""
+"Solidity is a high-level language whose syntax is similar to that of "
+"JavaScript and it is designed to compile to code for the Ethereum Virtual"
+" Machine."
+msgstr ""
+
+# 05de7d0749a643aaa07a9386e8f0d611
+#: ../../source/introduction/glossary.rst:246
+msgid "SPV client"
+msgstr ""
+
+# 9f5a0e74e58f4fbd804a2c1aec38691b
+#: ../../source/introduction/glossary.rst:248
+msgid ""
+"A client that downloads only a small part of the blockchain, allowing "
+"users of low-power or low-storage hardware like smartphones and laptops "
+"to maintain almost the same guarantee of security by sometimes "
+"selectively downloading small parts of the state without needing to spend"
+" megabytes of bandwidth and gigabytes of storage on full blockchain "
+"validation and maintennance. See light client."
+msgstr ""
+
+# 92ef7e9b0a2c4f61a8f44ed5d86dc4e5
+#: ../../source/introduction/glossary.rst:113
+msgid "state"
+msgstr ""
+
+# 4283f8731cad4a5ea7adf223baa682f3
+#: ../../source/introduction/glossary.rst:115
+msgid ""
+"Refers to a snapshot of all balances and data at a particular point in "
+"time on the blockchain, normally referring to the condition at a "
+"particular block."
+msgstr ""
+
+# da47f5894dd64330a0ac72a95aa056bf
+#: ../../source/introduction/glossary.rst:270
+msgid "static node"
+msgstr ""
+
+# e150cfe8011d4d21bd8fe6880bf0bd35
+#: ../../source/introduction/glossary.rst:272
+msgid ""
+"A feature supported by Geth, the Golang Ethereum client, which makes it "
+"possible to always connect to specific peers. Static nodes are re-"
+"connected on disconnects. For details, see the :ref:`section on static "
+"nodes <cr-static-node>`."
+msgstr ""
+
+# 0bb5b466c8ba4cd7a4b4d9b118633eae
+#: ../../source/introduction/glossary.rst:95
+msgid "suicide"
+msgstr ""
+
+# 21b92d3842cf4530be91c90a8a4f1bf4
+#: ../../source/introduction/glossary.rst:97
+msgid ""
+"See self-destruct. ``selfdestruct`` acts as an alias to the deprecated "
+"``suicide`` terminology in accordance with `EIP 6 \\- Renaming SUICIDE "
+"OPCODE <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6.md>`_."
+msgstr ""
+
+# bbf13506aeae40ca837b60c451c10b45
+#: ../../source/introduction/glossary.rst:354
+msgid "syncing"
+msgstr ""
+
+# 1f0d83752f4541fab3b86fc0abf418f9
+#: ../../source/introduction/glossary.rst:356
+msgid "The process of downloading the entire blockchain."
+msgstr ""
+
+# dd7e65aec45d439383421b4e15fe5a67
+#: ../../source/introduction/glossary.rst:345
+msgid "system service"
+msgstr ""
+
+# 5a5557b8aeaf4b81b35507ff2e173c90
+#: ../../source/introduction/glossary.rst:347
+msgid "See base layer service"
+msgstr ""
+
+# eed254173d824704bc33eab3ead6db86
+#: ../../source/introduction/glossary.rst:201
+msgid "testnet"
+msgstr ""
+
+# 8bb1b776c84e4b309be83de4f0916a0a
+#: ../../source/introduction/glossary.rst:203
+msgid ""
+"A mirror network of the production Ethereum network that is meant for "
+"testing. See Morden."
+msgstr ""
+
+# fcc6d8220a3f40d3be4769ac7e5c00c2
+#: ../../source/introduction/glossary.rst:43
+msgid "token system"
+msgstr ""
+
+# ac4a4fd5ec6f4847bfdaa45dfdcdc14a
+#: ../../source/introduction/glossary.rst:45
+msgid ""
+"A fungible virtual good that can be traded. More formally, a token system"
+" is a database mapping addresses to numbers with the property that the "
+"primary allowed operation is a transfer of N tokens from A to B, with the"
+" conditions that N is non-negative, N is not greater than A's current "
+"balance, and a document authorizing the transfer is digitally signed by "
+"A. Secondary \"issuance\" and \"consumption\" operations may also exist, "
+"transaction fees may also be collected, and simultaneous multi-transfers "
+"with many parties may be possible. Typical use cases include currencies, "
+"cryptographic tokens inside of networks, company shares and digital gift "
+"cards."
+msgstr ""
+
+# 57c2d964c4474d31aab166c00482dd68
+#: ../../source/introduction/glossary.rst:71
+msgid "transaction"
+msgstr ""
+
+# 8bf7e6513e4244e48c7621c4e16d1b3d
+#: ../../source/introduction/glossary.rst:73
+msgid ""
+"The signed data package that stores a message to be sent from an "
+"externally owned account. Simply put, a transaction describes a transfer "
+"of information from an EOA to another EOA or a contract account."
+msgstr ""
+
+# 83b86e90e18b40e2b9a0b2169f3bcbc6
+#: ../../source/introduction/glossary.rst:101
+msgid "transaction fee"
+msgstr ""
+
+# 67960343fc4a4653b0e07db1f2420601
+#: ../../source/introduction/glossary.rst:103
+msgid ""
+"Also known as gas cost, it is the amount of ether that the miners will "
+"charge for the execution of your transaction."
+msgstr ""
+
+# 489c3bbd094148c2995f551f72d6c532
+#: ../../source/introduction/glossary.rst:306
+msgid "trustless"
+msgstr ""
+
+# 81021b1023c545d48f95b203790a8ef2
+#: ../../source/introduction/glossary.rst:308
+msgid ""
+"Refers to the ability of a network to trustworthily mediate transactions "
+"without any of the involved parties needing to trust anyone else."
+msgstr ""
+
+# 22bc18443d9742a7bada49947d7d3cb8
+#: ../../source/introduction/glossary.rst:249
+msgid "uncle"
+msgstr ""
+
+# a6f90d2c31994e6bbd891dd1ad164a7c
+#: ../../source/introduction/glossary.rst:251
+msgid ""
+"Uncles are blockchain blocks found by a miner, when a different miner has"
+" already found another block for the corresponding place in the "
+"blockchain. They are called “stale blocks”. The parent of an Uncle is an "
+"ancestor of the inserting block, located at the tip of the blockchain. In"
+" contrast to the Bitcoin network, Ethereum rewards stale blocks as well "
+"in order to avoid to penalise miners with a bad connection to the "
+"network. This is less critical in the Bitcoin network, because the Block "
+"Time there is much higher (~10 minutes) than on the Ethereum network "
+"(aimed to ~15 seconds)."
+msgstr ""
+
+# 07de49d9e12f4cfab387e29e8eee40c1
+#: ../../source/introduction/glossary.rst:261
+msgid "uncle rate"
+msgstr ""
+
+# 9fc5d824ee214c35a38ad5d4beb37dc7
+#: ../../source/introduction/glossary.rst:263
+msgid "The number of uncles produced per block."
+msgstr ""
+
+# b91080b8df714d3d9213d93086649be3
+#: ../../source/introduction/glossary.rst:34
+msgid "unique identity"
+msgstr ""
+
+# c5a2962ed34d48f3b000cb54fb6e732f
+#: ../../source/introduction/glossary.rst:36
+msgid ""
+"A set of cryptographically verifiable interactions that have the property"
+" that they were all created by the same person, with the added constraint"
+" that one person cannot have multiple unique identities"
+msgstr ""
+
+# d302bb1de8f84ba6803efd164bbdd578
+#: ../../source/introduction/glossary.rst:152
+msgid "virtual machine"
+msgstr ""
+
+# 1f96870efd5c424eb841a6e4b44de628
+#: ../../source/introduction/glossary.rst:154
+msgid "In computing, it refers to an emulation of a particular computer system."
+msgstr ""
+
+# 655ed9e3b78240729c0a40ec8d392e25
+#: ../../source/introduction/glossary.rst:89
+msgid "wallet"
+msgstr ""
+
+# 1e7fe4edc37e493e8da1d92ff0de5c2a
+#: ../../source/introduction/glossary.rst:91
+msgid ""
+"A wallet, in the most generic sense, refers to anything that can store "
+"ether or any other crypto token. In the crypto space in general, the term"
+" wallet is used to mean anything from a single private/public key pair "
+"(like a single paper wallet) all the way to applications that manage "
+"multiple key pairs, like the Mist Ethereum wallet."
+msgstr ""
+
+# 149bfffe83ba4fd9abc4f13998dedcfa
+#: ../../source/introduction/glossary.rst:31
+msgid "web of trust"
+msgstr ""
+
+# e033ab18949340c595c8d5259b61bbae
+#: ../../source/introduction/glossary.rst:33
+msgid ""
+"The idea that if A highly rates B, and B highly rates C, then A is likely"
+" to trust C. Complicated and powerful mechanisms for determining the "
+"reliability of specific individuals in specific concepts can "
+"theoretically be gathered from this principle."
+msgstr ""
+
+# 389cfccf721f44bc9b6d4a8ae56ea3a5
+#: ../../source/introduction/glossary.rst:77
+msgid "Web3"
+msgstr ""
+
+# 7030040440a64166b94d7d4514c49023
+#: ../../source/introduction/glossary.rst:79
+msgid ""
+"The exact definition of the Web3 paradigm is still taking form, but it "
+"generally refers to the phenomenon of increased connectedness between all"
+" kinds of devices, decentralisation of services and applications, "
+"semantic storage of information online and application of artificial "
+"intelligence to the web."
+msgstr ""
+
+# 19ab983931994e61a291fb5d590b4651
+#: ../../source/introduction/glossary.rst:7
+msgid "Đ"
+msgstr ""
+
+# 83947219400b43229dfecd6af4d7f6fa
+#: ../../source/introduction/glossary.rst:9
+msgid ""
+"Đ, `D with stroke <https://en.wikipedia.org/wiki/D_with_stroke>`_, is "
+"used in Old English, Middle English, Icelandic, and Faroese to stand for "
+"an uppercase letter \"Eth\". The uppercase eth (Ð) is also used to "
+"symbolize the cryptocurrency Dogecoin."
+msgstr ""
+
+# acb444adb48d48c198b23e7f6309a1b0
+#: ../../source/introduction/history-of-ethereum.rst:3
+msgid "History of Ethereum"
+msgstr ""
+
+# 2c84efc38d9c433bbe6be6bfb32fa0b0
+#: ../../source/introduction/history-of-ethereum.rst:5
+msgid ""
+"For a recent historical account, see `Taylor Gerring's blogpost "
+"<https://blog.ethereum.org/2016/02/09/cut-and-try-building-a-dream/>`_"
+msgstr ""
+
+# 512ac7c8a3434c9cbf0d7c236763362e
+#: ../../source/introduction/history-of-ethereum.rst:8
+msgid "Inception"
+msgstr ""
+
+# 0e1b61e14bde4dbab8a75aef7166d9ba
+#: ../../source/introduction/history-of-ethereum.rst:9
+msgid ""
+"Ethereum was initially described by Vitalik Buterin in late 2013 as a "
+"result of his research and work in the Bitcoin community. Shortly "
+"thereafter, Vitalik published the `Ethereum white paper "
+"<http://vbuterin.com/ethereum.html>`_, where he describes in detail the "
+"technical design and rationale for the Ethereum protocol and smart "
+"contracts architecture. In January 2014, Ethereum was formally announced "
+"by Vitalik at the The North American Bitcoin Conference in Miami, "
+"Florida, USA."
+msgstr ""
+
+# 4b1bae42d6ba4810bfb989366ce96d47
+#: ../../source/introduction/history-of-ethereum.rst:11
+msgid ""
+"Around that time, Vitalik also started working with Dr. Gavin Wood and "
+"together co-founded Ethereum. By April 2014, Gavin published the "
+"`Ethereum Yellow Paper <https://github.com/ethereum/yellowpaper>`_ that "
+"would serve as the technical specification for the Ethereum Virtual "
+"Machine (EVM). By following the detailed specification in the Yellow "
+"Paper, the Ethereum client has been implemented in seven programming "
+"languages (C++, Go, Python, Java, JavaScript, Haskell, Rust), and has "
+"resulted in better software overall."
+msgstr ""
+
+# 9ea44d3a7fe9404c878f1eff697286a7
+#: ../../source/introduction/history-of-ethereum.rst:13
+msgid ""
+"`Ethereum launches Cryptocurrency 2.0 network <http://www.coindesk.com"
+"/ethererum-launches-cryptocurrency-2-0-network/>`_ - Coindesk article of "
+"2014 Jan on the beginnings"
+msgstr ""
+
+# c6b6ee734c604705af644e9aa7ab5614
+#: ../../source/introduction/history-of-ethereum.rst:14
+msgid ""
+"`Ethereum announcement on bitcointalk "
+"<https://bitcointalk.org/index.php?topic=428589.0>`_ Vitalik's original "
+"announcement to the bitcoin community. Forum thread with 5000 replies."
+msgstr ""
+
+# 226886012eba4c3b927f00751aeb7cc4
+#: ../../source/introduction/history-of-ethereum.rst:17
+msgid "The Ethereum Foundation and the ether presale"
+msgstr ""
+
+# 123bcf73cdbd4fbbab7468ada5c8103c
+#: ../../source/introduction/history-of-ethereum.rst:18
+msgid ""
+"In addition to developing the software for Ethereum, the ability to "
+"launch a new cryptocurrency and blockchain requires a massive "
+"bootstrapping effort in order to assemble the resources needed to get it "
+"up and running. To kickstart a large network of developers, miners, "
+"investors, and other stakeholders, Ethereum announced its plan to conduct"
+" a presale of ether tokens, the currency unit of Ethereum. The legal and "
+"financial complexities of raising funds through a presale led to the "
+"creation of several legal entities, including the Ethereum Foundation "
+"(Stiftung Ethereum) established June 2014 in Zug, Switzerland."
+msgstr ""
+
+# 9d31534a55e546daa0aa50eb43440991
+#: ../../source/introduction/history-of-ethereum.rst:20
+msgid ""
+"Beginning in July 2014, Ethereum distributed the initial allocation of "
+"ether via a 42-day public ether presale, netting 31,591 bitcoins, worth "
+"$18,439,086 at that time, in exchange for about 60,102,216 ether. The "
+"results of the sale were initially used to pay back mounting legal debts "
+"and also for the months of developer effort that had yet to be "
+"compensated, and to finance the ongoing development of the Ethereum."
+msgstr ""
+
+# 0621419fdd374ccb94ba2b2cbced18bd
+#: ../../source/introduction/history-of-ethereum.rst:22
+msgid ""
+"`Launching the ether sale <https://blog.ethereum.org/2014/07/22"
+"/launching-the-ether-sale/>`_ - original official announcement on the "
+"Ethereum blog"
+msgstr ""
+
+# 127556189934448fb4cdb23553f2875f
+#: ../../source/introduction/history-of-ethereum.rst:23
+msgid ""
+"`Concise information-rich stats page about the presale "
+"<http://ether.fund/market>`_ by (since then inactive) `Ether.Fund "
+"<http://ether.fund/>`_"
+msgstr ""
+
+# 96954b708d0a4016a632e6f37f6a4832
+#: ../../source/introduction/history-of-ethereum.rst:24
+msgid ""
+"`Overview: Ethereum’s initial public sale "
+"<https://medium.com/@slacknation/overview-ethereum-s-initial-public-sale-"
+"563c05e95501>`_ - Blogpost by slacknation - all stats about the ether "
+"presale"
+msgstr ""
+
+# dfcff9ff3d774092a415fcfaa6220776
+#: ../../source/introduction/history-of-ethereum.rst:25
+msgid ""
+"`Terms and Conditions of the Presale "
+"<https://www.ethereum.org/pdfs/TermsAndConditionsOfTheEthereumGenesisSale.pdf>`_"
+msgstr ""
+
+# 88be1b68bc294ad98b873b7133ce71a1
+#: ../../source/introduction/history-of-ethereum.rst:29
+msgid "ETH/DEV and Ethereum development"
+msgstr ""
+
+# 3fdfd373acc04e8b963f4e0907f4b1ee
+#: ../../source/introduction/history-of-ethereum.rst:30
+msgid ""
+"Following the successful ether presale, Ethereum development was "
+"formalized under a non-for-profit organization called ETH DEV, which "
+"manages the development of Ethereum under contract from Ethereum Suisse –"
+" with Vitalik Buterin, Gavin Wood, and Jeffrey Wilcke as the 3 directors "
+"of the organization. Developer interest in Ethereum grew steadily "
+"throughout 2014 and the ETH DEV team delivered a series of proof-of-"
+"concept (PoC) releases for the development community to evaluate. "
+"Frequent posts by ETH DEV team on the  `the Ethereum blog "
+"<https://blog.ethereum.org>`_ also kept the excitement and momentum "
+"around Ethereum going. Increasing traffic and growing user-base on both "
+"the Ethereum forum and the ethereum subreddit testified that the platform"
+" is attracting a fast-growing and devoted developer community. This trend"
+" has been continuing to this very day."
+msgstr ""
+
+# e71fbfeeb60b4269b2f76549518e5b16
+#: ../../source/introduction/history-of-ethereum.rst:33
+msgid "DEVcon-0"
+msgstr ""
+
+# e3d90ee0e1fe4c83802d689e32e0943d
+#: ../../source/introduction/history-of-ethereum.rst:34
+msgid ""
+"In November 2014, ETH DEV organized the `DEVcon-0 event "
+"<https://blog.ethereum.org/2014/12/05/d%CE%BEvcon-0-recap/>`_, which "
+"brought together Ethereum developers from around the world to Berlin to "
+"meet and discuss a diverse range of Ethereum technology topics. Several "
+"of the presentations and sessions at DEVcon-0 would later drive important"
+" initiatives to make Ethereum more reliable, more secure, and more "
+"scalable. Overall, the event galvanized developers as they continued to "
+"work towards the launch of Ethereum."
+msgstr ""
+
+# 682c7735a91d41f0b94c58e59d2f16a1
+#: ../../source/introduction/history-of-ethereum.rst:36
+msgid "https://www.youtube.com/watch?v=_BvvUlKDqp0&list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS"
+msgstr ""
+
+# 2755bdf2178744608aad31918c075194
+#: ../../source/introduction/history-of-ethereum.rst:40
+msgid "DEVgrants program"
+msgstr ""
+
+# e3cebb1863a84727ab319f6cb8b1403c
+#: ../../source/introduction/history-of-ethereum.rst:41
+msgid ""
+"In April 2015, `the DEVgrants program "
+"<https://blog.ethereum.org/2015/04/07/devgrants-help/>`_ was announced, "
+"which is a program that offers funding for contributions both to the "
+"Ethereum platform, and to projects based on Ethereum. Hundreds of "
+"developers were already contributing their time and thinking to Ethereum "
+"projects and in open source projects. This program served to reward and "
+"support those developers for their contributions. The DEVgrants program "
+"continues to operate today and funding of the program was recently "
+"renewed in January 2016."
+msgstr ""
+
+# 1a69a33ffde3466fab16a2fa395ba8f5
+#: ../../source/introduction/history-of-ethereum.rst:43
+msgid "https://blog.ethereum.org/2016/01/08/d%CE%BEvgrants-update-new-funding/"
+msgstr ""
+
+# 9f5baf254d4e439282535f6daa73e5f3
+#: ../../source/introduction/history-of-ethereum.rst:47
+msgid "Olympic testnet, bug bounty and security audit"
+msgstr ""
+
+# 8b278a7f77a14bb2a3509dc650a798ec
+#: ../../source/introduction/history-of-ethereum.rst:49
+msgid ""
+"Throughout 2014 and 2015 development went through a series of proof of "
+"concept releases leading to the 9th POC open testnet, called Olympic. The"
+" developer community was `invited to test the limits of the network "
+"<https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/>`_ "
+"and a substantial prize fund was allocated to award those holding various"
+" records or having success in breaking the system in some way or other. "
+"The `rewards were announced <https://blog.ethereum.org/2015/08/26"
+"/olympic-rewards-announced/>`_ officially a month after the live release."
+msgstr ""
+
+# 5f4f928046494e54a3c199b392efe6d6
+#: ../../source/introduction/history-of-ethereum.rst:51
+msgid ""
+"In early 2015, a bug bounty program was launched through `ETH DEV Bounty "
+"Hunters website <http://bounty.ethdev.com/>`_ offering BTC rewards for "
+"finding vulnerabilities in any part of the Ethereum software stack. This "
+"has undoubtedly contributed to the reliability and security of Ethereum "
+"and the confidence of the Ethereum community in the technology. The "
+"bounty program is currently still active and there is no end date "
+"planned."
+msgstr ""
+
+# 4ee62f4475254e5ea911f37e68549a79
+#: ../../source/introduction/history-of-ethereum.rst:53
+msgid ""
+"The Ethereum security audit began at the end of 2014 and continued "
+"through the first half of 2015. Ethereum engaged multiple third party "
+"software security firms to conduct an end-to-end audit of all protocol-"
+"critical components (Ethereum VM, networking, Proof of Work). The audits "
+"uncovered security issues that were addressed and tested again and as a "
+"result ultimately led to a more secure platform."
+msgstr ""
+
+# f5c4c54bd00f4f1f9494edd12f9f2c90
+#: ../../source/introduction/history-of-ethereum.rst:55
+msgid ""
+"`Olympic testnet prerelease <https://blog.ethereum.org/2015/05/09"
+"/olympic-frontier-pre-release/>`_ - Vitalik's blogpost detailing olympic "
+"rewards"
+msgstr ""
+
+# ed01e5e983394721ac23d2c696a0f60f
+#: ../../source/introduction/history-of-ethereum.rst:56
+msgid ""
+"`Olympic rewards announced <https://blog.ethereum.org/2015/08/26/olympic-"
+"rewards-announced/>`_ - Vitalik's blogpost detailing the winners and "
+"prizes"
+msgstr ""
+
+# 98e8375f6e6a443ab0b60c7cc5a1175f
+#: ../../source/introduction/history-of-ethereum.rst:57
+msgid ""
+"`Bug bounty program launch <https://blog.ethereum.org/2015/03/20/juttas-"
+"update-bug-bounty-program-security-audit/>`_"
+msgstr ""
+
+# 3925154c9cd0437f92f8de6078d80375
+#: ../../source/introduction/history-of-ethereum.rst:58
+msgid "`ETH DEV Bounty Hunters website <http://bounty.ethdev.com/>`_"
+msgstr ""
+
+# a5bc17092e5b46a281c1e8cdf1d5634d
+#: ../../source/introduction/history-of-ethereum.rst:59
+msgid ""
+"`Least Authority audit blogpost <https://blog.ethereum.org/2015/07/07"
+"/know-ethereum-secure/>`_ - with links to the audit report"
+msgstr ""
+
+# 693a1fb0df88454bb0dd76ebbe6a5ef9
+#: ../../source/introduction/history-of-ethereum.rst:60
+msgid ""
+"`Deja Vu audit blogpost <http://www.dejavusecurity.com/blog/2015/7/23"
+"/deja-vu-security-assists-in-ethereum-release>`_"
+msgstr ""
+
+# 5112ecd3c47843da8fbbfdbcc479cc70
+#: ../../source/introduction/history-of-ethereum.rst:63
+msgid "The Ethereum Frontier Launch"
+msgstr ""
+
+# 4940a0a7c89c4e8fa5046247fad78123
+#: ../../source/introduction/history-of-ethereum.rst:65
+msgid ""
+"The Ethereum Frontier network launched on July 30th, 2015, and developers"
+" began writing smart contracts and decentralized apps to deploy on the "
+"live Ethereum network. In addition, miners began to join the Ethereum "
+"network to help secure the Ethereum blockchain and earn ether from mining"
+" blocks. Even though the Frontier release is the first milestone in the "
+"Ethereum project and was intended for use by developers as a beta "
+"version, it turned out to be more capable and reliable than anyone "
+"expected, and developers have rushed in to build solutions and improve "
+"the Ethereum ecosystem."
+msgstr ""
+
+# 083e24ae0ec746d0b930e34095b9998d
+#: ../../source/introduction/history-of-ethereum.rst:67
+msgid "See also:"
+msgstr ""
+
+# e2f4f285ae9a4bd7b89add3051dabfcd
+#: ../../source/introduction/history-of-ethereum.rst:69
+msgid ""
+"`Original announcement of the release scheme "
+"<https://blog.ethereum.org/2015/03/03/ethereum-launch-process>`__ by "
+"Vinay Gupta"
+msgstr ""
+
+# 29fc6c0a67824818b68fec9c3f723c18
+#: ../../source/introduction/history-of-ethereum.rst:70
+msgid ""
+"`Frontier is coming <https://blog.ethereum.org/2015/07/22/frontier-is-"
+"coming-what-to-expect-and-how-to-prepare>`_ - Frontier launch "
+"announcement by Stephan Tual"
+msgstr ""
+
+# 9d71bc0394424154982d097d613700d6
+#: ../../source/introduction/history-of-ethereum.rst:71
+msgid ""
+"`Frontier launch final steps <https://blog.ethereum.org/2015/07/27/final-"
+"steps/>`_ - Follow-up post to announcement"
+msgstr ""
+
+# 85ce224107384e12b09bc0eed1a7fd19
+#: ../../source/introduction/history-of-ethereum.rst:72
+msgid ""
+"`Ethereum goes live with Frontier launch "
+"<https://blog.ethereum.org/2015/07/30/ethereum-launches>`_"
+msgstr ""
+
+# 2393420f08174f5983ee84470700bb7d
+#: ../../source/introduction/history-of-ethereum.rst:73
+msgid "`The frontier website <https://frontier.ethereum.org>`_ -"
+msgstr ""
+
+# 8386858aa72642c3bd5abbbc76b8cc7b
+#: ../../source/introduction/history-of-ethereum.rst:76
+msgid "DEVCON1"
+msgstr ""
+
+# 64c789769e7240ecaa65e9e512e8dc6d
+#: ../../source/introduction/history-of-ethereum.rst:77
+msgid ""
+"The second developers' conference `DEVCON1 "
+"<https://devcon.ethereum.org/>`_  took place in the city London at the "
+"beginning of November 2015. The 5-day event featured more than 100 "
+"presentations, panel discussions and lightening talks, attracted more "
+"than 400 participants, a mix of developers, entrepreneurs, thinkers, and "
+"business executives. The talks were all recorded and are `freely "
+"available "
+"<https://www.youtube.com/playlist?list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk>`_"
+msgstr ""
+
+# 789b0de870004472bcf20734b8ae7a10
+#: ../../source/introduction/history-of-ethereum.rst:80
+msgid ""
+"The presence of large companies like UBS, IBM and Microsoft clearly "
+"indicated enterprise interest in the technology. Microsoft announced that"
+" it would offer `Ethereum on its new Blockchain as a Service "
+"<https://azure.microsoft.com/en-us/blog/ethereum-blockchain-as-a-service-"
+"now-on-azure/>`_  offering on the Microsoft Azure cloud platform. In "
+"conjunction with DEVCON1, this announcement will be remembered as the "
+"moment when blockchain technology became mainstream, with Ethereum at the"
+" center of it."
+msgstr ""
+
+# 6b23606ac1b34a3785e972100a620926
+#: ../../source/introduction/history-of-ethereum.rst:82
+msgid ""
+"`DEVCON1 talks Youtube playlist "
+"<https://www.youtube.com/playlist?list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk>`_"
+msgstr ""
+
+# 38909376152243f78a0ee1f55df52491
+#: ../../source/introduction/history-of-ethereum.rst:83
+msgid ""
+"`DEVCON1 website <https://devcon.ethereum.org/>`_ full listing of "
+"presentations with links to the slides if available."
+msgstr ""
+
+# 6983544990874be8985441c9287efab0
+#: ../../source/introduction/introduction.rst:3
+msgid "Introduction"
+msgstr ""
+
+# 3fc87f0ecc7648d59cdafa10366704eb
+#: ../../source/introduction/the-homestead-release.rst:3
+msgid "The Homestead Release"
+msgstr ""
+
+# e009248176b34287a4a2423a1c53e40d
+#: ../../source/introduction/the-homestead-release.rst:6
+msgid "Milestones of the Ethereum development roadmap"
+msgstr ""
+
+# 0d1c05cdf12147b3b578fa0b554e3d86
+#: ../../source/introduction/the-homestead-release.rst:8
+msgid "Prerelease Step 0: Olympic testnet - launched May 2015"
+msgstr ""
+
+# 5ae7cf3780fb477382fc6c4d6b659d85
+#: ../../source/introduction/the-homestead-release.rst:9
+msgid "Release Step One: Frontier - launched 30 July 2015"
+msgstr ""
+
+# 135fed7b64924694b92ad65d06c42bad
+#: ../../source/introduction/the-homestead-release.rst:10
+msgid "Release Step Two: Homestead - to launch Q1 2016"
+msgstr ""
+
+# b68ab3a858094583b0a7bfe1839c7b1c
+#: ../../source/introduction/the-homestead-release.rst:11
+msgid "Release Step Three: Metropolis - TBA"
+msgstr ""
+
+# 2f7154eea576497aae0d3aac65bbb818
+#: ../../source/introduction/the-homestead-release.rst:12
+msgid "Release Step Four: Serenity - TBA"
+msgstr ""
+
+# d7bf01755e934e8497f8b9b9fda422dd
+#: ../../source/introduction/the-homestead-release.rst:14
+msgid ""
+"Homestead is introduced automatically at block number #1,150,000 which "
+"should occur roughly around March 14th, 2016, Pi Day."
+msgstr ""
+
+# 529d7249ae1a40bfb0ba203462695948
+#: ../../source/introduction/the-homestead-release.rst:16
+msgid ""
+"While `the original plan laid out before Frontier "
+"<https://blog.ethereum.org/2015/03/03/ethereum-launch-process/>`_ is "
+"still valid, the substance behind that thinking changed somewhat. As the "
+"Olympic testnet phase (before Frontier release) saw a lot of major "
+"improvements, Frontier was launched right after not including quite a few"
+" caveat features (lower mining reward). Naturally then Homestead was "
+"meant to be the real deal finally launching the Ethereum network "
+"improving upon Frontier's wild west and bringing stability and "
+"reliability to the network. Our hope is that Homestead delivers on this "
+"promise no matter how high the bar is set already."
+msgstr ""
+
+# d2788df53dfc41e08e86385bf41ba913
+#: ../../source/introduction/the-homestead-release.rst:21
+msgid "Homestead hard fork changes"
+msgstr ""
+
+# 9a25bdb87c8640dc87d79ced9c0cbfd3
+#: ../../source/introduction/the-homestead-release.rst:22
+msgid ""
+"Ethereum in the narrow formal sense is a suite of protocols. Homestead "
+"comes with a few backward-incompatible protocol changes, and therefore "
+"will require a hard fork."
+msgstr ""
+
+# a410df88410f448d93c0f301bcd726fa
+#: ../../source/introduction/the-homestead-release.rst:25
+msgid ""
+"`EIP 2: "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki>`_"
+msgstr ""
+
+# 4b509eb623d440319141d4bfec513c2d
+#: ../../source/introduction/the-homestead-release.rst:27
+msgid ""
+"cost for creating contracts via a transaction is increased from 21000 to "
+"53000. Contract creation from a contract using the ``CREATE`` opcode is "
+"unaffected."
+msgstr ""
+
+# be1969f0314f47e68064b29f65ae6472
+#: ../../source/introduction/the-homestead-release.rst:28
+msgid ""
+"transaction signatures whose s-value is greater than ``secp256k1n/2`` are"
+" now considered invalid"
+msgstr ""
+
+# 01035a833e3c4040b050412ee5aee66a
+#: ../../source/introduction/the-homestead-release.rst:29
+msgid ""
+"If contract creation does not have enough gas to pay for the final gas "
+"fee for adding the contract code to the state, the contract creation "
+"fails (ie. goes out-of-gas) rather than leaving an empty contract."
+msgstr ""
+
+# 977de34e073345f3861b2521e3722222
+#: ../../source/introduction/the-homestead-release.rst:30
+msgid "Change the difficulty adjustment algorithm"
+msgstr ""
+
+# a099a31f7a104407afa426cc38ddd0da
+#: ../../source/introduction/the-homestead-release.rst:31
+msgid ""
+"`EIP 7: DELEGATECALL "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7.md>`_: Add a new"
+" opcode, ``DELEGATECALL`` at ``0xf4``, which is similar in idea to "
+"``CALLCODE``, except that it propagates the sender and value from the "
+"parent scope to the child scope, ie. the call created has the same sender"
+" and value as the original call. See `comments on EIP 7 "
+"<https://github.com/ethereum/EIPs/issues/23>`_"
+msgstr ""
+
+# cf29db0e7d0d4bc3914054d40e78a6bd
+#: ../../source/introduction/the-homestead-release.rst:32
+msgid ""
+"`EIP 8: devp2p Forward Compatibility compliance with the Robustness "
+"Principle <https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8.md>`_ "
+"Changes to the RLPx Discovery Protocol and RLPx TCP transfer protocol to "
+"ensure that all client software in use on the Ethereum network can cope "
+"with future network protocol upgrades."
+msgstr ""
+
+# 162a0ad76c624baf85bf896110a69c9b
+#: ../../source/introduction/the-homestead-release.rst:34
+msgid "The changes have the following benefits:"
+msgstr ""
+
+# f862266cfd554316be13de8a6d8512bc
+#: ../../source/introduction/the-homestead-release.rst:36
+msgid ""
+"EIP-2/1 eliminates the excess incentive to create contracts via "
+"transactions, where the cost is 21000, rather than contracts, where the "
+"cost is 32000."
+msgstr ""
+
+# a712420275584568a837006d5e657d11
+#: ../../source/introduction/the-homestead-release.rst:37
+msgid ""
+"EIP-2/1 also fixes the protocol \"bug\" that with the help of suicide "
+"refunds, it is currently possible to make a simple ether value transfer "
+"using only 11664 gas."
+msgstr ""
+
+# 546c5fadaa4646fa93db2da0ad7cddb2
+#: ../../source/introduction/the-homestead-release.rst:38
+msgid ""
+"EIP-2/2 fixes a transaction malleability concern (not a security flaw, "
+"but a UI incovenience)."
+msgstr ""
+
+# d483d55eddb745e899f80f957162880d
+#: ../../source/introduction/the-homestead-release.rst:39
+msgid ""
+"EIP-2/3 creates a more intuitive \"success or fail\" distinction in the "
+"result of a contract creation process, rather than the current \"success,"
+" fail, or empty contract\" trichotomy"
+msgstr ""
+
+# 9ef6d18417f24b1988b60eec496590ef
+#: ../../source/introduction/the-homestead-release.rst:40
+msgid ""
+"EIP-2/4 eliminates the excess incentive to set the timestamp difference "
+"to exactly 1 in order to create a block that has slightly higher "
+"difficulty and that will thus be guaranteed to beat out any possible "
+"forks. This guarantees to keep block time in the 10-20 range and "
+"according to simulations restores the target 15 second blocktime (instead"
+" of the current effective 17s)."
+msgstr ""
+
+# 7148698a0c7b40199978f2d06ea1c17b
+#: ../../source/introduction/the-homestead-release.rst:41
+msgid ""
+"EIP-7 makes it much easier for a contract to store another address as a "
+"mutable source of code and ''pass through'' calls to it, as the child "
+"code would execute in essentially the same environment (except for "
+"reduced gas and increased callstack depth) as the parent."
+msgstr ""
+
+# 76e637c92a2946ea93103063e1395a92
+#: ../../source/introduction/the-homestead-release.rst:42
+msgid ""
+"EIP-8 makes sure that all client software in use on the Ethereum network "
+"can cope with future network protocol upgrades."
+msgstr ""
+
+# 8bd5cf4568224abfa00b5fe238f034a3
+#: ../../source/introduction/the-homestead-release.rst:45
+msgid ""
+"`Reddit discussion on Homestead Release "
+"<https://www.reddit.com/r/ethereum/comments/48arax/homestead_release_faq/>`_"
+msgstr ""
+
+# 16df585c0ea44c6bb30dfe1749176141
+#: ../../source/introduction/what-is-ethereum.rst:3
+msgid "A next generation blockchain"
+msgstr ""
+
+# 3f02c5d23fa349e28c32dcba67aac26b
+#: ../../source/introduction/what-is-ethereum.rst:4
+msgid ""
+"Ethereum is an open blockchain platform that lets anyone build and use "
+"decentralized applications that run on blockchain technology. Like "
+"Bitcoin, no one controls or owns Ethereum – it is an open-source project "
+"built by many people around the world. But unlike the Bitcoin protocol, "
+"Ethereum was designed to be adaptable and flexible. It is easy to create "
+"new applications on the Ethereum platform, and with the Homestead "
+"release, it is now safe for anyone to use those applications."
+msgstr ""
+
+# 481e7248ca5446879299efb0eef9a8d3
+#: ../../source/introduction/what-is-ethereum.rst:6
+msgid ""
+"Blockchain technology is the technological basis of Bitcoin, first "
+"described by its mysterious author Satoshi Nakamoto in his white paper "
+"\"Bitcoin: A Peer-to-Peer Electronic Cash System\", published in 2008. "
+"While the use of blockchains for more general uses was already discussed "
+"in the original paper, it was not until a few years later that blockchain"
+" technology emerged as a generic term. A blockchain is a distributed "
+"computing architecture where every network node executes and records the "
+"same transactions, which are grouped into blocks. Only one block can be "
+"added at a time, and every block contains a mathematical proof that "
+"verifies that it follows in sequence from the previous block. In this "
+"way, the blockchain’s \"distributed database\" is kept in consensus "
+"across the whole network. Individual user interactions with the ledger "
+"(transactions) are secured by strong cryptography. Nodes that maintain "
+"and verify the network are incentivized by mathematically enforced "
+"economic incentives coded into the protocol."
+msgstr ""
+
+# dd9b9a141484462195cffc32c9b83cec
+#: ../../source/introduction/what-is-ethereum.rst:8
+msgid ""
+"In Bitcoin's case the distributed database is conceived of as a table of "
+"account balances, a ledger, and transactions are transfers of the bitcoin"
+" token to facilitate trustless finance between individuals. But as "
+"bitcoin began attracting greater attention from developers and "
+"technologists, novel projects began to use the bitcoin network for "
+"purposes other than transfers of value tokens. Many of these took the "
+"form of \"alt coins\" - separate blockchains with cryptocurrencies of "
+"their own which improved on the original bitcoin protocol to add new "
+"features or capabilities. In late 2013, Ethereum's inventor Vitalik "
+"Buterin proposed that a single blockchain with the capability to be "
+"reprogrammed to perform any arbitrarily complex computation could subsume"
+" these many other projects."
+msgstr ""
+
+# d4b672aa982842259379ff30ce80075f
+#: ../../source/introduction/what-is-ethereum.rst:10
+msgid ""
+"In 2014, Ethereum founders Vitalik Buterin, Gavin Wood and Jeffrey Wilcke"
+" began work on a next-generation blockchain that had the ambitions to "
+"implement a general, fully trustless smart contract platform."
+msgstr ""
+
+# 33df24dad70c4cd6880b30a552ad56ae
+#: ../../source/introduction/what-is-ethereum.rst:14
+msgid "What is Ethereum?"
+msgstr ""
+
+# 5faa9d6d040247a892a49e97ed5f3ea0
+#: ../../source/introduction/what-is-ethereum.rst:16
+msgid ""
+"Ethereum is a programmable blockchain. Rather than give users a set of "
+"pre-defined operations (e.g. bitcoin transactions), Ethereum allows users"
+" to create their own operations of any complexity they wish. In this way,"
+" it serves as a platform for many different types of decentralized "
+"blockchain applications, including but not limited to cryptocurrencies."
+msgstr ""
+
+# 7427a34d488b403e9390ac379da051f4
+#: ../../source/introduction/what-is-ethereum.rst:18
+msgid ""
+"Ethereum in the narrow sense refers to a suite of protocols that define a"
+" platform for decentralised applications. At the heart of it is the "
+"Ethereum Virtual Machine (\"EVM\"), which can execute code of arbitrary "
+"algorithmic complexity. In computer science terms, Ethereum is \"Turing "
+"complete\". Developers can create applications that run on the EVM using "
+"friendly programming languages modelled on existing languages like "
+"javascript and python."
+msgstr ""
+
+# 3e5033b54be7419dae633dd00a6d1869
+#: ../../source/introduction/what-is-ethereum.rst:20
+msgid ""
+"Like any blockchain, Ethereum also includes a peer-to-peer network "
+"protocol. The Ethereum blockchain database is maintained and updated by "
+"many nodes connected to the network. Each and every node of the network "
+"runs the EVM and executes the same instructions. For this reason, "
+"Ethereum is sometimes described evocatively as a \"world computer\"."
+msgstr ""
+
+# 4de23931f53149a7825a684825082ae4
+#: ../../source/introduction/what-is-ethereum.rst:22
+msgid ""
+"This massive parallelisation of computing across the entire Ethereum "
+"network is not done to make computation more efficient. In fact, this "
+"process makes computation on Ethereum far slower and more expensive than "
+"on a traditional \"computer\". Rather, every Ethereum node runs the EVM "
+"in order to maintain consensus across the blockchain. Decentralized "
+"consensus gives Ethereum extreme levels of fault tolerance, ensures zero "
+"downtime, and makes data stored on the blockchain forever unchangeable "
+"and censorship-resistant."
+msgstr ""
+
+# 40380aaa9ec14d0980116694d9f1d54c
+#: ../../source/introduction/what-is-ethereum.rst:24
+msgid ""
+"The Ethereum platform itself is featureless or value-agnostic. Similar to"
+" programming languages, it is up to entrepreneurs and developers to "
+"decide what it should be used for. However, it is clear that certain "
+"application types benefit more than others from Ethereum's capabilities. "
+"Specifically, ethereum is **suited for applications that automate direct "
+"interaction between peers or facilitate coordinated group action across a"
+" network**. For instance, applications for coordinating peer-to-peer "
+"marketplaces, or the automation of complex financial contracts. Bitcoin "
+"allows for individuals to exchange cash without involving any middlemen "
+"like financial institutions, banks, or governments. Ethereum’s impact may"
+" be more far-reaching. In theory, financial interactions or exchanges of "
+"any complexity could be carried out automatically and reliably using code"
+" running on Ethereum. Beyond financial applications, any environments "
+"where trust, security, and permanence are important – for instance, "
+"asset-registries, voting, governance, and the internet of things – could "
+"be massively impacted by the Ethereum platform."
+msgstr ""
+
+# 13cab1a5ccc846898cb7f458921b731f
+#: ../../source/introduction/what-is-ethereum.rst:28
+msgid "How does Ethereum work?"
+msgstr ""
+
+# 2b63140e6fbd4e3da20a161e1f62c869
+#: ../../source/introduction/what-is-ethereum.rst:29
+msgid ""
+"Ethereum incorporates many features and technologies that will be "
+"familiar to users of Bitcoin, while also introducing many modifications "
+"and innovations of its own."
+msgstr ""
+
+# 3a2d6c60f9e041aeabc379c82597dfff
+#: ../../source/introduction/what-is-ethereum.rst:31
+msgid ""
+"Whereas the Bitcoin blockchain was purely a list of transactions, "
+"**Ethereum's basic unit is the account**. The Ethereum blockchain tracks "
+"the state of every account, and all state transitions on the Ethereum "
+"blockchain are transfers of value and information beween accounts. There "
+"are two types of account:"
+msgstr ""
+
+# fd5d76db30f642c0812c5686fe367d3d
+#: ../../source/introduction/what-is-ethereum.rst:33
+msgid "Externally Owned Accounts (EOAs), which are controlled by private keys"
+msgstr ""
+
+# 5d8c8303e337492dbdf3de43b8860109
+#: ../../source/introduction/what-is-ethereum.rst:34
+msgid ""
+"Contract Accounts, which are controlled by their contract code and can "
+"only be \"activated\" by an EOA"
+msgstr ""
+
+# c27eb023d80244169522dfbf32d40054
+#: ../../source/introduction/what-is-ethereum.rst:36
+msgid ""
+"For most users, the basic difference between these is that human users "
+"control EOAs - because they can control the private keys which give "
+"control over an EOA. Contract accounts, on the other hand, are governed "
+"by their internal code. If they are \"controlled\" by a human user, it is"
+" because they are *programmed* to be controlled by an EOA with a certain "
+"address, which is in turn controlled by whoever holds the private keys "
+"that control that EOA. The popular term \"smart contracts\" refers to "
+"code in a Contract Account – programs that execute when a transaction is "
+"sent to that account. Users can create new contracts by deploying code to"
+" the blockchain."
+msgstr ""
+
+# d48680c1b6364a95a258531862401946
+#: ../../source/introduction/what-is-ethereum.rst:38
+msgid ""
+"Contract accounts only perform an operation when instructed to do so by "
+"an EOA. So it is not possible for a Contract account to be performing "
+"native operations like random number generation or API calls – it can do "
+"these things only if prompted by an EOA. This is because Ethereum "
+"requires nodes to be able to agree on the outcome of computation, which "
+"requires a guarantee of strictly deterministic execution."
+msgstr ""
+
+# 51f6e349d76d43cfa0c06404f75a8762
+#: ../../source/introduction/what-is-ethereum.rst:40
+msgid ""
+"Like in Bitcoin, users must pay small transaction fees to the network. "
+"This protects the Ethereum blockchain from frivolous or malicious "
+"computational tasks, like DDoS attacks or infinite loops. The sender of a"
+" transaction must pay for each step of the \"program\" they activated, "
+"including computation and memory storage.  These fees are paid in amounts"
+" of Ethereum's native value-token, ether."
+msgstr ""
+
+# 7825a8990ba74d608d53f120b4ae9c68
+#: ../../source/introduction/what-is-ethereum.rst:42
+msgid ""
+"These transaction fees are collected by the nodes that validate the "
+"network. These \"miners\" are nodes in the Ethereum network that receive,"
+" propogate, verify, and execute transactions. The miners then group the "
+"transactions – which include many updates to the \"state\" of accounts in"
+" the Ethereum blockchain – into what are called \"blocks\", and miners "
+"then compete with one another for *their* block to be the next one to be "
+"added to the blockchain. Miners are rewarded with ether for each "
+"successful block they mine. This provides the economic incentive for "
+"people to dedicate hardware and electricity to the Ethereum network."
+msgstr ""
+
+# 914997b932574046bd1d9509266d0ac4
+#: ../../source/introduction/what-is-ethereum.rst:44
+msgid ""
+"Just as in the Bitcoin network, miners are tasked with solving a complex "
+"mathematical problem in order to succesfully \"mine\" a block. This is "
+"known as a \"Proof of Work\". Any computational problem that requires "
+"orders of magnitude more resources to solve algorithmically than it takes"
+" to verify the solution is a good candidate for proof of work. In order "
+"to discourage centralisation due to the use of specialised hardware (e.g."
+" ASICs), as has occurred in the Bitcoin network, Ethereum chose a memory-"
+"hard computational problem. If the problem requires memory as well as "
+"CPU, the ideal hardware is in fact the general computer. This makes "
+"Ethereum's Proof of Work ASIC-resistant, allowing a more decentralized "
+"distribution of of security than blockchains whose mining is dominated by"
+" specialized hardware, like Bitcoin."
+msgstr ""
+
+# 59efdcd542ae4830b749a8cfa95fe576
+#: ../../source/introduction/what-is-ethereum.rst:48
+msgid "Web 3: A platform for decentralized apps"
+msgstr ""
+
+# 3f40ce89088242aa9f9033a7ea497417
+#: ../../source/introduction/what-is-ethereum.rst:49
+msgid ""
+"Many have come to believe that an open, trustless blockchain platform "
+"like Ethereum is perfectly suited to serve as the shared \"back end\" to "
+"a decentralized, secure internet - Web 3.0. An internet where core "
+"services like DNS and digital identity are decentralized, and where "
+"individuals can engage in economic interactions with each other."
+msgstr ""
+
+# d663b8b775434c8d9b8dbf81d29aaee2
+#: ../../source/introduction/what-is-ethereum.rst:51
+msgid ""
+"As intended by the Ethereum developers, Ethereum is a blank canvas and "
+"you have the freedom to build whatever you want with it. The Ethereum "
+"protocol is meant to be generalized so that the core features can be "
+"combined in arbitrary ways. Ideally, dapp projects on Ethereum will "
+"leverage the Ethereum blockchain to build solutions that rely on "
+"decentralized consensus to provide new products and services that were "
+"not previously possible."
+msgstr ""
+
+# 384d47e384b8488bacb598b965a8f977
+#: ../../source/introduction/what-is-ethereum.rst:53
+msgid ""
+"Ethereum is perhaps best described as an ecosystem: the core protocol is "
+"supported by various pieces of infrastructure, code, and community that "
+"together make up the Ethereum project. Ethereum can also be understood by"
+" looking at the projects that use Ethereum. Already, there are a number "
+"of high-profile projects built on Ethereum such as Augur, Digix, Maker, "
+"and many more (see _`Dapps`). In addition, there are development teams "
+"that build open source components that anyone can use.  While each of "
+"these organizations are separate from the Ethereum Foundation and have "
+"their own goals, they undoubtedly benefit the overall Ethereum ecosystem."
+msgstr ""
+

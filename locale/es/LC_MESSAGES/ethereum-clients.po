@@ -1,0 +1,734 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# b40934767242465daa16dcaaba2a2f42
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:3
+msgid "Building from source"
+msgstr ""
+
+# 5df207f56d844fcf8e15d6e496f97abc
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:5
+msgid ""
+"The cpp-ethereum codebase is written in `Modern C++ style "
+"<https://msdn.microsoft.com/en-CA/library/hh279654.aspx>`_, split across "
+"a (probably unnecessarily) large number of libraries and applications.   "
+"The libraries are dynamically linked (DLLs or SOs), although we `plan to "
+"support static linkage <https://github.com/ethereum/webthree-"
+"umbrella/issues/337>`_ soon too."
+msgstr ""
+
+# 96966d8f58e24a74ac8da78ea88fe841
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:12
+msgid ""
+"To get the source code on your machine, the simplest approach is to clone"
+" the whole `webthree-umbrella <http://github.com/ethereum/webthree-"
+"umbrella>`_ repository (or your fork of it) from Github, with recursive "
+"cloning enabled, like so: ::"
+msgstr ""
+
+# 274c75e42a034af7a01e0ef74de09427
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:19
+msgid ""
+"This repository gathers all of the C++ codebase under a single folder "
+"using `git sub-modules <https://git-scm.com/book/en/v2/Git-Tools-"
+"Submodules>`_."
+msgstr ""
+
+# e72ca5b80475485cacc94ed281878ec0
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:25
+msgid "Building for Linux"
+msgstr ""
+
+# 03bfd7c60b3049578efd10066f0af5b4
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:28
+msgid "Building for Windows"
+msgstr ""
+
+# bf4cc9b998604742b49ef0438849ab04
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:32
+msgid "Building for OS X"
+msgstr ""
+
+# 51f462ce5f38424f99235ff7e86bf14c
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:34
+msgid ""
+"It is impossible for us to avoid OS X build breaks because `Homebrew is a"
+" \"rolling release\" package manager <https://github.com/ethereum"
+"/webthree-umbrella/issues/118>`_ which means that the ground will forever"
+" be moving underneath us unless we add all external dependencies to our "
+"`Homebrew tap <http://github.com/ethereum/homebrew-ethereum>`_, or add "
+"them as git sub-modules within the umbrella projects.  End-user results "
+"vary depending on when they are build the project.  Building yesterday "
+"may have worked for you, but that doesn't guarantee that your friend will"
+" have the same result today on their machine.   Needless to say, this "
+"isn't a happy situation."
+msgstr ""
+
+# 451b2886954343b5920c21b1361a8d63
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:45
+msgid ""
+"If you hit build breaks for OS X please look through the `Github issues "
+"<https://github.com/ethereum/webthree-umbrella/issues>`_ to see whether "
+"the issue you are experiencing has already been reported.   If so, please"
+" comment on that existing issue.  If you don't see anything which looks "
+"similar, please create a new issue, detailing your OS X version, cpp-"
+"ethereum version, hardware and any other details you think might be "
+"relevant.   Please add verbose log files via `gist.github.com "
+"<http://gist.github.com>`_ or a similar service.   The `cpp-ethereum "
+"gitter channel <https://gitter.im/ethereum/cpp-ethereum>`_ is where we "
+"hang out, and try to work together to get known issues resolved."
+msgstr ""
+
+# 4d635c9a8fef4fee8e55202380305847
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:56
+msgid "We **only** support the two most recent OS X versions:"
+msgstr ""
+
+# 67a530add7f44b1692be7bc142f67a1d
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:58
+msgid "`OS X Yosemite (10.10) <https://en.wikipedia.org/wiki/OS_X_Yosemite>`_"
+msgstr ""
+
+# 715e2ee2970741768325ca9299788128
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:59
+msgid "`OS X El Capitan (10.11) <https://en.wikipedia.org/wiki/OS_X_El_Capitan>`_"
+msgstr ""
+
+# 32e3c96b8d3e47ae842d40438c284dcb
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:61
+msgid ""
+"The cpp-ethereum code base does not build on older OS X versions and this"
+" is not something which we will ever support.  If you are using an older "
+"OS X version, we recommend that you update to the latest release, not "
+"just so that you can build cpp-ethereum, but for your own peace of mind."
+msgstr ""
+
+# e9e927ee216444ddac5b3c70d776890e
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:67
+msgid "**Before doing anything else**"
+msgstr ""
+
+# ab41a2150029448b951ad525b62d91bd
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:69
+msgid ""
+"All OS X builds require you to `install the Homebrew <http://brew.sh>`_ "
+"package manager."
+msgstr ""
+
+# 602811b4e8684534b2bc6bcdbf7ca1eb
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:72
+msgid ""
+"Before starting, it is **always wise** to ensure that your Homebrew setup"
+" is up-to-date: ::"
+msgstr ""
+
+# fd6210a4d9174c299b89e14c34a304de
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:78
+msgid ""
+"Here's how to `uninstall Homebrew "
+"<https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md"
+"#how-do-i-uninstall-homebrew>`_, if you ever want to start again from "
+"scratch."
+msgstr ""
+
+# abf131c2e979469bab98e36d563dd739
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:82
+msgid ""
+"Install `XQuartz <http://xquartz.macosforge.org/landing/>`_ X11 Window "
+"system if you want to build the GUI apps."
+msgstr ""
+
+# 62d28cffab25416db077915b287114c6
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:85
+msgid "** Installing with Homebrew **"
+msgstr ""
+
+# 9d559ad70b1c44c3b74b1a3c9ede1091
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:87
+msgid "To install the Ethereum C++ components, execute these commands: ::"
+msgstr ""
+
+# b1f8bc48b66c49f7b1b334db0303089b
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:93
+msgid "Or ... ::"
+msgstr ""
+
+# 7f878dab1c004d67bdb8870b58a95a39
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:97
+msgid ""
+"... if you want to build `AlethZero and AlethOne "
+"<https://github.com/ethereum/alethzero>`_ and the `Mix IDE "
+"<https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE>`_ too."
+msgstr ""
+
+# 32055b1daf7d48398fe67a297bc20821
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:101
+msgid ""
+"Then `open /Applications/AlethZero.app`, `open "
+"/Applications/AlethOne.app`, `open /Applications/Mix.app` or `eth` (CLI)."
+msgstr ""
+
+# c20c40980127434ea4e5b1bb45c202b3
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:103
+msgid ""
+"Here is the `Homebrew Formula <https://github.com/ethereum/homebrew-"
+"ethereum/blob/master/cpp-ethereum.rb>`_ which details all the supported "
+"command-line options."
+msgstr ""
+
+# a2b95e48378140dcad122db341a7c504
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:107
+msgid "# Building from Source"
+msgstr ""
+
+# 3cafc2b4a246498ca12f2452e94ea2a1
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:109
+msgid ""
+"Homebrew wraps up the manual build process for the latest version of "
+"**webthree-umbrella** into a simpler command-line process (and also uses "
+"a prebuilt \"bottle\", for Yosemite at least).   If you want to just run "
+"the build steps yourself, here's how to do it."
+msgstr ""
+
+# 515a80b8e2b84c2abc9f8b75665929bc
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:111
+msgid "### Prerequisites"
+msgstr ""
+
+# 3201ebb03faf469193d161460d4ec837
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:113
+msgid "Install [xcode](https://developer.apple.com/xcode/download/)"
+msgstr ""
+
+# a2942048bc1a4bd9a90d2816b0c5dd33
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:115
+msgid "### Install dependencies"
+msgstr ""
+
+# 9d5fa4a4c93048a5be54f1d2d51c13bf
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:117
+msgid ""
+"brew install boost --c++11 brew install cmake cryptopp miniupnpc leveldb "
+"gmp jsoncpp libmicrohttpd libjson-rpc-cpp llvm37 brew install "
+"homebrew/versions/v8-315 brew install qt5 --with-d-bus"
+msgstr ""
+
+# d292e21e20f945e08ec64bb2e0b6c547
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:122
+msgid ""
+"NB:  The Qt5 step takes many hours on most people's machines, because it "
+"is using non-default build settings which result in build-from-source.  "
+"It also appears to use around 20Gb of temporary disk space.   Beware!"
+msgstr ""
+
+# f790352ba448415e96ae39f705678878
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:124
+msgid "### Clone source code repository, including sub-modules"
+msgstr ""
+
+# 30a599a6f741434caf3bfc97bcd7fd68
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:126
+msgid ""
+"git clone --recursive https://github.com/ethereum/webthree-umbrella.git "
+"cd webthree-umbrella"
+msgstr ""
+
+# 8259975cfc9e456f9f5651d8ae0fdb44
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:129
+msgid ""
+"### Make You can either generate a makefile and build on command-line or "
+"generate an Xcode project and build Ethereum in the IDE."
+msgstr ""
+
+# 01b4812ea14c4774b2d944db87368c34
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:132
+msgid "#### Generate a makefile"
+msgstr ""
+
+# f8cedf5f86a943178ecf39d1a9b5b301
+# 4751976a21b2460a9c5dcbbe80fc1652
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:134
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:146
+msgid "From the project root:"
+msgstr ""
+
+# 42a2eef5b63e4e179a68f0ad26ca6f66
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:136
+msgid "mkdir build cd build cmake .. make -j6 make install"
+msgstr ""
+
+# aff449c4fff54ebb836499bc68d2cec2
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:142
+msgid "This will also install the cli tool and libs into /usr/local."
+msgstr ""
+
+# 7b8ab0d3f55e4da4bdaf9f00b308e316
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:144
+msgid "#### Xcode"
+msgstr ""
+
+# bdabeedfc2cb4e1da2203f4be24c34cf
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:148
+msgid "mkdir build_xc cd build_xc cmake -G Xcode .."
+msgstr ""
+
+# 45412511d65b4c5fb9ee34d3ab3171d6
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:152
+msgid ""
+"This will generate an Xcode project file along with some configs for you:"
+" **cpp-ethereum.xcodeproj**. Open this file in XCode and you should be "
+"able to build the project"
+msgstr ""
+
+# 4b0a3dd858244d5b8eb79aa135b2abd0
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:154
+msgid "## Troubleshooting"
+msgstr ""
+
+# 5be729af9d2a4221accd7bd1b0d33113
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:156
+msgid ""
+"error: verify_app failed - you will need to use the "
+"[QTBUG-50155-workaround](https://github.com/ethereum/webthree-"
+"umbrella/wiki/QTBUG-50155-workaround)"
+msgstr ""
+
+# 9ed59618c1a24734a343e6d35f514ddf
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:157
+msgid ""
+"Build error \"non-virtual thunk to "
+"CryptoPP::Rijndael::Dec::AdvancedProcessBlocks\" - this is due to a [bad "
+"bottle for CryptoPP 5.6.3](https://github.com/ethereum/webthree-"
+"umbrella/wiki/CryptoPP-5.6.3-workaround)"
+msgstr ""
+
+# 33770d881bf645f78138862413a8fe7f
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:158
+msgid ""
+"Unexpected \"No such file or directory (or similar)\" error e.g. "
+"`Sentinel.h.tmp`, `AdminUtilsFace.h.tmp`. Read the [libjson-rpc-cpp "
+"workaround](https://github.com/ethereum/webthree-umbrella/wiki/libjson-"
+"rpc-cpp-OS-X-workaround)"
+msgstr ""
+
+# bd17ca8ee67843b89984ccbeb3065007
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:159
+msgid ""
+"Build or runtime errors, complaining about missing "
+"[libmicrohttpd.10.dylib](https://github.com/ethereum/webthree-"
+"umbrella/wiki/homebrew-47806-workaround)"
+msgstr ""
+
+# 24a6c447fb074925a41a223a7534e107
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:162
+msgid "Building for Android and iOS"
+msgstr ""
+
+# 6c0032398e834aa4ad16d68737e43ce3
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:164
+msgid ""
+"We don't currently have working Android and iOS builds, though they are "
+"on the roadmap for the doublethinkco cross-builds.  They are fairly "
+"ordinary ARM platforms, though with different ABIs than other ARM Linux "
+"platforms.   Those `ABI differences <http://doublethink.co/2015/12/31/a"
+"-tale-of-two-abis/>`_ mean that different binaries will be required for "
+"these platforms."
+msgstr ""
+
+# aabe485ca13143f6865478d7ff0a9ed5
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:171
+msgid "Building for Raspberry Pi Model A, B+, Zero, 2 and 3"
+msgstr ""
+
+# 5eb56c2054b84a8eb1b9819ac8f23192
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:172
+msgid ""
+"`EthEmbedded <http://EthEmbedded.com>`_ maintain build scripts for all "
+"Raspberry Mi models. They are on Github in the `Raspi-Eth-Install "
+"<https://github.com/EthEmbedded/Raspi-Eth-Install>`_ repository. It is "
+"also possible to cross-build for these platforms."
+msgstr ""
+
+# d44f760b54cb4624a4262da55b476d61
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:179
+msgid "Building for Odroid XU3/XU4"
+msgstr ""
+
+# 10f7434dbaa2421ab4468ff66f5676d7
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:180
+msgid ""
+"`EthEmbedded <http://EthEmbedded.com>`_ maintain build scripts for both "
+"of these Odroid models.  Support for a broader range of Odroid devices is"
+" likely in the future. They are on Github in the `OdroidXU3-Eth-Install "
+"<https://github.com/EthEmbedded/OdroidXU3-Eth-Install>`_ repository. It "
+"is also possible to cross-build for these platforms."
+msgstr ""
+
+# 63da0355fac345e7bd03a08a4eed289e
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:188
+msgid "Building for BeagleBone Black"
+msgstr ""
+
+# f2a74191e074471aabc4fe550fb14fcb
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:189
+msgid ""
+"`EthEmbedded <http://EthEmbedded.com>`_ maintain build scripts for BBB on"
+" Github in the `BBB-Eth-Install <https://github.com/EthEmbedded/BBB-Eth-"
+"Install>`_ repository. It is also possible to cross-build for this "
+"platform."
+msgstr ""
+
+# ec9bb25951004dd48eb7f3b8a66b3e3f
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:195
+msgid "Building for WandBoard"
+msgstr ""
+
+# 5274d16270b84f4e85895dfc2031d6b3
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:196
+msgid ""
+"`EthEmbedded <http://EthEmbedded.com>`_ maintain build scripts for the "
+"WandBoard on Github in the `WandBoard-Eth-Install "
+"<https://github.com/EthEmbedded/WandBoard-Eth-Install>`_ repository. It "
+"is also possible to cross-build for this platform."
+msgstr ""
+
+# 796bc0ec9fcd47f6b9ee7da7a9e101bd
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:202
+msgid "Cross building"
+msgstr ""
+
+# ea21d8ea852f43028c20c8cc9869a13b
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:203
+msgid ""
+"`doublethinkco <http://doublethink.co>`_ maintain a Docker-based cross-"
+"build infrastructure which is hosted on Github in the `webthree-umbrella-"
+"cross <http://github.com/doublethinkco/webthree-umbrella-cross>`_ "
+"repository."
+msgstr ""
+
+# 86a6e77d5b754a71a0106ce0e49ff7a3
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:210
+msgid ""
+"At the time of writing, these cross-built binaries have been successfully"
+" used on the following devices:"
+msgstr ""
+
+# d1e16407579e4654be9a2b96156ccf57
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:213
+msgid "Jolla Phone (Sailfish OS)"
+msgstr ""
+
+# 3bcd8d939682490b8c21a017fabb7f62
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:214
+msgid "Nexus 5 (Sailfish OS)"
+msgstr ""
+
+# f9b49c4b77df472ba78215a41e8479d4
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:215
+msgid "Meizu MX4 Ubuntu Edition (Ubuntu Phone)"
+msgstr ""
+
+# f650989b19254cae9e785a4d78a8b494
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:216
+msgid "Raspberry Pi Model B+, Rpi2 (Raspbian)"
+msgstr ""
+
+# bdd8f46033cf4480a83dbdedc85fef70
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:217
+msgid "Odroid XU3 (Ubuntu MATE)"
+msgstr ""
+
+# 8a5667aa96fd42508e429cd119e523c2
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:218
+msgid "BeagleBone Black (Debian)"
+msgstr ""
+
+# a32e431db614476b83d34013fb69f9c0
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:219
+msgid "Wandboard Quad (Debian)"
+msgstr ""
+
+# 0fc2f973fbad49e2ab94d4a622157a6e
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:220
+msgid "C.H.I.P. (Debian)"
+msgstr ""
+
+# 6b4e3ed5aae6439f9c6f1d3aa488db6d
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:222
+msgid "Still TODO:"
+msgstr ""
+
+# c3ea29f30eb94e6d9aab08b8e34cbaee
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:224
+msgid "Tizen"
+msgstr ""
+
+# bb8bfbc55ab64bea8323993d76c7dcf6
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:225
+msgid "Android"
+msgstr ""
+
+# 75dee96a60074ae3b02b716d68a2f810
+#: ../../source/ethereum-clients/cpp-ethereum/building-from-source.rst:226
+msgid "iOS"
+msgstr ""
+
+# d348406c67e64971b0c735c239f83119
+#: ../../source/ethereum-clients/cpp-ethereum/index.rst:3
+msgid "cpp-ethereum"
+msgstr ""
+
+# cff58df2045c4fc2985f594b6662d036
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/app-stores.rst:4
+msgid "Mac Store, Windows Store, App Store, Google Play Store, etc."
+msgstr ""
+
+# 8ecdec5942864b0fb9226d74afd642c0
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/app-stores.rst:6
+msgid ""
+"We do not currently publish **cpp-ethereum** to any first-party stores.  "
+"It might well make sense for us to do so in the future, but we will have "
+"to go through the process of creating developer accounts, applying "
+"certificates, etc."
+msgstr ""
+
+# 88251d30352445ecaaff63cbcec94a08
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/app-stores.rst:10
+msgid "That has not been a high priority for us to this point."
+msgstr ""
+
+# 3e1c6645d01947eab34d1d5a2703de95
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/index.rst:3
+msgid "Installing binaries"
+msgstr ""
+
+# 0056d056e37242aab544bbd611acb965
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-arch-aur.rst:3
+msgid "ArchLinux AUR (ArchLinux User Repository)"
+msgstr ""
+
+# 2bfa326012e84d55aa08a759756c1ed7
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-arch-aur.rst:5
+msgid ""
+"Arch Linux packages are community maintained by `Afri Schoedon "
+"<https://github.com/5chdn>`_.  Check out the `ethereum "
+"<https://aur.archlinux.org/packages/ethereum/>`_ and `ethereum-git "
+"<https://aur.archlinux.org/packages/ethereum-git/>`_ packages on "
+"`aur.archlinux.org <https://aur.archlinux.org>`_."
+msgstr ""
+
+# e690ba61d4994ec5bd61fa816d138d67
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-cross-builds.rst:3
+msgid "Cross-builds for ARM Linux.  Mobile, wearables, SBCs."
+msgstr ""
+
+# 106558f468604bda8006fe429309dee4
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-cross-builds.rst:5
+msgid ""
+"`Bob Summerwill <http://bobsummerwill.com>`_, of `doublethinkco "
+"<http://doublethink.co>`_ cross-builds `ARM binaries "
+"<https://github.com/doublethinkco/webthree-umbrella-cross/releases>`_ "
+"which work on a very broad variety of hardware, from mobile and wearables"
+" Linux distros (Sailfish OS, Tizen OS, Ubuntu Touch) to the same SBCs "
+"which `EthEmbedded <http://ethembedded.com>`_ target - and more. "
+"doublethinkco was a `BlockGrantX recipient "
+"<http://doublethink.co/2016/02/23/we-have-blockgrantx-funding/>`_ in Feb "
+"2016."
+msgstr ""
+
+# aa71fb67b7e24053bb5293ae07b1c3c3
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-cross-builds.rst:15
+msgid ""
+"See the `webthree-umbrella-cross README <https://github.com/doublethinkco"
+"/webthree-umbrella-cross>`_ for a full matrix of platforms and known "
+"status."
+msgstr ""
+
+# f8c84d9183be4b04bd1f1cda88f625a8
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-cross-builds.rst:21
+msgid ""
+"Here are the cross-build binaries from doublethinkco: `RELEASED – Cross-"
+"build eth binaries for Homestead <http://doublethink.co/2016/03/07"
+"/released-cross-build-eth-binaries-for-homestead/>`_."
+msgstr ""
+
+# 7f8749f579b445f48085ad89c45d80a6
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-sbcs.rst:3
+msgid "Raspberry Pi, Odroid, BeagleBone Black, Wandboard"
+msgstr ""
+
+# 37621b6a1a674ec982066ab144472eed
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-sbcs.rst:5
+msgid ""
+"`John Gerryts <https://twitter.com/phonikg>`_ of `EthEmbedded "
+"<http://ethembedded.com>`_ builds binary images for a variety of SBCs at "
+"major milestones, in addition to testing and maintaining build scripts "
+"for these devices.  EthEmbedded was a `devgrant recipient "
+"<https://twitter.com/EthEmbedded/status/601072825584103424>`_ in May "
+"2015. He builds binaries for both eth and geth."
+msgstr ""
+
+# e8faa70fa25047a58867dd36edcfbd17
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-sbcs.rst:12
+msgid ""
+"Here are the `Homestead binaries <http://ethembedded.com/?page_id=102>`_ "
+"from `EthEmbedded <http://ethembedded.com>`_"
+msgstr ""
+
+# e801ef464c4d4d88bd4e5270e451cdcd
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-ubuntu-ppa.rst:3
+msgid "Ubuntu PPA (Personal Package Archive)"
+msgstr ""
+
+# eeaefb4f765143a099e429b7b3e54c57
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/linux-ubuntu-ppa.rst:5
+msgid "TODO - Add details for TurboEthereum gitbook."
+msgstr ""
+
+# a9408ad663d543f4ae5484f66dda0022
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-dmg.rst:3
+msgid "OS X DMG (disk image)"
+msgstr ""
+
+# f95c491e42984970a691aad286392044
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-dmg.rst:5
+msgid ""
+"We generate OS X disk images `for each release "
+"<https://github.com/ethereum/webthree-umbrella/releases>`_. These should "
+"work on Yosemite and el Capitan.  We do not support older OS X versions "
+"and never will.  We only support 64-bit builds and will never support "
+"32-bit OS X builds."
+msgstr ""
+
+# a0b5490c9d25435487552bf8bb70d46f
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-dmg.rst:11
+msgid ""
+"Here is the `cpp-ethereum v1.2.1 OS X DMG <https://build.ethdev.com/cpp-"
+"binaries-data/release-1.2.1/Ethereum.dmg>`_ for Homestead."
+msgstr ""
+
+# a7450d3773c94832a7688484e33f80e1
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-homebrew.rst:3
+msgid "OS X Homebrew packages"
+msgstr ""
+
+# d3fd17893f154cd9873be069a41b2ecb
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-homebrew.rst:5
+msgid ""
+"We generate Homebrew packages.  We only generate binaries for Yosemite at"
+" the time of writing, which means that **brew install** on El Capitan "
+"machines triggers a (very slow) build from source."
+msgstr ""
+
+# 3e01a3d60d98466b9d318c191909dec6
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/osx-homebrew.rst:9
+msgid "TODO - Add details from below."
+msgstr ""
+
+# a6fe09070151497f8b23511902e977d0
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/windows-chocolatey.rst:3
+msgid "Chocolatey NuGet packages for Windows"
+msgstr ""
+
+# 62bc42f5a73f47fd98eec1b522a2d6b1
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/windows-chocolatey.rst:5
+msgid ""
+"We aren't generating Chocolatey packages at the time of writing, though "
+"we have done so in the past, and would like to do so again in the future."
+msgstr ""
+
+# 5fd17ff529e142f1b29fa4ab8d078ba2
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/windows-installer.rst:3
+msgid "Windows installer"
+msgstr ""
+
+# 9a5d213f69444d8992bc046e9301fe9e
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/windows-installer.rst:5
+msgid ""
+"We generate Windows installers `for each release "
+"<https://github.com/ethereum/webthree-umbrella/releases>`_.  These should"
+" work on Windows 7, Windows 8/8.1 and Windows 10.   We only support "
+"64-bit builds.   It may be possible to get the client working for Windows"
+" 32-bit, but that is not something we will ever support."
+msgstr ""
+
+# c222fbffbb074228810d131a7c146da8
+#: ../../source/ethereum-clients/cpp-ethereum/installing-binaries/windows-installer.rst:11
+msgid ""
+"Here is the `cpp-ethereum v1.2.1 Windows installer "
+"<https://build.ethdev.com/cpp-binaries-data/release-1.2.1/Ethereum.exe>`_"
+" for Homestead."
+msgstr ""
+
+# 1bc98d2ef30649b8bb5b55da74dc5b72
+#: ../../source/ethereum-clients/cpp-ethereum/repository-layout.rst:3
+msgid "Repository layout"
+msgstr ""
+
+# cfb2663bba32473ebf88a0f235514d27
+#: ../../source/ethereum-clients/cpp-ethereum/repository-layout.rst:5
+msgid "Current reality:"
+msgstr ""
+
+# 056a3922993346d9bd74fcdc13d767c0
+#: ../../source/ethereum-clients/cpp-ethereum/repository-layout.rst:9
+msgid "Target refactoring after Homestead:"
+msgstr ""
+
+# 8742dc019f63424e8ce5202691e1220a
+#: ../../source/ethereum-clients/ethereum-ruby/ethereum-ruby.rst:3
+msgid "ethereum-ruby"
+msgstr ""
+
+# e84fccea367141a4bce770689119e842
+#: ../../source/ethereum-clients/ethereumh/ethereumh.rst:3
+msgid "ethereumH"
+msgstr ""
+
+# 629a9a159729415a851131fc672d0fb4
+#: ../../source/ethereum-clients/ethereumj/ethereumj.rst:3
+msgid "Ethereum(J)"
+msgstr ""
+
+# ab070ef75f0b407bb7ac300aec201753
+#: ../../source/ethereum-clients/ethereumjs-lib/ethereumjs-lib.rst:3
+msgid "ethereumjs-lib"
+msgstr ""
+
+# 5178e31e25364fe9a3f62bb987f4b251
+#: ../../source/ethereum-clients/go-ethereum/go-ethereum.rst:3
+msgid "go-ethereum"
+msgstr ""
+
+# 701952765b4c4ab2a014d059a9fa99a6
+#: ../../source/ethereum-clients/index.rst:3
+msgid "Ethereum Clients"
+msgstr ""
+
+# fdc996576c2a49009a30d0f9d4c6d844
+#: ../../source/ethereum-clients/parity/parity.rst:3
+msgid "Parity"
+msgstr ""
+
+# 7521780c7555482aba203df202a07a88
+#: ../../source/ethereum-clients/pyethapp/pyethapp.rst:3
+msgid "pyethapp"
+msgstr ""
+

@@ -1,0 +1,1865 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# 4a9f904384a34a9aabed8f172f03c142
+#: ../../source/using-ethereum-the-basics/accounts.rst:3
+msgid "Account Management"
+msgstr ""
+
+# 6a269a09bde847ceaef32ded32b2e5ad
+#: ../../source/using-ethereum-the-basics/accounts.rst:6
+msgid "What are accounts?"
+msgstr ""
+
+# 5d5f22663df0423d805d53ee272a158b
+#: ../../source/using-ethereum-the-basics/accounts.rst:7
+msgid ""
+"From the Introduction, we know that, “accounts are a central part of the "
+"network and are an essential part of any transaction or contract”."
+msgstr ""
+
+# b0460017b6a141c1925548a8e30fa621
+#: ../../source/using-ethereum-the-basics/accounts.rst:9
+msgid ""
+"In Ethereum, there are two types of accounts: **Externally Owned "
+"accounts** and **Contract accounts**. We will encounter Contract accounts"
+" later. For now, we’ll focus on Externally Owned accounts, which will be "
+"referred to simply as **accounts**."
+msgstr ""
+
+# 16e03673ecb4444caa0ac4005b67715a
+#: ../../source/using-ethereum-the-basics/accounts.rst:12
+msgid "Keyfiles"
+msgstr ""
+
+# 2ce0f65099ca43ef8d074c808d52374f
+#: ../../source/using-ethereum-the-basics/accounts.rst:13
+msgid ""
+"Every account is defined by a pair of keys, a private key and an address "
+"(or public key). Every private key/address pair exists as a single "
+"**keyfile**. Keyfiles are JSON text files which you can open and view in "
+"any text editor. The critical component of the keyfile, your account’s "
+"private key, is always encrypted, and it is encrypted with the password "
+"you enter when you create the account. Keyfiles are found in the "
+"``keystore`` subdirectory of your Ethereum node’s data directory. Make "
+"sure you backup your keyfiles regularly! See the section `Backup and "
+"restore of accounts`_ for more information."
+msgstr ""
+
+# 7f53f633dbdf4e7ab057b429f3fe1243
+#: ../../source/using-ethereum-the-basics/accounts.rst:15
+msgid ""
+"The newest format of the keyfiles is: ``UTC--<created_at UTC "
+"ISO8601>-<address hex>``. The order of accounts when listing, is "
+"lexicographic, but as a consequence of the timestamp format, it is "
+"actually order of creation."
+msgstr ""
+
+# 9e171c220da14b94a257b689c5a3d910
+#: ../../source/using-ethereum-the-basics/accounts.rst:17
+msgid ""
+"It is safe to transfer the entire directory or the individual keyfiles "
+"therein between ethereum nodes. Note that in case you are adding keyfiles"
+" to your node from a different node, the order of accounts may change. So"
+" make sure you do not rely or change the index in your scripts or code "
+"snippets."
+msgstr ""
+
+# ef2377f82992436a87d8d5e7bebb6d88
+#: ../../source/using-ethereum-the-basics/accounts.rst:20
+msgid "Creating an account"
+msgstr ""
+
+# e316c406e06d4517a551acf4674de120
+#: ../../source/using-ethereum-the-basics/accounts.rst:21
+msgid ""
+"**Remember your passwords and backup your keyfiles.** For anyone to send "
+"transactions from an account, including sending ether, they must have "
+"BOTH the keyfile and the password. Be absolutely sure to have a copy of "
+"your keyfile AND remember the password for that keyfile, and store them "
+"both as securely as possible. There are no escape routes here; lose the "
+"keyfile or forget your password and all your ether is gone. It is NOT "
+"possible to access your account without a password and there is no "
+"*forgot my password* option here. Do not forget it."
+msgstr ""
+
+# c747acbb497c4853959efa74736a1e02
+#: ../../source/using-ethereum-the-basics/accounts.rst:24
+msgid "Using ``geth account new``"
+msgstr ""
+
+# a3bec456445945c3a419174d888d1a41
+#: ../../source/using-ethereum-the-basics/accounts.rst:25
+msgid ""
+"Once you have the geth client installed, creating an account is merely a "
+"case of executing the ``geth account new`` command in a terminal."
+msgstr ""
+
+# c4dbc6d7610b4e0e9e93ed9f90cd6d1c
+#: ../../source/using-ethereum-the-basics/accounts.rst:27
+msgid ""
+"Note that you do not have to run the geth client or sync up with the "
+"blockchain to use the ``geth account`` command."
+msgstr ""
+
+# 0a887e19f14f41feb01a340be8ed4fac
+#: ../../source/using-ethereum-the-basics/accounts.rst:38
+msgid ""
+"For non-interactive use you supply a plaintext password file as argument "
+"to the ``--password`` flag. The data in the file consists of the raw "
+"characters of the password, followed by a single newline. Note, this is "
+"meant to be used for testing only, it is a bad idea to save your password"
+" to file or expose it in any other way."
+msgstr ""
+
+# 0c242454ee9f48d0afd80eec078a0d11
+#: ../../source/using-ethereum-the-basics/accounts.rst:45
+msgid ""
+"To list all the accounts with keyfiles currently in your ``keystore`` "
+"folder use the ``list`` subcommand of the ``geth account`` command:"
+msgstr ""
+
+# 0b7ccb6ded9e483dbe054804c6cab60e
+#: ../../source/using-ethereum-the-basics/accounts.rst:56
+msgid "Using geth console"
+msgstr ""
+
+# 38483a2a0b1f405c97348ae7dde2e66b
+#: ../../source/using-ethereum-the-basics/accounts.rst:57
+msgid ""
+"In order to create a new account using geth, we must first start geth in "
+"console mode:"
+msgstr ""
+
+# 6be7934ecaee45ffb71bf372fbffdbbf
+#: ../../source/using-ethereum-the-basics/accounts.rst:67
+msgid ""
+"The console allows you to interact with your local node by issuing "
+"commands. For example, try the command to list your accounts:"
+msgstr ""
+
+# 6b42b581eb1645168ef89246f3fe2a6a
+#: ../../source/using-ethereum-the-basics/accounts.rst:78
+msgid "This shows that you have no accounts. So let's create an account:"
+msgstr ""
+
+# d0582e02a517413298c90c80cdb6d841
+#: ../../source/using-ethereum-the-basics/accounts.rst:87
+msgid ""
+"Remember to use a strong and randomly generated password. We just created"
+" our first account. If we try to list our accounts again we can see our "
+"new account:"
+msgstr ""
+
+# 1ca86d1d7f6a45c283a1d6ab2bd1b789
+#: ../../source/using-ethereum-the-basics/accounts.rst:95
+msgid "Using EthKey"
+msgstr ""
+
+# 47f6c5702e9c4eab9e6e136aef77d486
+#: ../../source/using-ethereum-the-basics/accounts.rst:96
+msgid ""
+"ethkey is a CLI tool that allows you to interact with the Ethereum "
+"wallet. With it you can list, inspect, create, delete and modify keys and"
+" inspect, create and sign transactions."
+msgstr ""
+
+# d85a61aad6444b43a2b7dd0a2cbea871
+#: ../../source/using-ethereum-the-basics/accounts.rst:98
+msgid ""
+"We'll assume you have not yet run a client such as eth or anything in the"
+" Aleth series of clients. If you have, you should skip this section. To "
+"create a wallet, run ethkey with the createwallet command:"
+msgstr ""
+
+# b26ecea9f6854aba9b0e083f2fbb948d
+#: ../../source/using-ethereum-the-basics/accounts.rst:105
+msgid ""
+"Please enter a MASTER passphrase to protect your key store (make it "
+"strong!): You'll be asked for a \"master\" passphrase. This protects your"
+" privacy and acts as a default password for any keys. You'll need to "
+"confirm it by entering the same text again."
+msgstr ""
+
+# dcd6dd5fc3ba4d04984d618544757cec
+#: ../../source/using-ethereum-the-basics/accounts.rst:108
+msgid "We can list the keys within the wallet simply by using the list command:"
+msgstr ""
+
+# 0451b9c5c8784f6783b4ff2dfc7262c3
+#: ../../source/using-ethereum-the-basics/accounts.rst:116
+msgid "We haven't yet created any keys, and it's telling us so! Let's create one."
+msgstr ""
+
+# 57896bebc50742ec8bcfa05b70bee557
+#: ../../source/using-ethereum-the-basics/accounts.rst:118
+msgid ""
+"One of the nice things about Ethereum is that creating a key is "
+"tantamount to creating an account. You don't need to tell anybody else "
+"you're doing it, you don't even need to be connected to the Internet. Of "
+"course your new account will not contain any Ether. But it'll be yours "
+"and you can be certain that without your key and your password, nobody "
+"else can ever access it. To create a key, we use the new command. To use "
+"it we must pass a name - this is the name we'll give to this account in "
+"the wallet. Let's call it \"test\":"
+msgstr ""
+
+# e3bbeb75227040a0901ce6b667d067c4
+#: ../../source/using-ethereum-the-basics/accounts.rst:125
+msgid ""
+"Enter a passphrase  with which to secure this account (or nothing to use "
+"the master passphrase): It will prompt you to enter a passphrase to "
+"protect this key. If you just press enter, it'll use the default "
+"\"master\" passphrase. Typically this means you won't need to enter the "
+"passphrase for the key when you want to use the account (since it "
+"remembers the master passphrase). In general, you should try to use a "
+"different passphrase for each key since it prevents one compromised "
+"passphrase from giving access to other accounts. However, out of "
+"convenience you might decide that for low-security accounts to use the "
+"same passphrase."
+msgstr ""
+
+# caeeaabef4c74fb0b3d95449222d5d2f
+#: ../../source/using-ethereum-the-basics/accounts.rst:128
+msgid ""
+"Here, let's give it the incredibly imaginitive passphrase of 123. Once "
+"you enter a passphrase, it'll ask you to confirm it by entering again. "
+"Enter 123 a second time. Because you gave it its own passphrase, it'll "
+"also ask you to provide a hint for this password which will be displayed "
+"to you whenever it asks you to enter it. The hint is stored in the wallet"
+" and is itself protected by the master passphrase. Enter the truly awful "
+"hint of 321 backwards."
+msgstr ""
+
+# 76296ae2acb443fabcc9a71b21e2e79f
+#: ../../source/using-ethereum-the-basics/accounts.rst:145
+msgid ""
+"All normal (aka direct) ICAP addresses begin with XE so you should be "
+"able to recognise them easily. Notice also that the key has another "
+"identifier after Created key. This is known as the UUID. This is a unique"
+" identifer for the key that has absolutely nothing to do with the account"
+" itself. Knowing it does nothing to help an attacker discover who you are"
+" on the network. It also happens to be the filename for the key, which "
+"you can find in either ~/.web3/keys (Mac or Linux) or "
+"$HOME/AppData/Web3/keys (Windows). Now let's make sure it worked properly"
+" by listing the keys in the wallet:"
+msgstr ""
+
+# 96fdfc79366a44d6ad96e816aa2cab48
+#: ../../source/using-ethereum-the-basics/accounts.rst:153
+msgid ""
+"It reports one key on each line (for a total of one key here). In this "
+"case our key is stored in a file 055dde... and has an ICAP address "
+"beginning XE472EVK.... Not especially easy things to remember so rather "
+"helpful that it has its proper name, test, too."
+msgstr ""
+
+# c3b2f97d033741a5afd695d11d2cd44a
+#: ../../source/using-ethereum-the-basics/accounts.rst:156
+msgid "Using Mist"
+msgstr ""
+
+# b6fbf756872a413f8e6658f6cb24e881
+#: ../../source/using-ethereum-the-basics/accounts.rst:157
+msgid "Just link into Homestead website where the MIST wallet will be described?"
+msgstr ""
+
+# 94cb0a2c0b374c258ae83519b22893e2
+#: ../../source/using-ethereum-the-basics/accounts.rst:160
+msgid "Updating an account"
+msgstr ""
+
+# bf5c248a31db433e99940e5ee29c1b5c
+#: ../../source/using-ethereum-the-basics/accounts.rst:161
+msgid ""
+"You are able to upgrade your keyfile to the latest keyfile format and/or "
+"upgrade your keyfile password."
+msgstr ""
+
+# 6ddff0881995459db20d1770a6d50078
+# 9e4c6b4f03f54b739ab42f89b14857e4
+#: ../../source/using-ethereum-the-basics/accounts.rst:164
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:78
+msgid "Using geth"
+msgstr ""
+
+# e7001775d03a46b889819c64f7c951db
+#: ../../source/using-ethereum-the-basics/accounts.rst:165
+msgid ""
+"You can update an existing account on the command line with the "
+"``update`` subcommand with the account address or index as parameter."
+msgstr ""
+
+# 1b4a974667bb47a3ae20b516e2c8bb4d
+#: ../../source/using-ethereum-the-basics/accounts.rst:171
+msgid "or"
+msgstr ""
+
+# 1e083698a77848d0a822c80fa5c5c5c4
+#: ../../source/using-ethereum-the-basics/accounts.rst:177
+msgid "For example:"
+msgstr ""
+
+# 03e1cada32ff4c83b3313321de0ba8e0
+#: ../../source/using-ethereum-the-basics/accounts.rst:192
+msgid ""
+"The account is saved in the newest version in encrypted format, you are "
+"prompted for a passphrase to unlock the account and another to save the "
+"updated file.This same command can be used to migrate an account of a "
+"deprecated format to the newest format or change the password for an "
+"account."
+msgstr ""
+
+# c476fe50f16b429cb4b83166efb3703c
+# 8765eb4db33e4c7d9f30290a537a9a7a
+#: ../../source/using-ethereum-the-basics/accounts.rst:194
+#: ../../source/using-ethereum-the-basics/accounts.rst:244
+msgid ""
+"For non-interactive use the passphrase can be specified with the "
+"``--password`` flag:"
+msgstr ""
+
+# 5975bb7c33084a639fe26ff01ce5fab9
+#: ../../source/using-ethereum-the-basics/accounts.rst:200
+msgid ""
+"Since only one password can be given, only format update can be "
+"performed, changing your password is only possible interactively."
+msgstr ""
+
+# b042e632c71b4b179482e9f903fb5dcc
+#: ../../source/using-ethereum-the-basics/accounts.rst:202
+msgid ""
+"**Note:** account update has the side effect that the order of your "
+"accounts changes. After a successful update, all previous "
+"formats/versions of that same key will be removed!"
+msgstr ""
+
+# 2b8c96829e7845298fe7c7eede54fe4d
+#: ../../source/using-ethereum-the-basics/accounts.rst:208
+msgid "Backup and restore accounts"
+msgstr ""
+
+# 1e437ccb19ab4b9e80669a2d3dd84cb1
+#: ../../source/using-ethereum-the-basics/accounts.rst:211
+msgid "Manual backup/restore"
+msgstr ""
+
+# 4d01b34e0fb34e4d84a4d1a6a729a595
+#: ../../source/using-ethereum-the-basics/accounts.rst:212
+msgid ""
+"You must have an account’s keyfile to be able to send any transaction "
+"from that account. Keyfiles are found in the keystore subdirectory of "
+"your Ethereum node’s data directory. The default data directory locations"
+" are platform specific:"
+msgstr ""
+
+# e584a259c2b7466ab0c0a59f944949b7
+#: ../../source/using-ethereum-the-basics/accounts.rst:214
+msgid "Windows: ``C:\\Users\\username\\%appdata%\\Roaming\\Ethereum\\keystore``"
+msgstr ""
+
+# 346850fc1dbe439b94efe24b94de4b6c
+#: ../../source/using-ethereum-the-basics/accounts.rst:215
+msgid "Linux: ``~/.ethereum/keystore``"
+msgstr ""
+
+# 6a5ab437702d4586ad222b7d1f8b83a7
+#: ../../source/using-ethereum-the-basics/accounts.rst:216
+msgid "Mac: ``~/Library/Ethereum/keystore``"
+msgstr ""
+
+# 65e1526808614d9199a643280aa18e24
+#: ../../source/using-ethereum-the-basics/accounts.rst:218
+msgid ""
+"To backup your keyfiles (accounts), copy either the individual keyfiles "
+"within the ``keystore`` subdirectory or copy the entire ``keystore`` "
+"folder."
+msgstr ""
+
+# b5d231b1546049aab7594fda500d631b
+#: ../../source/using-ethereum-the-basics/accounts.rst:220
+msgid ""
+"To restore your keyfiles (accounts), copy the keyfiles back into the "
+"``keystore`` subdirectory, where they were originally."
+msgstr ""
+
+# 943fe1f09f4944e5a101493cbc1db841
+#: ../../source/using-ethereum-the-basics/accounts.rst:223
+msgid "Importing an unencrypted private key"
+msgstr ""
+
+# 10d5591bec8c4bca968d58cbc8443f94
+#: ../../source/using-ethereum-the-basics/accounts.rst:229
+msgid ""
+"This command imports an unencrypted private key from the plain text file "
+"``<keyfile>`` and creates a new account and prints the address. The "
+"keyfile is assumed to contain an unencrypted private key as canonical EC "
+"raw bytes encoded into hex. The account is saved in encrypted format, you"
+" are prompted for a passphrase. You must remember this passphrase to "
+"unlock your account in the future."
+msgstr ""
+
+# 677561c5fd0e4d95b522acedec67bdaa
+#: ../../source/using-ethereum-the-basics/accounts.rst:233
+msgid ""
+"An example where the data directory is specified. If the ``--datadir`` "
+"flag is not used, the new account will be created in the default data "
+"directory."
+msgstr ""
+
+# e24c4ff826c34251afcb9a4a4d19809e
+#: ../../source/using-ethereum-the-basics/accounts.rst:251
+msgid ""
+"Since you can directly copy your encrypted accounts to another ethereum "
+"instance, this import/export mechanism is not needed when you transfer an"
+" account between nodes."
+msgstr ""
+
+# 6a89f8d08866404ea5ed6002d3dce419
+#: ../../source/using-ethereum-the-basics/accounts.rst:253
+msgid ""
+"When you copy keys into an existing node's ``keystore``, the order of "
+"accounts you are used to may change. Therefore you make sure you either "
+"do not rely on the account order or double-check and update the indexes "
+"used in your scripts."
+msgstr ""
+
+# c689df60433346fca2a75646d40c99a0
+#: ../../source/using-ethereum-the-basics/accounts.rst:255
+msgid ""
+"If you use the ``--password`` flag with a password file, make sure the "
+"file is not readable or even listable for anyone but you."
+msgstr ""
+
+# 3de215c93f104987a6463e53e585fa40
+#: ../../source/using-ethereum-the-basics/accounts.rst:257
+msgid "For example, you can achieve this in Mac/Linux systems with:"
+msgstr ""
+
+# adddb4c39b4243ebbefb51f0ef0c134c
+#: ../../source/using-ethereum-the-basics/accounts.rst:268
+msgid "Online wallets, paper wallets, and cold storage"
+msgstr ""
+
+# 4bb72f15609b4304a487474af9e39a3a
+#: ../../source/using-ethereum-the-basics/accounts.rst
+msgid "Todo"
+msgstr ""
+
+# 2ce1be5fdf1346d0a9d58d39b397931b
+#: ../../source/using-ethereum-the-basics/accounts.rst:271
+msgid ""
+"This is here just a dumping ground of links and notes Please move this "
+"over in a listing form to ecosystem"
+msgstr ""
+
+# 9a157d0113754fec9f74febce2b06ab5
+#: ../../source/using-ethereum-the-basics/accounts.rst:274
+msgid "Keep examples here, maybe explain paranoid practices, list dangers"
+msgstr ""
+
+# 89375c58dbd24ff5a1b38e37dc622227
+#: ../../source/using-ethereum-the-basics/accounts.rst:278
+msgid "Mist Wallet"
+msgstr ""
+
+# 35ff1bb7fff54b2faf5d201f348b2378
+#: ../../source/using-ethereum-the-basics/accounts.rst:277
+msgid "https://github.com/ethereum/mist/releases"
+msgstr ""
+
+# 476ff45307414c16971ba441399cb1ae
+#: ../../source/using-ethereum-the-basics/accounts.rst:278
+msgid "https://blog.ethereum.org/2015/09/16/ethereum-wallet-developer-preview/"
+msgstr ""
+
+# 7747c735b9db42d9a8dcbde253362ac6
+#: ../../source/using-ethereum-the-basics/accounts.rst:279
+msgid ""
+"How to easily set up the Ethereum Mist wallet! *Tutorial* – Tommy "
+"Economics – https://www.youtube.com/watch?v=Z6lE0Ctaeqs"
+msgstr ""
+
+# 988252da1e8b4c879b61204ceb305e32
+#: ../../source/using-ethereum-the-basics/accounts.rst:281
+msgid "Kryptokit Jaxx"
+msgstr ""
+
+# 933a1fe982f941ba93d21d7729f52758
+#: ../../source/using-ethereum-the-basics/accounts.rst:281
+msgid "http://jaxx.io/"
+msgstr ""
+
+# b3fc2055057a4ff5a748bf5e6d11fb30
+#: ../../source/using-ethereum-the-basics/accounts.rst:282
+msgid "http://favs.pw/first-ethereum-mobile-app-released/#.VsHn_PGPL5c"
+msgstr ""
+
+# 1558978f2af54fd1950ea682ae8fa4c2
+#: ../../source/using-ethereum-the-basics/accounts.rst:284
+msgid "Etherwall"
+msgstr ""
+
+# e14f56e3832d47d0ab685c4ba3588a66
+#: ../../source/using-ethereum-the-basics/accounts.rst:284
+msgid "website: http://www.etherwall.com/"
+msgstr ""
+
+# 1209ed037b3745db94860e8f046ae68f
+#: ../../source/using-ethereum-the-basics/accounts.rst:285
+msgid "source: https://github.com/almindor/etherwall"
+msgstr ""
+
+# d07ec2f0840a49c8b88c4f6501f7afad
+#: ../../source/using-ethereum-the-basics/accounts.rst:288
+msgid "MyEtherWallet"
+msgstr ""
+
+# 14ab97daf2d64dd6b239919bb4d478ff
+#: ../../source/using-ethereum-the-basics/accounts.rst:287
+msgid "https://www.myetherwallet.com/"
+msgstr ""
+
+# 34926f30a50a492e9a9220ba1dc13e4b
+#: ../../source/using-ethereum-the-basics/accounts.rst:288
+msgid "source https://github.com/kvhnuke/etherwallet/"
+msgstr ""
+
+# 40040ee09e124a9caeacaac6e3ba1adb
+#: ../../source/using-ethereum-the-basics/accounts.rst:289
+msgid "http://sebfor.com/myetherwallet-chrome-extension-release/"
+msgstr ""
+
+# 2c7870f72beb48fb99f231f68b9d9d90
+#: ../../source/using-ethereum-the-basics/accounts.rst:290
+msgid "cold storage"
+msgstr ""
+
+# 69c9b1b0ea33408f9659d393d535df3e
+#: ../../source/using-ethereum-the-basics/accounts.rst:291
+msgid "https://www.reddit.com/r/ethereum/comments/45uvmy/offline_cold_storage_question/offline_cold_storage_question"
+msgstr ""
+
+# f970423a6c2f4128b321d8b66366f9ef
+#: ../../source/using-ethereum-the-basics/accounts.rst:293
+msgid "hardware wallet"
+msgstr ""
+
+# f64b4ab51dea4e4d9f17958d29804d89
+#: ../../source/using-ethereum-the-basics/accounts.rst:293
+msgid "https://www.reddit.com/r/ethereum/comments/45siaq/hardware_wallet/"
+msgstr ""
+
+# 75a5c5dc7dd8487dad1e78997e745baa
+#: ../../source/using-ethereum-the-basics/accounts.rst:294
+msgid "https://www.reddit.com/r/ethereum/comments/4521o4/crowdfunding_ethereum_hardware_cold_storage_wallet/"
+msgstr ""
+
+# 06e9f7411bd547f5a78b08671c6cbf51
+#: ../../source/using-ethereum-the-basics/accounts.rst:296
+msgid "brain wallet"
+msgstr ""
+
+# d36f61e656e24381832307c09a7ddff4
+#: ../../source/using-ethereum-the-basics/accounts.rst:296
+msgid ""
+"brain wallets are not safe, do not use them. "
+"https://www.reddit.com/r/ethereum/comments/45y8m7/brain_wallets_are_now_generally_shunned_by/"
+msgstr ""
+
+# 30fb6fe82d6745cd95fd22078fc8dd31
+#: ../../source/using-ethereum-the-basics/accounts.rst:297
+msgid ""
+"Extreme caution with brain wallets. Read the recent controversy: "
+"https://reddit.com/r/ethereum/comments/43fhb5/brainwallets vs "
+"http://blog.ether.camp/post/138376049438/why-brain-wallet-is-the-best"
+msgstr ""
+
+# d08ebf7cc38b4749995cf0c1f34e1d00
+#: ../../source/using-ethereum-the-basics/accounts.rst:301
+msgid "Misc"
+msgstr ""
+
+# 4bfe3b70fbd748ed970392375fd9a443
+#: ../../source/using-ethereum-the-basics/accounts.rst:299
+msgid ""
+"http://ethereum.stackexchange.com/questions/1239/what-is-the-recommended-"
+"way-to-safely-store-ether"
+msgstr ""
+
+# 9bd97f842a734f51971b25ba584d066f
+#: ../../source/using-ethereum-the-basics/accounts.rst:300
+msgid ""
+"http://www.fastcompany.com/3056651/researchers-find-a-crack-that-drains-"
+"supposedly-secure-bitcoin-wallets"
+msgstr ""
+
+# 84f10106a19147bead53b7e9fb44b764
+#: ../../source/using-ethereum-the-basics/accounts.rst:301
+msgid "http://sebfor.com/how-to-buy-and-store-ether/"
+msgstr ""
+
+# 6de95253c500412b86b90b4f65ddeb34
+#: ../../source/using-ethereum-the-basics/accounts.rst:302
+msgid "https://github.com/ethereum/pyethsaletool/blob/master/README.md"
+msgstr ""
+
+# a14364137efb4a00a92e93bfaa8f41c5
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:5
+msgid "Connecting to the Network"
+msgstr ""
+
+# 5d87c464c51f4a72b5399998728d6f99
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:8
+msgid "How to connect"
+msgstr ""
+
+# 96c939d0dabc487d87828958e86848c4
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:9
+msgid ""
+"Geth continuously attempts to connect to other nodes on the network until"
+" it has peers. If you have UPnP enabled on your router or run Ethereum on"
+" an Internet-facing server, it will also accept connections from other "
+"nodes."
+msgstr ""
+
+# cf511969e3734abca9932e517661aa72
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:11
+msgid ""
+"Geth finds peers through something called the discovery protocol. In the "
+"discovery protocol, nodes are gossipping with each other to find out "
+"about other nodes on the network. In order to get going initially, geth "
+"uses a set of bootstrap nodes whose endpoints are recorded in the source "
+"code."
+msgstr ""
+
+# c932802d34a04209946dc07ea6825803
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:14
+msgid "Checking connectivity and ENODE IDs"
+msgstr ""
+
+# 72efb861cb334a629016631d686a9ea7
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:15
+msgid ""
+"To check how many peers the client is connected to in the interactive "
+"console, the ``net`` module has two attributes give you info about the "
+"number of peers and whether you are a listening node."
+msgstr ""
+
+# a2551ff94bea4f428f49a632ea626279
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:25
+msgid ""
+"To get more information about the connected peers, such as IP address and"
+" port number, supported protocols, use the ``peers()`` function of the "
+"``admin`` object. ``admin.peers()`` returns the list of currently "
+"connected peers."
+msgstr ""
+
+# 6f3eb26e0d3649c48e6c1a2879bc1ba2
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:57
+msgid "To check the ports used by geth and also find your enode URI run:"
+msgstr ""
+
+# 25e3bfd1decc454bb7866de29c3cb972
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:74
+msgid "Download the blockchain quickly"
+msgstr ""
+
+# 095e0976a7e547d8ae44f0bdd52c7585
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:75
+msgid ""
+"When you start an Ethereum client, the Ethereum blockchain is "
+"automatically downloaded. The time it takes download the Ethereum "
+"blockchain can vary based on client, client settings, connection speed, "
+"and number of peers available. Below are some options for more quickly "
+"obtaining the Ethereum blockchain."
+msgstr ""
+
+# 2988088784fd4d4bb8f7d031942e8ce5
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:79
+msgid ""
+"If you are using the geth client, there are some things you can do to "
+"speed up the time it takes to download the Ethereum blockchain. If you "
+"choose to use the ``--fast`` flag to perform an Ethereum fast sync, you "
+"will not retain past transaction data."
+msgstr ""
+
+# 241ac73cf76743d5a988c47d08c1c838
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:81
+msgid ""
+"You cannot use this flag after performing all or part of a normal sync "
+"operation, meaning you should not have any portion of the Ethereum "
+"blockchain downloaded before using this command. `See this Ethereum "
+"Stack\\.Exchange answer for more information "
+"<http://ethereum.stackexchange.com/questions/1845/why-isnt-fast-sync-the-"
+"default>`_."
+msgstr ""
+
+# bafbae289ec04901b5c44689339e8f73
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:83
+msgid ""
+"Below are some flags to use when you want to sync your client more "
+"quickly."
+msgstr ""
+
+# 97ec7046016348d8b2a4d2d7df10dffb
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:85
+msgid "``--fast``"
+msgstr ""
+
+# f1a8acb44d6846d2a23f76be079d193f
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:87
+msgid ""
+"This flag enables fast syncing through state downloads rather than "
+"downloading the full block data. This will also reduce the size of your "
+"blockchain dramatically. NOTE: ``--fast`` can only be run if you are "
+"syncing your blockchain from scratch and only the first time you download"
+" the blockchain for security reasons. `See this Reddit post for more "
+"information "
+"<https://www.reddit.com/r/ethereum/comments/3y9316/geth_fast_option_question/>`_."
+msgstr ""
+
+# df0033e221314c608d77f5365b01aaf8
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:90
+msgid "``--cache=1024``"
+msgstr ""
+
+# 0d7cc03c732b48409bf6509f46db79d8
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:92
+msgid ""
+"Megabytes of memory allocated to internal caching (min 16MB / database "
+"forced). Default is 16MB, so increasing this to 256, 512, 1024 (1GB), or "
+"2048 (2GB) depending on how much RAM your computer has should make a "
+"difference."
+msgstr ""
+
+# 15ce92a4fa62448da5bd1d0876124575
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:94
+msgid "``--jitvm``"
+msgstr ""
+
+# 8681725ab14742e8b522f5db7b77823e
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:96
+msgid "This flag enable the JIT VM."
+msgstr ""
+
+# 9db8b139aab74a6f9e7af3ad14b41fca
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:98
+msgid "Full example command with console:"
+msgstr ""
+
+# f5e0285af8e2427fb9a2556e51fba2dd
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:104
+msgid ""
+"For more discussion on fast syncing and blockchain download times, `see "
+"this Reddit post "
+"<https://www.reddit.com/r/ethereum/comments/46c4ga/lets_benchmark_the_clients/>`_."
+msgstr ""
+
+# d524d80b9f7b43c5b3a7fd03fc7f4ff5
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:107
+msgid "Exporting/Importing the blockchain"
+msgstr ""
+
+# ae7213ded2a54cc1a7b132a8e164cf68
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:108
+msgid ""
+"If you already have a full Ethereum node synced, you can export the "
+"blockchain data from the fully synced node and import it into your new "
+"node. You can accomplish this in geth by exporting your full node with "
+"the command ``geth export filename`` and importing the blockchain into "
+"your node using ``geth import filename``."
+msgstr ""
+
+# e2bf899327b34af6a5f54d674b7be77f
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:113
+msgid "Static Nodes, Trusted Nodes, and Boot Nodes"
+msgstr ""
+
+# 2d39b11e29e94c0ca9db4d03c4167ca9
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:115
+msgid ""
+"Geth supports a feature called static nodes if you have certain peers you"
+" always want to connect to. Static nodes are re-connected on disconnects."
+" You can configure permanent static nodes by putting something like the "
+"following into ``<datadir>/static-nodes.json`` (this should be the same "
+"folder that your ``chaindata`` and ``keystore`` folders are in)"
+msgstr ""
+
+# ff1e171eca8e4c5dbf783e4c9504b655
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:124
+msgid ""
+"You can also add static nodes at runtime via the Javascript console using"
+" `admin.addPeer()`"
+msgstr ""
+
+# 6bfb560216d04866a2c1c2df6c648dfd
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:131
+msgid "Common problems with connectivity"
+msgstr ""
+
+# 85ffe49d35c14ef989e337ed5381101d
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:132
+msgid ""
+"Sometimes you just can't get connected. The most common reasons are as "
+"follows:"
+msgstr ""
+
+# 0defcc6786334daca931c9476d7e18ca
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:135
+msgid ""
+"Your local time might be incorrect. An accurate clock is required to "
+"participate in the Ethereum network. Check your OS for how to resync your"
+" clock (example sudo ntpdate -s time.nist.gov) because even 12 seconds "
+"too fast can lead to 0 peers."
+msgstr ""
+
+# 725e8bd0b1e644e7a86c57205be06474
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:136
+msgid ""
+"Some firewall configurations can prevent UDP traffic from flowing. You "
+"can use the static nodes feature or ``admin.addPeer()`` on the console to"
+" configure connections by hand."
+msgstr ""
+
+# 5fe349d5c0ab492baab1457ae5bd3da5
+#: ../../source/using-ethereum-the-basics/connecting-to-the-network.rst:138
+msgid ""
+"To start geth without the discovery protocol, you can use the "
+"`--nodiscover` parameter. You only want this if you are running a test "
+"node or an experimental test network with fixed nodes."
+msgstr ""
+
+# 003c1a55e0784df08e7b613f7e9c4395
+#: ../../source/using-ethereum-the-basics/ether.rst:3
+msgid "Ether"
+msgstr ""
+
+# 5c6e199dfe8e4779ba1a0bccaafc8976
+#: ../../source/using-ethereum-the-basics/ether.rst:6
+msgid "What is ether?"
+msgstr ""
+
+# 2bcda82a7a8443ada8f4f59eec199586
+#: ../../source/using-ethereum-the-basics/ether.rst:8
+msgid ""
+"Ether is the name of the currency used within Ethereum. It is used to pay"
+" for computation within the EVM. This is done indirectly by purchasing "
+"gas for ether as explained in _`Gas and cryptofuel`."
+msgstr ""
+
+# aed8bf44114944abbb27732da7849f43
+#: ../../source/using-ethereum-the-basics/ether.rst:12
+msgid "Denominations"
+msgstr ""
+
+# 06db6de7572c488c98969164a0ead7fc
+#: ../../source/using-ethereum-the-basics/ether.rst:14
+msgid ""
+"Ethereum has a metric system of denominations used as units of Ether. "
+"Each denomination has its own unique name (some bear the family name of "
+"seminal figures playing a role in evolution of computer science and "
+"cryptoeconomics). The smallest denomination aka *base unit* of Ether is "
+"called Wei. Below is a list of the named denominations and their value in"
+" Wei. Following a common (although somewhat ambiguous) pattern, Ether "
+"also designates a unit (of 1e18 or one quintillion Wei) of the currency. "
+"Note that the currency is not called Ethereum as many mistakenly think, "
+"nor is Ethereum a unit."
+msgstr ""
+
+# 05d50209334c4be2a96e68ef1ed56d51
+#: ../../source/using-ethereum-the-basics/ether.rst:19
+msgid "Unit"
+msgstr ""
+
+# 5180744ad2704d2a81888608766ccff2
+#: ../../source/using-ethereum-the-basics/ether.rst:19
+msgid "Wei Value"
+msgstr ""
+
+# 39ca1f7e928442f79277128a10526d57
+#: ../../source/using-ethereum-the-basics/ether.rst:19
+msgid "Wei"
+msgstr ""
+
+# ad7d8a8915814eb6acb17aa9e7edb445
+#: ../../source/using-ethereum-the-basics/ether.rst:21
+msgid "**wei**"
+msgstr ""
+
+# ba83ba5e8494479ca629c10d03403bcd
+#: ../../source/using-ethereum-the-basics/ether.rst:21
+msgid "1 wei"
+msgstr ""
+
+# 389df9abc3914647a50a6d908063bb94
+#: ../../source/using-ethereum-the-basics/ether.rst:21
+msgid "1"
+msgstr ""
+
+# 9764937d048b4ce6885344836c59e7c8
+#: ../../source/using-ethereum-the-basics/ether.rst:23
+msgid "**Kwei (babbage)**"
+msgstr ""
+
+# 0dc0185b9a684048b0ed1b098331f941
+#: ../../source/using-ethereum-the-basics/ether.rst:23
+msgid "1e3 wei"
+msgstr ""
+
+# d6ec4d8271dc4afea0bd6020e4a50598
+#: ../../source/using-ethereum-the-basics/ether.rst:23
+msgid "1,000"
+msgstr ""
+
+# 71bf5847f8a1431d844da65ce5def672
+#: ../../source/using-ethereum-the-basics/ether.rst:25
+msgid "**Mwei (lovelace)**"
+msgstr ""
+
+# a6c09f882319439b9a4089c9948745d0
+#: ../../source/using-ethereum-the-basics/ether.rst:25
+msgid "1e6 wei"
+msgstr ""
+
+# f388b59bcce54fbc90bfe200ec7b3761
+#: ../../source/using-ethereum-the-basics/ether.rst:25
+msgid "1,000,000"
+msgstr ""
+
+# 3435d2a9a8c94fb59af7bdd6acba2759
+#: ../../source/using-ethereum-the-basics/ether.rst:27
+msgid "**Gwei (shannon)**"
+msgstr ""
+
+# 986b781d408344a7bf400d8633be871f
+#: ../../source/using-ethereum-the-basics/ether.rst:27
+msgid "1e9 wei"
+msgstr ""
+
+# 0ce7075113594c2ab294b7b8aa0555f4
+#: ../../source/using-ethereum-the-basics/ether.rst:27
+msgid "1,000,000,000"
+msgstr ""
+
+# c46cf6cf3f1d45d893fd1c1c71ffdc4e
+#: ../../source/using-ethereum-the-basics/ether.rst:29
+msgid "**microether (szabo)**"
+msgstr ""
+
+# 161dd2274aa94395ba767bf26a7fdee0
+#: ../../source/using-ethereum-the-basics/ether.rst:29
+msgid "1e12 wei"
+msgstr ""
+
+# 323fdb7a0d7a427789d891d7c13635d7
+#: ../../source/using-ethereum-the-basics/ether.rst:29
+msgid "1,000,000,000,000"
+msgstr ""
+
+# 2d82834bf9ce4c5096b2d6c6d2fb5632
+#: ../../source/using-ethereum-the-basics/ether.rst:31
+msgid "**milliether (finney)**"
+msgstr ""
+
+# 53837496ab7d4b5b9c67a2b43b63fccd
+#: ../../source/using-ethereum-the-basics/ether.rst:31
+msgid "1e15 wei"
+msgstr ""
+
+# 83ae6f7e20414995b2767347c23eb055
+#: ../../source/using-ethereum-the-basics/ether.rst:31
+msgid "1,000,000,000,000,000"
+msgstr ""
+
+# 420785550c0b4a52a754a84cb04baa38
+#: ../../source/using-ethereum-the-basics/ether.rst:33
+msgid "**ether**"
+msgstr ""
+
+# bc4ae513d1674aceb5c8c98a3b8d3152
+#: ../../source/using-ethereum-the-basics/ether.rst:33
+msgid "1e18 wei"
+msgstr ""
+
+# f6561b4054704fc09e336700c54fa580
+#: ../../source/using-ethereum-the-basics/ether.rst:33
+msgid "1,000,000,000,000,000,000"
+msgstr ""
+
+# 2f6e4bfd1e6345628de04a1dcd89c4f2
+#: ../../source/using-ethereum-the-basics/ether.rst:37
+msgid "Sending ether"
+msgstr ""
+
+# 23fa6d3556854c50823d7c16a37bc44c
+#: ../../source/using-ethereum-the-basics/ether.rst:39
+msgid "On how to acquire or purchase Ether, see _`Getting and storing Ether`."
+msgstr ""
+
+# 76a9b395c8d44a6393f7f0c897125372
+#: ../../source/using-ethereum-the-basics/ether.rst:41
+msgid ""
+"The `Ethereum Wallet  <https://github.com/ethereum/mist/releases>`_  "
+"supports sending ether via a graphical interface."
+msgstr ""
+
+# 3d2eb6a9407f4478a24c34dc7beda806
+#: ../../source/using-ethereum-the-basics/ether.rst:43
+msgid "Ether can also be transfered using the **geth console**."
+msgstr ""
+
+# cf28f96fc05d45c38ce8041f2fd55888
+#: ../../source/using-ethereum-the-basics/ether.rst:52
+msgid ""
+"For more information of Ether transfer transactions, see :ref:`account-"
+"types-gas-and-transactions`."
+msgstr ""
+
+# a311c84cb36a4d28a5a857d60f9eaa6a
+#: ../../source/using-ethereum-the-basics/ether.rst:54
+msgid ""
+"Ethereum is unique in the realm of cryptocurrencies in that ether has "
+"utility value as a cryptofuel, commonly referred to as \"gas\". Beyond "
+"transaction fees, gas is a central part of every network request and "
+"requires the sender to pay for the computing resources consumed. The gas "
+"cost is dynamically calculated, based on the volume and complexity of the"
+" request and multiplied by the current gas price. Its value as a "
+"cryptofuel has the effect of increasing the stability and long-term  "
+"demand for ether and Ethereum as a whole. For more information, see :ref"
+":`account-types-gas-and-transactions`."
+msgstr ""
+
+# 9b0c9cfd6ece4838927fa4ddd54991ce
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:3
+msgid "Installing a Client"
+msgstr ""
+
+# 8e2364bfa35543b1a30bb7b46b5bd417
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:6
+msgid "Why are there multiple clients?"
+msgstr ""
+
+# d3a37e1ce83b4309bca59388389e08ba
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:8
+msgid ""
+"A key design decision for Ethereum was to separate the definition of the "
+"protocol (the \"Yellow Paper\") from the implementation(s) of that "
+"protocol (geth, eth, etc)."
+msgstr ""
+
+# c93700ddf94743e19ddc6c180da7029b
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:12
+msgid ""
+"From the earlier days of the project there have been multiple "
+"interoperable client implementations across a range of different "
+"operating systems."
+msgstr ""
+
+# 014f610e4ab7418c89c6c9a22162c4ba
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:15
+msgid ""
+"As we enter the Homestead phase, the Go client is very, very dominant, "
+"but it hasn't always been that way, and won't necessarily be that way in "
+"the future."
+msgstr ""
+
+# 40a1173ac8864491917a71ab6e3bca07
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:19
+msgid ""
+"In the early days of the project the C++ client was more popular. "
+"BlockApps were able to create the Haskell client in stealth mode and to "
+"\"uncloak\" at DEVCON1 as part of the Azure partnership.  Ethcore have "
+"brought a Rust client to life in the last few months.  Every client has "
+"its own strengths."
+msgstr ""
+
+# 3563fe03f59540ddb67fcc2f5ec81e56
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:25
+msgid ""
+"That client diversity is a huge win for the eco-system as a whole. It "
+"lets us verify that the protocol is unambiguous.  It keeps the door open "
+"for new innovation.  It keeps us all honest."
+msgstr ""
+
+# 6dc8c93907a44d6498d464c214e57570
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:29
+msgid ""
+"However, it can be very confusing for end-users, because there is no "
+"universal \"Ethereum Installer\" for them to use."
+msgstr ""
+
+# ed4186b74df740a59a82fb7237fea82b
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:34
+msgid "What clients are currently available, and which support Homestead?"
+msgstr ""
+
+# b6650312b06c484899baf0f1acc23f5a
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:36
+msgid ""
+"There are a number of \"official\" clients whose development has been "
+"funded by the Ethereum Foundation, and there are various other clients "
+"which have been built by the community or by other commercial entities."
+msgstr ""
+
+# 495213fb7fbc428e8d179b581b627d09
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:41
+msgid "Client"
+msgstr ""
+
+# afb8321d95e84e7ea0732906c4f6e44f
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:41
+msgid "Language"
+msgstr ""
+
+# 91c2e830d14b459dbbd1bebc5b43e905
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:41
+msgid "Developers"
+msgstr ""
+
+# 07450d30c93640c2bc1f15598481c3e0
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:41
+msgid "Homestead Release"
+msgstr ""
+
+# 5cad7385304c4e529e29d48ceffd2131
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:43
+msgid "`mist (dapp browser)`_"
+msgstr ""
+
+# a34320020f894d1e9b2cfc83e3333fef
+# 275870e0f85c460c8c784ccf040d45e5
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:43
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:51
+msgid "Javascript"
+msgstr ""
+
+# 190c2e0f8863447c801527052dea1bfd
+# d23df5f67ff94fbf8437559965d48a8b
+# eef849dd9af94fa59bbbc5316c658880
+# 7c04da5d03a44dcfbdd2be5c0c4c3110
+# d8b1a9f2db914ddb90d8047f6e22069f
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:43
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:45
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:47
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:49
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:51
+msgid "`Ethereum Foundation`_"
+msgstr ""
+
+# d48b1927eeb040d3b7333cb5b9f65c0b
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:43
+msgid "`mist-v0.5.1`_"
+msgstr ""
+
+# ec16d812a0ac4ed7a0a04fa92667d252
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:45
+msgid "`go-ethereum`_"
+msgstr ""
+
+# 7e1426778e9f47c6904d751ccb6b1fbf
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:45
+msgid "Go"
+msgstr ""
+
+# 6dbccef372f94036b17dee925e12272d
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:45
+msgid "`geth-v1.3.5`_"
+msgstr ""
+
+# 8cc684d23403455db0dde967a9c5ae07
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:47
+msgid "`cpp-ethereum`_"
+msgstr ""
+
+# e234e5517c354e4b8ee9818a93cb675e
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:47
+msgid "C++"
+msgstr ""
+
+# 355909bc7a63485397bb3ad064cee431
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:47
+msgid "`eth-v1.2.1`_"
+msgstr ""
+
+# a448b9d673574b71b3cb34c944f0ca27
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:49
+msgid "`pyethapp`_"
+msgstr ""
+
+# feadf5620e6a43d4b4e8dab079d6b38d
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:49
+msgid "Python"
+msgstr ""
+
+# c4558afe609f41e8b5753758219173f5
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:51
+msgid "`ethereumjs-lib`_"
+msgstr ""
+
+# 1f3e9b2daf1b47d1b35c934994a0b333
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:51
+msgid "`ethereumjs-lib-v3.0.0`_"
+msgstr ""
+
+# d4dd577117774d85be65212e7374a3ef
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:53
+msgid "`Ethereum(J)`_"
+msgstr ""
+
+# 170a70df043244bb806df261850aaa65
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:53
+msgid "Java"
+msgstr ""
+
+# ae25cbbb275e49e696cfea27125cda7c
+# d1b86441895b4bcc9c62cd92732f735b
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:53
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:55
+msgid "`ConsenSys`_"
+msgstr ""
+
+# 89f3d00b2a0f48bbaf1e2feb8f336f2d
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:53
+msgid "`ethereumJ-v1.2.0-homestead-RC`_"
+msgstr ""
+
+# 2b9c19e9415741f4be713d06e497ffaa
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:55
+msgid "`ethereumH`_"
+msgstr ""
+
+# 43a6e56ba75245f38883222c06713572
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:55
+msgid "Haskell"
+msgstr ""
+
+# 1521bc1de10c4c52a38ae4927876d13a
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:57
+msgid "`ethereum-ruby`_"
+msgstr ""
+
+# bcf75eb29bf243219a35ba19df355aef
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:57
+msgid "Ruby"
+msgstr ""
+
+# 03cfd57e09d64c4c9bf1aab73a94c3d2
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:57
+msgid "`Digix`_"
+msgstr ""
+
+# ba752c034e9549b99d95155aa011a107
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:59
+msgid "`Parity`_"
+msgstr ""
+
+# 99509f1108074aa88d2ecc7cb3b64a0a
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:59
+msgid "Rust"
+msgstr ""
+
+# 70ec18cd7be540d18e18383ee25beb00
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:59
+msgid "`Ethcore`_"
+msgstr ""
+
+# df77fed5078e4541bbacc597500a1bd4
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:85
+msgid "What should I install on my desktop/laptop?"
+msgstr ""
+
+# c44c7f60a3864fad9aa60e64bf89aa98
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:87
+msgid ""
+"If you have a laptop or desktop machine, you should probably just install"
+" the Ethereum Wallet and you are done."
+msgstr ""
+
+# 5db71151087a4de0a254dc23110a70d6
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:90
+msgid ""
+"That is a \"single dapp\" deployment of the Mist Browser which will be "
+"the centerpiece of the Metropolis phase of development, which comes after"
+" Homestead.   Mist comes with bundled geth and eth binaries and if you "
+"are not running a command-line client then Mist will run one of the "
+"bundles binaries for you."
+msgstr ""
+
+# 39f3a37f673a4f748077adce104b1f82
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:96
+msgid ""
+"If you want to interact with Ethereum on the command-line, and to take "
+"advantage of the Javascript console then you will want to install one of "
+"the client applications directly, as well as having the ability to "
+"connect to the network using Mist."
+msgstr ""
+
+# 3a37f8af77a548b49a62823011a5a7e6
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:101
+msgid ""
+"geth and eth are the best place to start, because they have both been "
+"under development since the start of the project, have passed security "
+"audits, work for all platforms and have Ethereum Foundation resources "
+"assigned to their ongoing maintenance and support.  Beyond that, of "
+"course, it is all a matter of personal preference.  Try them all :-)"
+msgstr ""
+
+# 3bb9e7b68db747408139e48bbd751fee
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:107
+msgid ""
+"If you want to do mining then Mist will not be sufficient.  Check out the"
+" Mining section."
+msgstr ""
+
+# 9f387b191f3c4189b8d65fd9a9a95cb7
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:112
+msgid "What should I install on my mobile/tablet?"
+msgstr ""
+
+# 2eb01c506a314bcd89a6af095c3b8a99
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:114
+msgid ""
+"We are at the very beginning of our support for mobile devices.   The Go "
+"team are publishing experimental iOS and Android libraries, which some "
+"developers are using to start bootstrapping mobile applications, but "
+"there are not yet any mobile Ethereum clients available."
+msgstr ""
+
+# 5a78c7e99d224cbc8b20fd66e1406b6d
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:119
+msgid ""
+"The main hinderance to the use of Ethereum on mobile devices is that the "
+"Light Client support is still incomplete.   The work which has been done "
+"is off in a private branch, and is only available for the Go client. "
+"doublethinkco will be starting development of Light Client for the C++ "
+"client in the coming months, following grant funding."
+msgstr ""
+
+# 77dcd5fabc784d74a34d259c29b17b98
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:125
+msgid ""
+"Check out Syng.im, who were initially using EthereumJ-Android but have "
+"recently flipped to Geth cross-builds with Light Client."
+msgstr ""
+
+# 3e93c299731146fd8d117462abbb20cb
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:130
+msgid "What should I install on my SBC?"
+msgstr ""
+
+# 902313ed58754edfb43a15bab7b51342
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:132
+msgid ""
+"You have some choice here depending on your skill level, and what you are"
+" looking to do."
+msgstr ""
+
+# 2c120c2bfe9a44eca09c8c822ab46312
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:134
+msgid ""
+"Download a fully prepared image(link to page with detailed download & "
+"install instructions)"
+msgstr ""
+
+# 0edc9fcdcfab4d77b85dad0108bb2258
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:136
+msgid ""
+"If you are new to Ethereum AND SBC boards such as the Raspberry Pi then "
+"this is for you! Simply download the image specific to the dev board you "
+"are working with, burn it to an SD card, boot your device, and run "
+"Ethereum!"
+msgstr ""
+
+# eb97c7a8a0fb4eb8aa9399d2796f066e
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:138
+msgid ""
+"Download a pre-compiled application(link to page with detailed download &"
+" install instructions)"
+msgstr ""
+
+# 23b8af73f0af45c58b8b77fbd88b6c63
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:140
+msgid ""
+"If you already have an SBC running and have a specific, preferred OS or "
+"setup that you want to keep, then this is your best option! Depending on "
+"the platform, you can simply download the apropriate executable, and with"
+" minimal linking of libraries and setting of PATH you can have Ethereum "
+"running in your existing environment!"
+msgstr ""
+
+# da672565a39d496c96e2be6a2b5014a8
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:142
+msgid ""
+"Build from source using customizable scripts(link to page with more "
+"detail and individual SBC links to https://github.com/ethembedded)"
+msgstr ""
+
+# a15c5a11f47440d8b77c4b56a05855a0
+#: ../../source/using-ethereum-the-basics/installing-a-client.rst:144
+msgid ""
+"Looking to perform a custom install?  We have scripts available to "
+"compile from source \"on device\". Our scripts contain auto-install of "
+"dependencies as well as the client itself. This will allow you to install"
+" a specific version of the Ethereum client(i.e.-\"develop\", \"master\", "
+"etc.), compile your own forked version of a client, and generally play "
+"around with the intracacies of the build process."
+msgstr ""
+
+# a545351f05934662a3bbd57b6d30c999
+#: ../../source/using-ethereum-the-basics/mining.rst:5
+msgid "Mining"
+msgstr ""
+
+# e95646ad51f04176bbbdc1f18ef6d4d5
+#: ../../source/using-ethereum-the-basics/mining.rst:9
+msgid "Introduction"
+msgstr ""
+
+# 2dc8e33b89ba41ab9f56fd01c56de2af
+#: ../../source/using-ethereum-the-basics/mining.rst:11
+msgid ""
+"The word mining originates in the context of the gold analogy for crypto "
+"currencies. Gold or precious metals are scarce, so are digital tokens, "
+"and the only way to increase the total volume is through mining. This is "
+"appropriate to the extent that in Ethereum too, the only mode of issuance"
+" post launch is via mining. Unlike these examples however, mining is also"
+" the way to secure the network by creating, verifying, publishing and "
+"propagating blocks in the blockchain."
+msgstr ""
+
+# e74870f2edb049b4a304ede241fabf23
+#: ../../source/using-ethereum-the-basics/mining.rst:13
+msgid "Mining Ether = Securing the network = verify computation"
+msgstr ""
+
+# 044226bcba1049fba212f0f8ec55f3fd
+#: ../../source/using-ethereum-the-basics/mining.rst:16
+msgid "So what is mining anyway?"
+msgstr ""
+
+# 0a1898ef8b024c4d975477d5c8df1e17
+#: ../../source/using-ethereum-the-basics/mining.rst:18
+msgid ""
+"Ethereum, like all blockchain technologies, uses an incentive-driven "
+"model of security. Consensus is based on choosing the block with the "
+"highest total difficulty. Miners produce blocks which the others check "
+"for validity. Among other well-formedness criteria, a block is only valid"
+" if it contains **proof of work** (PoW) of a given **difficulty**. Note "
+"that in the Ethereum Serenity milestone, this is likely going to be "
+"replaced by a **proof of stake** (PoS) model."
+msgstr ""
+
+# 899c0613b1914d5488f2235ebf66dc67
+#: ../../source/using-ethereum-the-basics/mining.rst:20
+msgid ""
+"The Ethereum blockchain is in many ways similar to the Bitcoin "
+"blockchain, although it does have some differences. The main difference "
+"between Ethereum and Bitcoin with regard to the blockchain architecture "
+"is that, unlike Bitcoin, Ethereum blocks contain a copy of both the "
+"transaction list and the most recent state. Aside from that, two other "
+"values, the block number and the difficulty, are also stored in the "
+"block."
+msgstr ""
+
+# 5a85f83ae87d4411ad5bc909196ea227
+#: ../../source/using-ethereum-the-basics/mining.rst:22
+msgid ""
+"The proof of work algorithm used is called `Ethash "
+"<https://github.com/ethereum/wiki/wiki/Ethash>`__ (a modified version of "
+"`Dagger-Hashimoto <https://github.com/ethereum/wiki/wiki/Dagger-"
+"Hashimoto>`__) and involves finding a nonce input to the algorithm so "
+"that the result is below a certain difficulty threshold. The point in PoW"
+" algorithms is that there is no better strategy to find such a nonce than"
+" enumerating the possibilities, while verification of a solution is "
+"trivial and cheap. If outputs have a uniform distribution, then we can "
+"guarantee that on average the time needed to find a nonce depends on the "
+"difficulty threshold, making it possible to control the time of finding a"
+" new block just by manipulating the difficulty."
+msgstr ""
+
+# d396e04623c84467ab926b829a0ec748
+#: ../../source/using-ethereum-the-basics/mining.rst:25
+msgid ""
+"The difficulty dynamically adjusts so that on average one block is "
+"produced by the entire network every 12 seconds (i.e., 12 s block time). "
+"This heartbeat basically punctuates the synchronisation of system state "
+"and guarantees that maintaining a fork (to allow double spend) or "
+"rewriting history is impossible unless the attacker possesses more than "
+"half of the network mining power (so called 51% attack)."
+msgstr ""
+
+# 74eedf79c4dc4fbb98228eb7bcfba88a
+#: ../../source/using-ethereum-the-basics/mining.rst:32
+msgid ""
+"Any node participating in the network can be a miner and their expected "
+"revenue from mining will be directly proportional to their (relative) "
+"mining power or **hashrate**, which is the number of nonces tried per "
+"second normalised by the total hashrate of the network."
+msgstr ""
+
+# 7d89e8fc0a434087947ebd9979abec51
+#: ../../source/using-ethereum-the-basics/mining.rst:37
+msgid ""
+"Ethash PoW is memory hard, making it basically ASIC resistant. This "
+"basically means that calculating the PoW requires choosing subsets of a "
+"fixed resource dependent on the nonce and block header. This resource (a "
+"few gigabyte size data) is called a **DAG**. The `DAG "
+"<https://github.com/ethereum/wiki/wiki/Ethash-DAG>`__ is totally "
+"different every 30000 blocks (a 100 hour window, called an **epoch**) and"
+" takes a while to generate. Since the DAG only depends on block height, "
+"it can be pregenerated but if its not, the client need to wait the end of"
+" this process to produce a block. Until clients actually precache dags "
+"ahead of time the network may experience a massive block delay on each "
+"epoch transition. Note that the DAG does not need to be generated for "
+"verifying the PoW essentially allowing for verification with both low CPU"
+" and small memory."
+msgstr ""
+
+# 2108970fe052423598d2310982965810
+#: ../../source/using-ethereum-the-basics/mining.rst:51
+msgid ""
+"As a special case, when you start up your node from scratch, mining will "
+"only start once the DAG is built for the current epoch."
+msgstr ""
+
+# 570d257824d848f181290933ed574006
+# 45e30f1cbc5a4eac8eb7e899d68b050a
+#: ../../source/using-ethereum-the-basics/mining.rst:55
+#: ../../source/using-ethereum-the-basics/mining.rst:141
+msgid "Mining rewards"
+msgstr ""
+
+# d3a5e10bd87c40af9ff8ea7aacd34162
+#: ../../source/using-ethereum-the-basics/mining.rst:57
+msgid "The successful PoW miner of the winning block receives:"
+msgstr ""
+
+# 9673c3cd6caf49c082a1295cfdfa716a
+#: ../../source/using-ethereum-the-basics/mining.rst:59
+msgid ""
+"a **static block reward** for the 'winning' block, consisting of exactly "
+"5.0 ether"
+msgstr ""
+
+# fb5d1fff85fd444980c854a4d115ea86
+#: ../../source/using-ethereum-the-basics/mining.rst:60
+msgid ""
+"cost of the gas expended within the block – an amount of ether that "
+"depends on the gas price"
+msgstr ""
+
+# c5f30259836447a3875d6ba5782fa459
+#: ../../source/using-ethereum-the-basics/mining.rst:61
+msgid ""
+"an extra reward for including uncles as part of the block, in the form of"
+" an extra 1/32 per uncle included"
+msgstr ""
+
+# ee5824c28dc0406e83be40838138431d
+#: ../../source/using-ethereum-the-basics/mining.rst:63
+msgid ""
+"All the gas consumed by the execution of all the transactions in the "
+"block submitted by the winning miner is compensated for by the senders. "
+"The gas cost incurred is credited to the miner's account as part of the "
+"consensus protocol. Over time, it's expected these will dwarf the static "
+"block reward."
+msgstr ""
+
+# 924a26d398104fcb9f507781a47f288c
+#: ../../source/using-ethereum-the-basics/mining.rst:69
+msgid ""
+"Uncles are stale blocks i.e. with parents that are ancestors (max 6 "
+"blocks back) of the including block. Valid uncles are rewarded in order "
+"to neutralise the effect of network lag on the dispersion of mining "
+"rewards, thereby increasing security. Uncles included in a block formed "
+"by the successful PoW miner receive 7/8 of the static block reward "
+"(=4.375 ether) A maximum of 2 uncles are allowed per block."
+msgstr ""
+
+# 39880eacc878429ca8af8b1498541c8c
+#: ../../source/using-ethereum-the-basics/mining.rst:77
+msgid "Ethash DAG"
+msgstr ""
+
+# ffa571c57d9449dbabf4a2a80d9e6687
+#: ../../source/using-ethereum-the-basics/mining.rst:79
+msgid ""
+"Ethash uses a **DAG** (directed acyclic graph) for the proof of work "
+"algorithm, this is generated for each **epoch**, i.e., every 30000 blocks"
+" (100 hours). The DAG takes a long time to generate. If clients only "
+"generate it on demand, you may see a long wait at each epoch transition "
+"before the first block of the new epoch is found. However, the DAG only "
+"depends on block number, so it CAN and SHOULD be calculated in advance to"
+" avoid long wait times at each epoch transition. ``geth`` implements "
+"automatic DAG generation and maintains two DAGS at a time for smooth "
+"epoch transitions. Automatic DAG generation is turned on and off when "
+"mining is controlled from the console. It is also turned on by default if"
+" ``geth`` is launched with the ``--mine`` option. Note that clients share"
+" a DAG resource, so if you are running multiple instances of any client, "
+"make sure automatic dag generation is switched on in at most one client."
+msgstr ""
+
+# c9f177f01f7f481d91ae002b2a4c1c9b
+#: ../../source/using-ethereum-the-basics/mining.rst:94
+msgid "To generate the DAG for an arbitrary epoch:"
+msgstr ""
+
+# 32fdc96d6ffc43df834d5180714e6fdb
+#: ../../source/using-ethereum-the-basics/mining.rst:100
+msgid ""
+"For instance ``geth makedag 360000 ~/.ethash``. Note that ethash uses "
+"``~/.ethash`` (Mac/Linux) or ``~/AppData/Ethash`` (Windows) for the DAG "
+"so that it can shared between clients."
+msgstr ""
+
+# 94879d1cbcc349a893a00a59e5d91255
+#: ../../source/using-ethereum-the-basics/mining.rst:105
+msgid "The algorithm"
+msgstr ""
+
+# fece1fd6360342398170f705781aa6dc
+#: ../../source/using-ethereum-the-basics/mining.rst:107
+msgid ""
+"Our algorithm, `Ethash <https://github.com/ethereum/wiki/wiki/Ethash>`__ "
+"(previously known as Dagger-Hashimoto), is based around the provision of "
+"a large, transient, randomly generated dataset which forms a DAG (the "
+"Dagger-part), and attempting to solve a particular constraint on it, "
+"partly determined through a block's header-hash."
+msgstr ""
+
+# b041d44f0bb54443bf80339aa3646f9a
+#: ../../source/using-ethereum-the-basics/mining.rst:113
+msgid ""
+"It is designed to hash a fast verifiability time within a slow CPU-only "
+"environment, yet provide vast speed-ups for mining when provided with a "
+"large amount of memory with high-bandwidth. The large memory requirements"
+" mean that large-scale miners get comparatively little super-linear "
+"benefit. The high bandwidth requirement means that a speed-up from piling"
+" on many super-fast processing units sharing the same memory gives little"
+" benefit over a single unit."
+msgstr ""
+
+# 4ffdf9a8c4b54c9f90b28771d9f7ef47
+#: ../../source/using-ethereum-the-basics/mining.rst:122
+msgid "JSON-RPC"
+msgstr ""
+
+# 23a7341e0ecd45c5a188247d007c80d0
+#: ../../source/using-ethereum-the-basics/mining.rst:124
+msgid ""
+"Communication between the external mining application and the Ethereum "
+"daemon for work provision and submission happens through the JSON-RPC "
+"API. Two RPC functions are provided; ``eth_getWork`` and "
+"``eth_submitWork``."
+msgstr ""
+
+# 4d14090e0e334473bee17954d9d1c572
+#: ../../source/using-ethereum-the-basics/mining.rst:129
+msgid ""
+"These are formally documented on the `JSON-RPC API "
+"<https://github.com/ethereum/wiki/wiki/JSON-RPC>`_ wiki article."
+msgstr ""
+
+# 2c8074942fce43169f82c18b13889bc0
+#: ../../source/using-ethereum-the-basics/mining.rst:133
+msgid "Mining preliminaries"
+msgstr ""
+
+# cdcd74f1d1c245bcbde57f7d52895680
+#: ../../source/using-ethereum-the-basics/mining.rst:135
+msgid ""
+"In order to do mining, you need an ether account. This account is used to"
+" send the mining rewards to and is often referred to as 'coinbase' or "
+"'etherbase'. So on any platform, any implementation, you first need to "
+"`create a new geth account`. Using ``geth`` you simply type ``geth "
+"account new`` and hit Enter. You will be asked to enter a password. "
+"Careful! You won't see the password when you type. Also, do not lose your"
+" password! Without it you will lose all ether associated with the "
+"account."
+msgstr ""
+
+# 00d828368db14078b0edde2f5702421b
+#: ../../source/using-ethereum-the-basics/mining.rst:143
+msgid ""
+"https://forum.ethereum.org/discussion/2262/eli5-whats-an-uncle-in-"
+"ethereum-mining `Mining difficulty chart on etherscan "
+"<http://etherscan.io/charts/difficulty>`_"
+msgstr ""
+
+# 409b9dc3dd3f4195a0bb982bf0304725
+#: ../../source/using-ethereum-the-basics/mining.rst:147
+msgid "CPU mining"
+msgstr ""
+
+# d274ce70ca5349ed8c56c678d8e1ac36
+#: ../../source/using-ethereum-the-basics/mining.rst:149
+msgid ""
+"You can use your computer's central processing unit (CPU) to mine ether. "
+"This is no longer profitable, since GPU miners are roughly two orders of "
+"magnitude more efficient. However, you can use CPU mining to mine on the "
+"testnet or a private chain for the purposes of creating ether to test "
+"contracts and transactions without spending your real ether on the live "
+"network. Note that ether (sourced from faucet or earned via mining) has "
+"no value other than using it for testing purposes. It is most unlikely "
+"there will ever be a proper market for testnet ether."
+msgstr ""
+
+# efa58e61aefb466eae5c5ea667d964b9
+#: ../../source/using-ethereum-the-basics/mining.rst:157
+msgid "GPU mining"
+msgstr ""
+
+# ac16191abf774f219e4ee8043a4cd33e
+#: ../../source/using-ethereum-the-basics/mining.rst:160
+msgid "GPU mining on windows"
+msgstr ""
+
+# b558406778ac4badab2bb5123fd9994e
+#: ../../source/using-ethereum-the-basics/mining.rst:162
+msgid ""
+"To start mining on Windows, first download `Geth`_. Geth communicates "
+"with the Ethereum network to coordinate the mining process over all "
+"computers connected to the network."
+msgstr ""
+
+# 888ba6b225d646a593d01216c43960c1
+#: ../../source/using-ethereum-the-basics/mining.rst:166
+msgid ""
+"Unzip Geth (right-click and select unpack) and launch Command Prompt. Use"
+" 'cd' to navigate to the location of the Geth folder. (e.g. 'cd /' to go "
+"to the C: drive)"
+msgstr ""
+
+# 7a9d3acdb97040d0adc9f94c016f8597
+#: ../../source/using-ethereum-the-basics/mining.rst:167
+msgid "Start geth by typing ``geth --rpc``."
+msgstr ""
+
+# 945746875a374806ad59e9cd5ead2b36
+#: ../../source/using-ethereum-the-basics/mining.rst:169
+msgid ""
+"As soon as you enter this, the Ethereum blockchain will start "
+"downloading. Sometimes your firewall may block the synchronisation "
+"process (it will prompt you when doing so). If this is the case, click "
+"\"Allow access\"."
+msgstr ""
+
+# d2d72aa98f824aef85630883afff1f0c
+#: ../../source/using-ethereum-the-basics/mining.rst:173
+msgid ""
+"Download and install the C++ mining software, `Ethminer`_. (your firewall"
+" or Windows itself may act up, allow access)"
+msgstr ""
+
+# de04fc618f2e4749b71d34ab26cc1a81
+#: ../../source/using-ethereum-the-basics/mining.rst:174
+msgid ""
+"Open up another Command Prompt (leave the first one running!), change "
+"directory by typing ``cd /Program\\ Files/Ethereum(++)/release``"
+msgstr ""
+
+# 215d0b4a758745958500e149ed6ee35d
+#: ../../source/using-ethereum-the-basics/mining.rst:175
+msgid ""
+"Now make sure `geth` has finished syncing the blockchain. If it is not "
+"syncing any longer, you can  start the mining process by typing "
+"``ethminer -G`` at the command prompt"
+msgstr ""
+
+# e9f7667d49324e7d9c77f3ec9ae1eb5c
+#: ../../source/using-ethereum-the-basics/mining.rst:177
+msgid ""
+"At this point some problems may appear. If you get an error, you can "
+"abort the miner by pressing 'Ctrl+C'. If the error says \"Insufficient "
+"Memory\", your GPU does not have enough memory to mine ether."
+msgstr ""
+
+# de1ac74ecb5c4b13928d1f8ec18ba91f
+#: ../../source/using-ethereum-the-basics/mining.rst:180
+msgid ""
+"http://cryptomining-blog.com/5323-quick-guide-on-how-to-mine-ethereum-on-"
+"windows/"
+msgstr ""
+
+# b33ecd1deff3466285a8674b99cf52b3
+#: ../../source/using-ethereum-the-basics/mining.rst:184
+msgid "GPU mining on Ubuntu linux"
+msgstr ""
+
+# 838fff246d1a452ba8e1e7638e2eaa5d
+#: ../../source/using-ethereum-the-basics/mining.rst:186
+msgid ""
+"`Spacience blogpost <http://spacience.blogspot.sg/2015/11/gpu-mining-in-"
+"ethereum-1404-from-scratch.html>`_"
+msgstr ""
+
+# ba67ddab113c41189ca755d8918ff4f1
+#: ../../source/using-ethereum-the-basics/mining.rst:190
+msgid "Pool mining"
+msgstr ""
+
+# 13daec75c8a24dc19931bf87e60f6c19
+#: ../../source/using-ethereum-the-basics/mining.rst:192
+msgid ""
+"Mining pools are cooperatives that aim to smooth out expected revenue by "
+"pooling the mining power of participating miners. The mining pool submits"
+" blocks with proof of work from a central account and redistributes the "
+"reward to participants in proportion to their contributed mining power. "
+"Unlike in Bitcoin, the benefit of pooling is minimal due to the very "
+"short blocktime. _`Mining Pools` lists the pools we know of."
+msgstr ""
+
+# 5b84fedc2597431fb17f7160e10f46f5
+#: ../../source/using-ethereum-the-basics/mining.rst:194
+msgid ""
+"Note that most mining pools involve third party, central components which"
+" means they are not trustless. In other words, pool operators can run "
+"away with your earnings. Act with caution. There are a number of "
+"trustless, decentralised pools with open source codebase. We recommend "
+"using those."
+msgstr ""
+
+# 9f59d39c54564d4a8f029e9d8ddb8224
+#: ../../source/using-ethereum-the-basics/mining.rst:197
+msgid ""
+"Mining pools only outsource proof of work calculation, they do not "
+"validate blocks or run the VM to check state transitions brought about by"
+" executing the transactions. This effectively make pools behave like "
+"single nodes in terms of security, so their growth poses a centralisation"
+" risk of a 51% attack. Make sure you follow the network capacity "
+"distribution and do not allow pools to grow too large."
+msgstr ""
+
+# 82d5912937f2402bbf77172491ed64e2
+#: ../../source/using-ethereum-the-basics/mining.rst:201
+msgid "Mining profitability calculators:"
+msgstr ""
+
+# 3f409cfd9b2c4b8e8e9402d6023fd587
+#: ../../source/using-ethereum-the-basics/mining.rst:201
+msgid "`in the ether <http://ethereum-mining-calculator.com/>`_"
+msgstr ""
+
+# c6f58fbb3eec4b1abe1107118d530f11
+#: ../../source/using-ethereum-the-basics/using-ethereum-the-basics.rst:3
+msgid "Using Ethereum: The Basics"
+msgstr ""
+

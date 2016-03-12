@@ -1,0 +1,1237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, ethdev && ethereum community
+# This file is distributed under the same license as the Ethereum Homestead
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ethereum Homestead 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-12 02:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+# 5bcf39dcc4a747f9beec44e73bcde094
+#: ../../source/ethereum-ecosystem/community.rst:5
+msgid "Community"
+msgstr ""
+
+# 43fbb349fce7494a894007f2d9f8ca2b
+#: ../../source/ethereum-ecosystem/community.rst:7
+msgid ""
+"Please choose your forum wisely when starting a discussion or asking a "
+"question, help keep our various fora clean and tidy."
+msgstr ""
+
+# 99b7f0ebf46b4adc916ac41630e62e4e
+#: ../../source/ethereum-ecosystem/community.rst:10
+msgid "Reddit"
+msgstr ""
+
+# 92766ef496ca4b9588f4194e5d713bdc
+#: ../../source/ethereum-ecosystem/community.rst:11
+msgid ""
+"The `Ethereum subreddit`_ is the most inclusive Ethereum forum, where "
+"most of the community discussion is happening and where core devs are "
+"also active. This is your forum of choice for generic discussion of news,"
+" media coverage, announcements, brainstorming. In general all things "
+"Ethereum relevant to the wider community."
+msgstr ""
+
+# 896c1fd36e224d83b5f9c900c3b695b4
+#: ../../source/ethereum-ecosystem/community.rst:13
+msgid "Strictly no price discussion."
+msgstr ""
+
+# ce244a556c6042359213faa790cef428
+#: ../../source/ethereum-ecosystem/community.rst:15
+msgid ""
+"Also, this is not the ideal place to ask for hands-on help or post "
+"questions you expect there are clear immediate answers to (use :ref"
+":`gitter-rooms` and :ref:`stack-exchange` for these, respectively)."
+msgstr ""
+
+# bb58f989b98c4c6bb5168ed37ef1f7f7
+#: ../../source/ethereum-ecosystem/community.rst:17
+msgid "Read the `Ethereum subreddit rules`_ before posting."
+msgstr ""
+
+# dfa907f88ef04a29a8a65492a7ae8ce7
+#: ../../source/ethereum-ecosystem/community.rst:19
+msgid "Further specialised subreddits:"
+msgstr ""
+
+# 5c3e6c7912984e568f27b5d6cb94c110
+#: ../../source/ethereum-ecosystem/community.rst:21
+msgid "`EthTrader`_ - Ether trading, price and  market"
+msgstr ""
+
+# 219a3d969a074241a82b7bbbb424ac63
+#: ../../source/ethereum-ecosystem/community.rst:22
+msgid "`EtherMining`_ - Ether mining discussion"
+msgstr ""
+
+# 0df3b676feab4333847a4d62d3d1158f
+#: ../../source/ethereum-ecosystem/community.rst:23
+msgid ""
+"`Ethmarket`_ - Marketplace for individuals looking to exchange goods and "
+"services for Ether"
+msgstr ""
+
+# cebbb822fbab4287931379f2e22f71cf
+#: ../../source/ethereum-ecosystem/community.rst:24
+msgid ""
+"`Ethinvestor`_ - News and prospects for Ethereum investors. Following the"
+" long term trends in the Ethereum marketplace."
+msgstr ""
+
+# 7e73bab6222b42eda262e8aaae1f9496
+#: ../../source/ethereum-ecosystem/community.rst:37
+msgid "Stack Exchange"
+msgstr ""
+
+# 60edd7790e1140d7823cc9dbd1cfa1b7
+#: ../../source/ethereum-ecosystem/community.rst:38
+msgid ""
+"The `Ethereum Stack Exchange <http://ethereum.stackexchange.com/>`_ is "
+"part of the StackExchange network of Q&A communities. StackExchange is a "
+"free Q&A site where all the questions and answers are preserved for "
+"posterity."
+msgstr ""
+
+# 3d50aaa51c334054bd33ed6d209139a0
+#: ../../source/ethereum-ecosystem/community.rst:40
+msgid ""
+"This is the best place to ask technical questions. Help your fellow "
+"etherians by answering questions and collect reputation points."
+msgstr ""
+
+# ab51ddb5530440c28f1383c54b3e335e
+#: ../../source/ethereum-ecosystem/community.rst:45
+msgid "Gitter Rooms"
+msgstr ""
+
+# fd0ab3326f494ce88e865bc996d4f945
+#: ../../source/ethereum-ecosystem/community.rst:47
+msgid ""
+"Gitter is our forum of choice for daily chat. It is the virtual coworking"
+" space where devs hang out, so it is where you can get quick help and a "
+"bit of handholding in needed."
+msgstr ""
+
+# 6a5226e77e8c4e83870500f351180531
+#: ../../source/ethereum-ecosystem/community.rst:49
+msgid ""
+"Gitter uses Github accounts, offers Github integration (notification of "
+"pull requests etc), private channels, provides markdown formatting, and "
+"more."
+msgstr ""
+
+# cd373cecb9b84f5f9c3bfbbac97ca22c
+#: ../../source/ethereum-ecosystem/community.rst:51
+msgid ""
+"Most Gitter channels are organised around particular repositories, or "
+"generic topics like research or governance. Please choose the appropriate"
+" room and keep discussions on topic."
+msgstr ""
+
+# d04d3fb3851b4108bfacff8182e9224c
+#: ../../source/ethereum-ecosystem/community.rst:53
+msgid ""
+"See `the full list of gitter rooms for the Ethereum organisation`_. Below"
+" is the list of active public channels:"
+msgstr ""
+
+# 12e81a951f2e43a3acb4dbc2649404d2
+#: ../../source/ethereum-ecosystem/community.rst:55
+msgid "`go-ethereum`_ - about geth (and tools related to the go implementation)"
+msgstr ""
+
+# 2fbd924aca6e4ddbb16d010dec5d0cf6
+#: ../../source/ethereum-ecosystem/community.rst:56
+msgid "`cpp-ethereum`_ - about eth (and tools related to the C++ implementation)"
+msgstr ""
+
+# fdeb18ce62114c0a95892a97cf2c826e
+#: ../../source/ethereum-ecosystem/community.rst:57
+msgid "`web3.js`_ - about web3.js, Ethereum JavaScript API library"
+msgstr ""
+
+# 060eec45f1e244419431bc97132da2bf
+#: ../../source/ethereum-ecosystem/community.rst:58
+msgid "`Solidity`_ - The Solidity Contract-Oriented Programming Language"
+msgstr ""
+
+# 37ee8812b3ca4892a44af63f08960fb9
+#: ../../source/ethereum-ecosystem/community.rst:59
+msgid "`serpent`_ - The Serpent language for contract development"
+msgstr ""
+
+# 0f94a267cac64aeab5179be897d5b409
+#: ../../source/ethereum-ecosystem/community.rst:60
+msgid "`mist`_ - GUI dapp browser, official wallet app"
+msgstr ""
+
+# 9c301be68f9946be8617468d1eb22c46
+#: ../../source/ethereum-ecosystem/community.rst:61
+msgid "`light-client`_ - about light client and the LES protocol"
+msgstr ""
+
+# 28898e5ba2e34f86931de54337dc1970
+#: ../../source/ethereum-ecosystem/community.rst:62
+msgid "`research`_ - Ethereum research"
+msgstr ""
+
+# 6356723898c7491186f21749de60ebfb
+#: ../../source/ethereum-ecosystem/community.rst:63
+msgid "`governance`_ - about dev governance"
+msgstr ""
+
+# 61ed4cdbf4b04efe993a9328c48d69bf
+#: ../../source/ethereum-ecosystem/community.rst:64
+msgid "`whisper`_ - anonymous datagram publishing"
+msgstr ""
+
+# f6563a4622f646059e0a28f741a29b34
+#: ../../source/ethereum-ecosystem/community.rst:65
+msgid "`swarm`_ - decentralised content storage and distribution network"
+msgstr ""
+
+# 6e6b8d20459b43b7a8e2324b765748b9
+#: ../../source/ethereum-ecosystem/community.rst:66
+msgid "`EIPs`_ - discussion of _`Ethereum Improvement Proposals (EIPs)`"
+msgstr ""
+
+# 24bb200812fe40d2921f11f9cc3b155c
+#: ../../source/ethereum-ecosystem/community.rst:67
+msgid "`ethereumjs-lib`_ - a JavaScript library of core Ethereum functions"
+msgstr ""
+
+# ec18e99c900e4d87b4e640b10188f8e0
+#: ../../source/ethereum-ecosystem/community.rst:68
+msgid "`devp2p`_ -  ÐΞV's p2p network protocol & framework"
+msgstr ""
+
+# d423b7413fa547acb79b4b0a601ce8e9
+#: ../../source/ethereum-ecosystem/community.rst:88
+msgid "Ethereum Improvement Proposals (EIPs)"
+msgstr ""
+
+# 8e49b6fdcfe540fca5e36e9ec9a906a5
+#: ../../source/ethereum-ecosystem/community.rst:89
+msgid ""
+"The EIP scheme aims to be a framework and largely informal business "
+"process coordinating improvements to the protocols. People should first "
+"propose their idea as an issue or pull request to the EIPs repository. "
+"After basic filtering, the proposal will receive a number and is "
+"published in draft form. For an EIP to become Active it will require the "
+"mutual consent of the community. Those proposing changes should consider "
+"that ultimately consent may rest with the consensus of the Ethereum "
+"users. For discussion of EIPs, use the `gitter channel for EIP "
+"discussions`_."
+msgstr ""
+
+# 79888fd6a1694a7397aaedc607db1f11
+#: ../../source/ethereum-ecosystem/community.rst:92
+msgid ""
+"`EIP guidelines and sample EIP "
+"<https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.mediawiki>`_"
+msgstr ""
+
+# b6cfc4a65cfc4c0c804e4114ca0c8247
+#: ../../source/ethereum-ecosystem/community.rst:93
+msgid ""
+"`EIP template "
+"<https://github.com/ethereum/EIPs/blob/master/eip-X.mediawiki>`_"
+msgstr ""
+
+# 6f9f3e3b2c8f446e8aeda5cc97cd2da2
+#: ../../source/ethereum-ecosystem/community.rst:94
+msgid ""
+"`EIP repository and README "
+"<https://github.com/ethereum/EIPshttps://github.com/ethereum/EIPs>`_"
+msgstr ""
+
+# 0a36607f05b34d5f884e81211e9c0174
+#: ../../source/ethereum-ecosystem/community.rst:95
+msgid "`gitter channel for EIP discussions <https://gitter.im/ethereum/EIPs>`_"
+msgstr ""
+
+# 54fde1593279456da4d7db6fb2d866e7
+#: ../../source/ethereum-ecosystem/community.rst:98
+msgid "Meetups"
+msgstr ""
+
+# 9df40fa5bb5f4f1ea0ce814caa915e76
+#: ../../source/ethereum-ecosystem/community.rst:99
+msgid "`Directory hosted on Meetup <http://www.meetup.com/topics/ethereum/>`_"
+msgstr ""
+
+# 99d4e7225d78426c8bdbb60a8214f220
+#: ../../source/ethereum-ecosystem/community.rst:100
+msgid ""
+"`Meetup channel on Ethereum Forum "
+"<http://forum.ethereum.org/categories/meetups/>`_"
+msgstr ""
+
+# 48e47b8d67324694a44cdcf28502d82e
+#: ../../source/ethereum-ecosystem/community.rst:103
+msgid "Obsolete"
+msgstr ""
+
+# aeef06c418e34528bac63b1f5ee91d49
+#: ../../source/ethereum-ecosystem/community.rst:105
+msgid "Skype"
+msgstr ""
+
+# 41bd0afa3f1742ed954aa0bb67325172
+#: ../../source/ethereum-ecosystem/community.rst:106
+msgid ""
+"Some community discussion fora still use skype rooms, but we would like "
+"to move away from that and encourage people to use `gitter "
+"<http://gitter.im>`_ or `slack <http://slack.com>`_."
+msgstr ""
+
+# 6c372cc4a976473eab273759e0ca8322
+#: ../../source/ethereum-ecosystem/community.rst:109
+msgid "Ethereum Forum"
+msgstr ""
+
+# dc1a1eef53d449febc40c72008b05d5f
+#: ../../source/ethereum-ecosystem/community.rst:110
+msgid ""
+"Stephan Tual's legendary `Ethereum Forum <https://forum.ethereum.org/>`_ "
+"is no longer maintained and likely to be decommissioned soon. We "
+"encourage people to use one of the recommended alternatives listed above."
+msgstr ""
+
+# e3a54d6bdea14ece84eeb04465cd6271
+#: ../../source/ethereum-ecosystem/dapps.rst:3
+msgid "Dapps"
+msgstr ""
+
+# acb062ba70734dc6bc317843a27b4547
+#: ../../source/ethereum-ecosystem/dapps.rst:4
+msgid ""
+"Dapps are programs which are run by many people that either uses or "
+"creates a decentralized network for some specific purpose (eg. connecting"
+" buyers and sellers in some marketplace, sharing files, online file "
+"storage, maintaining a currency). Ethereum-based decentralized "
+"applications (also called Đapps, where the Đ is the Norse letter “eth”) "
+"typically consist of an HTML/Javascript webpageand a special Javascript "
+"API for sending transactions to the blockchain, reading data from the "
+"blockchain, and interacting with Whisper and Swarm. A Đapp typically has "
+"a specific associated contract on the blockchain, though Đapps that "
+"facilitate the creation of many types of contracts are possible."
+msgstr ""
+
+# de691716b76844f28d6e946f25130dd6
+#: ../../source/ethereum-ecosystem/dapps.rst:7
+msgid "Dapp directories"
+msgstr ""
+
+# 4bf050b99dd6426a8ecec7ebe6f532b6
+#: ../../source/ethereum-ecosystem/dapps.rst:9
+msgid ""
+"Dapps that use Ethereum are compiled to the following lists. They are "
+"listed in various stages of development (concept, working prototype, "
+"live/deployed). If you are developing a dapp, consider adding an entry to"
+" these listings:"
+msgstr ""
+
+# 8c0c864d440a486796a4673eee70bc09
+#: ../../source/ethereum-ecosystem/dapps.rst:11
+msgid "`Ethercasts State of the Ðapps <http://dapps.ethercasts.com/>`_"
+msgstr ""
+
+# e0d677ce546240119b2ad55943784b15
+#: ../../source/ethereum-ecosystem/dapps.rst:12
+msgid "`Dappslist <https://dappslist.com/>`_"
+msgstr ""
+
+# af058605607b44ca9a7f5995fde0c2ea
+#: ../../source/ethereum-ecosystem/dapps.rst:13
+msgid ""
+"`Dappcentral <http://dappcentral.io/>`_ - Sortable pages for Dapps with "
+"instructions, code validation, and network stats."
+msgstr ""
+
+# ee0ed903c0774d5d8ee2beb9a40f9627
+#: ../../source/ethereum-ecosystem/dapps.rst:14
+msgid ""
+"`Dapps Mailing List <http://dapplist.net/>`_ - Mailing list for "
+"developers on Ethereum (discontinued)."
+msgstr ""
+
+# 8782585f410b4ddca684f1c9d453d37f
+#: ../../source/ethereum-ecosystem/dapps.rst:16
+msgid ""
+"The offered decentralised services listed cover a wide range of areas "
+"inlcuding finance, insurance, prediction markets, social networks, "
+"distributed computation and storage, gambling, marketplace, internet of "
+"things, governance, collaboration, development and games."
+msgstr ""
+
+# 49e887f63e8a4f2ebcddcedd171c033c
+#: ../../source/ethereum-ecosystem/dapps.rst:18
+msgid ""
+"In the future, dapps are likely to be listed and distributed in "
+"`dappstores_ <http://dappstore.io/>`_ integrated in dapp browsers."
+msgstr ""
+
+# 2357417578e94b8f88129062fe300b2b
+#: ../../source/ethereum-ecosystem/dapps.rst:21
+msgid "Dapp browsers"
+msgstr ""
+
+# 6cbee1eb1dac4dc7be224cc3d67ecf5e
+#: ../../source/ethereum-ecosystem/dapps.rst:23
+msgid ""
+"`Mist <https://github.com/ethereum/mist>`_ - official GUI dapp browser "
+"developed by the foundation, alpha stage. Mist as Wallet dapp is in beta."
+msgstr ""
+
+# db30212fa98f4da7b7f7287b2152dca3
+#: ../../source/ethereum-ecosystem/dapps.rst:24
+msgid "`MetaMask <https://metamask.io/>`_ - Aaron Kumavis Davis's in-browser GUI."
+msgstr ""
+
+# c2bd8911913944debe2327aad1952d11
+#: ../../source/ethereum-ecosystem/dapps.rst:25
+msgid ""
+"`AlethZero <https://github.com/ethereum/alethzero>`_ - C++ eth client "
+"GUI, (discontinued)."
+msgstr ""
+
+# 573f2efd9e114479b2147e2f3dfd70ef
+#: ../../source/ethereum-ecosystem/dapps.rst:26
+msgid "`Supernova <http://www.supernove.cc>`_ (discontinued)."
+msgstr ""
+
+# 95330f8905f24f37a4ed01e6d4bccae5
+#: ../../source/ethereum-ecosystem/ethereum-ecosystem.rst:3
+msgid "Ethereum Ecosystem"
+msgstr ""
+
+# 8739d4846eb546e8a244373747dadffc
+#: ../../source/ethereum-ecosystem/foundation.rst:3
+msgid "The Ethereum Foundation"
+msgstr ""
+
+# df850782e31c43c69824a504579d8f63
+#: ../../source/ethereum-ecosystem/foundation.rst:4
+msgid ""
+"The Ethereum Foundation is a non-profit organization registered in "
+"Switzerland, and has the purpose of managing the funds that were raised "
+"from the Ether Sale in order to best serve the Ethereum and decentralized"
+" technology ecosystem."
+msgstr ""
+
+# 05b91a5cb8eb414f9cd40ecd4391f911
+#: ../../source/ethereum-ecosystem/foundation.rst:6
+msgid ""
+"Founded July 2014 in Switzerland, Stiftung Ethereum’s mission is the "
+"promotion of developments of new technologies and applications, "
+"especially in the fields of new open and decentralized software "
+"architectures."
+msgstr ""
+
+# df6bdf1ce1db478287d252bd8068ae6f
+#: ../../source/ethereum-ecosystem/foundation.rst:8
+msgid ""
+"It is the aim that decentralized and open technologies will be developed,"
+" nurtured, promoted and maintained. A dominating, but not exclusive, "
+"focus is set on the promotion of the development of the Ethereum Protocol"
+" and the relevant technology to it as well as the promotion and support "
+"of applications using the Ethereum technology or protocol. Stiftung "
+"Ethereum will additionally support and advocate for a decentralized "
+"Internet in a variety of forms."
+msgstr ""
+
+# 00b6ea8e251744e294030f144a7a6660
+#: ../../source/ethereum-ecosystem/foundation.rst:10
+msgid ""
+"Find out about more about the `Foundation Management Team on the website "
+"<https://ethereum.org/foundation>`_"
+msgstr ""
+
+# 24fe14d2ecb3417f9e3180d29f0fd31d
+#: ../../source/ethereum-ecosystem/foundation.rst:13
+msgid "Ethereum Foundation's faces to the community"
+msgstr ""
+
+# 0bf4f2cc30e6489bade154f3fe56f61a
+#: ../../source/ethereum-ecosystem/foundation.rst:14
+msgid "`Official Homestead website <https://ethereum.org>`_ - main entrypoint"
+msgstr ""
+
+# c50a1409c4ab47408e0f662716b3efaf
+#: ../../source/ethereum-ecosystem/foundation.rst:15
+msgid "`Reddit <http://www.reddit.com/r/ethereum>`_ - see :ref:`community`"
+msgstr ""
+
+# 8e489811071d4b80a713a8e7e214e784
+#: ../../source/ethereum-ecosystem/foundation.rst:16
+msgid "`Blog <https://blog.ethereum.org/>`_"
+msgstr ""
+
+# 883990af7db74866a607fe6573150c1a
+#: ../../source/ethereum-ecosystem/foundation.rst:17
+msgid "`Twitter <http://twitter.com/ethereumproject>`_"
+msgstr ""
+
+# 9a29450028e740948afe2955a5ea212a
+#: ../../source/ethereum-ecosystem/foundation.rst:18
+msgid "`Youtube <https://www.youtube.com/user/ethereumproject>`_"
+msgstr ""
+
+# 4f7fa953a28949eaaf8c1906ab12efe3
+#: ../../source/ethereum-ecosystem/foundation.rst:19
+msgid "`Ethdev website <https://ethdev.com>`_ - info on devs, outdated"
+msgstr ""
+
+# 888c6d3d31b741ab87984d58ecc2d66b
+#: ../../source/ethereum-ecosystem/foundation.rst:20
+msgid "`Facebook <https://www.facebook.com/ethereumproject>`_ - largely unused"
+msgstr ""
+
+# e916716cd5cc4fd193e86c0f2e8bb99d
+#: ../../source/ethereum-ecosystem/foundation.rst:21
+msgid "`Email <mailto:info@ethereum.org>`_ - use if you must"
+msgstr ""
+
+# fcfc801108f24649a63c580b89103690
+#: ../../source/ethereum-ecosystem/foundation.rst:23
+msgid ""
+"Official communication from the Ethereum foundation most often comes in "
+"the form of a comrehensive blogpost on the `Ethereum blog "
+"<https://blog.ethereum.org/>`_. Some of the posts there are technical, "
+"some organisational, some personal. All  blog posts are announced on "
+"`Twitter <http://twitter.com/ethereumproject>`_ and `Reddit "
+"<http://www.reddit.com/r/ethereum>`_."
+msgstr ""
+
+# 2979d898e6b840ca897a856ecb83e3ca
+#: ../../source/ethereum-ecosystem/foundation.rst:27
+msgid ""
+"The foundation `Youtube channel "
+"<https://www.youtube.com/user/ethereumproject>`_ hosts our videos, "
+"including all talks of the developers conferences DEVCON0 and DEVCON1."
+msgstr ""
+
+# ae3a3ff707864700a320d811b1f559a5
+#: ../../source/ethereum-ecosystem/foundation.rst:29
+msgid "For community discussion forums, see :ref:`community`."
+msgstr ""
+
+# 6b600a95d4c342168b709291424450ce
+#: ../../source/ethereum-ecosystem/infrastructure.rst:5
+msgid "Infrastructure"
+msgstr ""
+
+# 13d993db5dfd41d7816b90a89542a7b9
+#: ../../source/ethereum-ecosystem/infrastructure.rst:8
+msgid "The Ethereum network"
+msgstr ""
+
+# d87fc0b38dff4e29b08d77d49ea530a7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:9
+msgid ""
+"The basis for decentralised consensus is the peer-to-peer network of "
+"participating nodes which maintain and secure the blockchain."
+msgstr ""
+
+# 75024600a4d34cb98b94dd87b0e7f874
+#: ../../source/ethereum-ecosystem/infrastructure.rst:12
+msgid "Ethereum network stats"
+msgstr ""
+
+# d2284014ba16481dae51931dc3029445
+#: ../../source/ethereum-ecosystem/infrastructure.rst:13
+msgid ""
+"`EthStats\\.net <https://ethstats.net/>`_ is a dashboard of live "
+"statistics of the Ethereum network. This dashboard displays important "
+"information such as the current block, hash difficulty, gas price, and "
+"gas spending. The nodes shown on the page are only a selection of actual "
+"nodes on the network. Anyone is allowed to add their node to the EthStats"
+" dashboard. The `Eth\\-Netstats README on Github "
+"<https://github.com/cubedro/eth-netstats>`_ describes how to connect."
+msgstr ""
+
+# a68d5ea69c0349fb874fac4e5ed02dc7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:16
+msgid ""
+"`EtherNodes\\.com <https://www.ethernodes.org/>`_ displays current and "
+"historical data on node count and other information on both the Ethereum "
+"mainnet and Morden testnet."
+msgstr ""
+
+# 4125695aa0a1446ab8093ab8cdf903e2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:19
+msgid "Public, private, and consortium blockchains"
+msgstr ""
+
+# 97d96b6b3f934e988a542f293acfcd74
+#: ../../source/ethereum-ecosystem/infrastructure.rst:20
+msgid ""
+"Most Ethereum projects today rely on Ethereum as a public blockchain, "
+"which grants access to a larger audience of users, network nodes, "
+"currency, and markets.  However, there are often reasons to prefer a "
+"private blockchain or consortium blockchain (among a group of trusted "
+"participants). For example, a number of companies in verticals, like "
+"banking, are looking to Ethereum as a platform for their own private "
+"blockchains."
+msgstr ""
+
+# 7f61b26a5d9d48ad8421eb68ab305441
+#: ../../source/ethereum-ecosystem/infrastructure.rst:22
+msgid ""
+"Below is an excerpt from the blog post `On Public and Private Blockchains"
+" <https://blog.ethereum.org/2015/08/07/on-public-and-private-"
+"blockchains/>`_ that explains the difference between the three types of "
+"blockchains based on permissioning:"
+msgstr ""
+
+# c881faf25269454da4def30b0fec6c27
+#: ../../source/ethereum-ecosystem/infrastructure.rst:24
+msgid ""
+"**Public blockchains**: a public blockchain is a blockchain that anyone "
+"in the world can read, anyone in the world can send transactions to and "
+"expect to see them included if they are valid, and anyone in the world "
+"can participate in the consensus process – the process for determining "
+"what blocks get added to the chain and what the current state is. As a "
+"substitute for centralized or quasi-centralized trust, public blockchains"
+" are secured by cryptoeconomics – the combination of economic incentives "
+"and cryptographic verification using mechanisms such as proof of work or "
+"proof of stake, following a general principle that the degree to which "
+"someone can have an influence in the consensus process is proportional to"
+" the quantity of economic resources that they can bring to bear. These "
+"blockchains are generally considered to be “fully decentralized”."
+msgstr ""
+
+# f3063983fdd345b2981a32920afcb331
+#: ../../source/ethereum-ecosystem/infrastructure.rst:26
+msgid ""
+"**Consortium blockchains**: a consortium blockchain is a blockchain where"
+" the consensus process is controlled by a pre-selected set of nodes; for "
+"example, one might imagine a consortium of 15 financial institutions, "
+"each of which operates a node and of which 10 must sign every block in "
+"order for the block to be valid. The right to read the blockchain may be "
+"public, or restricted to the participants, and there are also hybrid "
+"routes such as the root hashes of the blocks being public together with "
+"an API that allows members of the public to make a limited number of "
+"queries and get back cryptographic proofs of some parts of the blockchain"
+" state. These blockchains may be considered “partially decentralized”."
+msgstr ""
+
+# d5084570ca1c40e9ba5415f796800d12
+#: ../../source/ethereum-ecosystem/infrastructure.rst:28
+msgid ""
+"**Private blockchains**: a fully private blockchain is a blockchain where"
+" write permissions are kept centralized to one organization. Read "
+"permissions may be public or restricted to an arbitrary extent. Likely "
+"applications include database management, auditing, etc internal to a "
+"single company, and so public readability may not be necessary in many "
+"cases at all, though in other cases public auditability is desired."
+msgstr ""
+
+# 381aa945719f4a0787a00c4e4ac35c79
+#: ../../source/ethereum-ecosystem/infrastructure.rst:30
+msgid ""
+"While these private/consortium blockchains may not have any connection to"
+" the public blockchain, they still contribute to the overall Ethereum "
+"ecosystem by investing in Ethereum software development. Over time, this "
+"translates into software improvements, shared knowledge, and job "
+"opportunities."
+msgstr ""
+
+# 16ad874788584686b914c8fbca26ad40
+#: ../../source/ethereum-ecosystem/infrastructure.rst:33
+msgid "Client implementations"
+msgstr ""
+
+# 5531877df3ec446ea331243417cb8154
+#: ../../source/ethereum-ecosystem/infrastructure.rst:34
+msgid ""
+"Ethereum clients are written in multiple programming languages. Each "
+"implementation is based on the formal definition of the Ethereum protocol"
+" defined in the `Ethereum Yellow Paper <http://gavwood.com/paper.pdf>`_."
+msgstr ""
+
+# 1ff4ef1fe6eb4279a99513c6af217038
+#: ../../source/ethereum-ecosystem/infrastructure.rst:37
+msgid "Client List"
+msgstr ""
+
+# 237124b5d89b4d648a36fa2e1ac5ef63
+#: ../../source/ethereum-ecosystem/infrastructure.rst:39
+msgid "Language"
+msgstr ""
+
+# 1a3a424232d74947bc14800543df38f1
+#: ../../source/ethereum-ecosystem/infrastructure.rst:39
+msgid "Name"
+msgstr ""
+
+# ac43f6f31f694fe0b5451298cf11b363
+#: ../../source/ethereum-ecosystem/infrastructure.rst:41
+msgid "Golang"
+msgstr ""
+
+# a1fc9674dc7743548827b2a82bce97c0
+#: ../../source/ethereum-ecosystem/infrastructure.rst:41
+msgid "`Geth <http://ethereum.github.io/go-ethereum/>`_"
+msgstr ""
+
+# 158df2f0147547fcb24fc8b51f1fb5c6
+#: ../../source/ethereum-ecosystem/infrastructure.rst:42
+msgid "C++"
+msgstr ""
+
+# 8cab065017774c778aa4e04a31f31c6b
+#: ../../source/ethereum-ecosystem/infrastructure.rst:42
+msgid "`Eth <https://github.com/ethereum/webthree-umbrella/wiki>`_"
+msgstr ""
+
+# f48b6b25938a49f6b77d30d253f5ea14
+#: ../../source/ethereum-ecosystem/infrastructure.rst:43
+msgid "Javascript/Node"
+msgstr ""
+
+# 3b35246f182648c28085cff721e87297
+#: ../../source/ethereum-ecosystem/infrastructure.rst:43
+msgid "`EthereumJS <http://ethereumjs.github.io/>`_"
+msgstr ""
+
+# c2c3e58d23264c548913f9a91904d31f
+#: ../../source/ethereum-ecosystem/infrastructure.rst:44
+msgid "Python"
+msgstr ""
+
+# f13c3ef70bbb448eb06ec30b5084df34
+#: ../../source/ethereum-ecosystem/infrastructure.rst:44
+msgid "`Pyethereum <https://github.com/ethereum/pyethereum>`_"
+msgstr ""
+
+# 900870319c064bf283410ea170dac75a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:45
+msgid "Java"
+msgstr ""
+
+# 8625d20e217041059bc3e34d507e638b
+#: ../../source/ethereum-ecosystem/infrastructure.rst:45
+msgid "`ethereumJ <https://github.com/ethereum/ethereumj>`_"
+msgstr ""
+
+# 5524afb3af084760aabdf36a27d43e82
+#: ../../source/ethereum-ecosystem/infrastructure.rst:46
+msgid "Haskell"
+msgstr ""
+
+# d2c92c3bbb844b829f64f87363f403d7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:46
+msgid "`ethereumH <https://github.com/blockapps/strato-p2p-client>`_"
+msgstr ""
+
+# 2499f96fb8014b73808761a7fffb95c7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:47
+msgid "Rust"
+msgstr ""
+
+# 2a707303c3dd418d8067e8c07c039eb1
+#: ../../source/ethereum-ecosystem/infrastructure.rst:47
+msgid "`Parity <https://ethcore.io/parity.html>`__"
+msgstr ""
+
+# 995057b0c5b34715ad8cf1549cb4a86a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:51
+msgid "Other Resources"
+msgstr ""
+
+# f79c3b01f6fa4c57ad2602eea4739911
+#: ../../source/ethereum-ecosystem/infrastructure.rst:52
+msgid ""
+"`Distribution of client implementations on the current live network "
+"<https://etherchain.org/nodes>`_ - Realtime stats on EtherChain."
+msgstr ""
+
+# 0cfe8327c2cc442e8c79c1e61093adcb
+#: ../../source/ethereum-ecosystem/infrastructure.rst:53
+msgid ""
+"`What is the need for that many implementations\\? "
+"<https://www.reddit.com/r/ethereum/comments/2bxo9c/whats_the_need_for_that_many_implementations/>`_"
+" - Reddit discussion."
+msgstr ""
+
+# 61f03de86efd477b8e4d67a4b913fe3f
+#: ../../source/ethereum-ecosystem/infrastructure.rst:58
+msgid "Blockchain explorers"
+msgstr ""
+
+# 28d3908e919b42ac9ebfdcda646f5478
+#: ../../source/ethereum-ecosystem/infrastructure.rst:60
+msgid "Hosted blockchain explorers"
+msgstr ""
+
+# 7642c5a7a882442e9c2ff60df94a2dde
+#: ../../source/ethereum-ecosystem/infrastructure.rst:61
+msgid "`EtherChain <https://www.etherchain.org/>`_"
+msgstr ""
+
+# c0cf3b06b0e24772bb34c1442f0edc5f
+#: ../../source/ethereum-ecosystem/infrastructure.rst:62
+msgid "`EtherCamp <https://live.ether.camp/>`_"
+msgstr ""
+
+# b51dbdb1d347412a8e3846029879274a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:63
+msgid "`EtherScan <http://etherscan.io/>`_"
+msgstr ""
+
+# 869bb24609d641bc9f44b8bdf5739ec4
+#: ../../source/ethereum-ecosystem/infrastructure.rst:64
+msgid "`Etherscan Morden Testnet  <http://testnet.etherscan.io>`_"
+msgstr ""
+
+# e939954bcb294840bc127e82f05ff108
+#: ../../source/ethereum-ecosystem/infrastructure.rst:65
+msgid "`EtherBlockchain <http://www.etherblockchain.io/>`_ (to come)"
+msgstr ""
+
+# 6e51c55a35a1471c928913efd7163375
+#: ../../source/ethereum-ecosystem/infrastructure.rst:68
+msgid "Alternative ways to explore the blockchain"
+msgstr ""
+
+# 5c1b16af255c42218bc37e171995deee
+#: ../../source/ethereum-ecosystem/infrastructure.rst:69
+msgid ""
+"`Etherlisten <www.etherlisten.com>`_ - Realtime Ethereum transaction "
+"visualizer and audializer"
+msgstr ""
+
+# c0b592deb86647c68f5a2cf62fb4dbd8
+#: ../../source/ethereum-ecosystem/infrastructure.rst:70
+msgid ""
+"`chaingraph "
+"<https://www.reddit.com/r/ethereum/comments/3ibjxu/chain_graph_a_blockchain_visualiser/>`_"
+" - Visualised blockchain explorer - *no longer available*"
+msgstr ""
+
+# b55bf29641544cb7944b0d55c679712b
+#: ../../source/ethereum-ecosystem/infrastructure.rst:73
+msgid "Getting and storing ether"
+msgstr ""
+
+# 1a8adec1aca8417aa2e107197368a406
+#: ../../source/ethereum-ecosystem/infrastructure.rst:74
+msgid "In order to obtain Ether, you need to either"
+msgstr ""
+
+# 30c8942385d9467389c542367b695040
+#: ../../source/ethereum-ecosystem/infrastructure.rst:76
+msgid "become an Ethereum miner (see _`Mining`)  or"
+msgstr ""
+
+# 5041632a6a0d4467b1e260da9dd87de5
+#: ../../source/ethereum-ecosystem/infrastructure.rst:77
+msgid "trade other currencies for Ether using centralised or trustless services"
+msgstr ""
+
+# e7575da34e54448da51ecb38fe8c87a2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:78
+msgid ""
+"use the user friendly `Mist Ethereum Wallet "
+"<https://github.com/ethereum/mist/releases>`_ that as of Beta 6 "
+"introduced the ability to purchase ether using the `Shapeshift`_ API."
+msgstr ""
+
+# 167cd5799cdc47b8a1cc4ec796f7382a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:81
+msgid "Trustless services"
+msgstr ""
+
+# dcc5630f87454beeac6315518199acd8
+#: ../../source/ethereum-ecosystem/infrastructure.rst:82
+msgid ""
+"Note that the ethereum platform is special in that the smart contracts "
+"enable trustless services that obviate the need for trusted third parties"
+" in a currency exchange transaction, ie. disintermediate currency "
+"exchange businesses."
+msgstr ""
+
+# 664c23c30896499bae0df5a592eb7215
+#: ../../source/ethereum-ecosystem/infrastructure.rst:84
+msgid "Such projects (alpha/prelaunch status at the time of writing) are:"
+msgstr ""
+
+# a0b9392fac374310abfb218de847bf82
+#: ../../source/ethereum-ecosystem/infrastructure.rst:86
+msgid ""
+"`BTCrelay <http://btcrelay.org/>`_ - `More information "
+"<https://medium.com/@ConsenSys/taking-stock-bitcoin-and-ethereum-"
+"4382f0a2f17>`_ (about ETH/BTC 2-way peg without modifying bitcoin code)."
+msgstr ""
+
+# 448a56655cae41f2bf3d80bdf6112845
+#: ../../source/ethereum-ecosystem/infrastructure.rst:87
+msgid "`EtherEx decentralised exchange <https://etherex.org>`_."
+msgstr ""
+
+# 6f988bf584cb4a62825ce8951a100a61
+#: ../../source/ethereum-ecosystem/infrastructure.rst:90
+msgid "List of centralised exchange marketplaces"
+msgstr ""
+
+# 1ad9ba3aee7e4cbea56d254aa7a23174
+# 8982022a9a604f9fb7b7029940fc21dd
+#: ../../source/ethereum-ecosystem/infrastructure.rst:92
+#: ../../source/ethereum-ecosystem/infrastructure.rst:111
+msgid "Exchange"
+msgstr ""
+
+# 0554f30cd4b243b0a9cb02875bc35ef0
+# 3f3973d063c44b5886d17643b01d43ef
+#: ../../source/ethereum-ecosystem/infrastructure.rst:92
+#: ../../source/ethereum-ecosystem/infrastructure.rst:111
+msgid "Currencies"
+msgstr ""
+
+# 2a523982701e4b7db52b352d8ce4d16e
+#: ../../source/ethereum-ecosystem/infrastructure.rst:94
+msgid "Poloniex"
+msgstr ""
+
+# 4604c415cd7f4826a01342540de000c2
+# 1b09c7c01c06488984914373bebd6ce3
+# b9098e80aea249b68c5fcf19324890a5
+# 0738488a15bc46a6addf7f3bae3d1085
+# 2b6718408c2d4873bc905d3a0fa1a242
+# 629c7e6d11644c1f8f346c33624aec00
+#: ../../source/ethereum-ecosystem/infrastructure.rst:94
+#: ../../source/ethereum-ecosystem/infrastructure.rst:97
+#: ../../source/ethereum-ecosystem/infrastructure.rst:99
+#: ../../source/ethereum-ecosystem/infrastructure.rst:100
+#: ../../source/ethereum-ecosystem/infrastructure.rst:101
+#: ../../source/ethereum-ecosystem/infrastructure.rst:105
+msgid "BTC"
+msgstr ""
+
+# 8f1d007dcb03492cba078e50dc8c4ad9
+#: ../../source/ethereum-ecosystem/infrastructure.rst:95
+msgid "Kraken"
+msgstr ""
+
+# 10ade69ccfb84a87aa3244bfd0a6da05
+#: ../../source/ethereum-ecosystem/infrastructure.rst:95
+msgid "BTC, USD, EUR, CAD, GBP"
+msgstr ""
+
+# 91786bcd03e94ed3bbbe4955c80ee294
+#: ../../source/ethereum-ecosystem/infrastructure.rst:96
+msgid "Gatecoin"
+msgstr ""
+
+# 8f8fc21aba564897b418909b21553f23
+#: ../../source/ethereum-ecosystem/infrastructure.rst:96
+msgid "BTC, EUR"
+msgstr ""
+
+# fb3dac28f3e84cdc9e78b3a677858d14
+#: ../../source/ethereum-ecosystem/infrastructure.rst:97
+msgid "Bittrex"
+msgstr ""
+
+# e531f39fa0984260b0aeff8b074f6777
+#: ../../source/ethereum-ecosystem/infrastructure.rst:98
+msgid "Bluetrade"
+msgstr ""
+
+# 3a2a843fd988452fafaf9b2c64a95eea
+#: ../../source/ethereum-ecosystem/infrastructure.rst:98
+msgid "BTC, LTC, DOGE"
+msgstr ""
+
+# e2da28b534854634818db90fce3e9248
+#: ../../source/ethereum-ecosystem/infrastructure.rst:99
+msgid "HitBTC"
+msgstr ""
+
+# 8c7addc74e724588b0381d5347e245de
+#: ../../source/ethereum-ecosystem/infrastructure.rst:100
+msgid "Livecoin"
+msgstr ""
+
+# fc633751c39f4eba93cec59ec18a96e2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:101
+msgid "Coinsquare"
+msgstr ""
+
+# fdc34265481d4e07b1085ea047fdfc95
+#: ../../source/ethereum-ecosystem/infrastructure.rst:102
+msgid "Bittylicious"
+msgstr ""
+
+# e4bfefb2b6254fa08a0a494fc2b437f0
+#: ../../source/ethereum-ecosystem/infrastructure.rst:102
+msgid "GBP"
+msgstr ""
+
+# fa5bca97123f4420bb0d1b553b37dc4f
+#: ../../source/ethereum-ecosystem/infrastructure.rst:103
+msgid "BTER"
+msgstr ""
+
+# 3b18f6ea27b54ca59ded5c2eb0243f4d
+# f1f03b912f2c4cdabfa7302fcd0eb679
+#: ../../source/ethereum-ecosystem/infrastructure.rst:103
+#: ../../source/ethereum-ecosystem/infrastructure.rst:104
+msgid "CNY"
+msgstr ""
+
+# d96b181361c9411e86320bee5a05fad4
+#: ../../source/ethereum-ecosystem/infrastructure.rst:104
+msgid "Yunbi"
+msgstr ""
+
+# a683ed5dbcac42b0b219c616222004e0
+#: ../../source/ethereum-ecosystem/infrastructure.rst:105
+msgid "Metaexchange"
+msgstr ""
+
+# dc6aee5c5b9f4a0fa6ef5a183e8f4f01
+#: ../../source/ethereum-ecosystem/infrastructure.rst:109
+msgid "Centralised fixed rate exchanges"
+msgstr ""
+
+# 1223d0eabdb94460b119587057a20b04
+#: ../../source/ethereum-ecosystem/infrastructure.rst:113
+msgid "`Shapeshift`_"
+msgstr ""
+
+# 28fcf8c6ee9c4427ad237d3e0d5e85c2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:113
+msgid "BTC, LTC, DOGE, Other"
+msgstr ""
+
+# 4aade8d9248e4ec1badb600e943ca79d
+#: ../../source/ethereum-ecosystem/infrastructure.rst:114
+msgid "`Bity`_"
+msgstr ""
+
+# 6a35542fad1b421cb3bfb00573ba6177
+#: ../../source/ethereum-ecosystem/infrastructure.rst:114
+msgid "BTC, USD, EUR, CHF"
+msgstr ""
+
+# bc8906ccddc64dbdaf519299905b3d81
+#: ../../source/ethereum-ecosystem/infrastructure.rst:121
+msgid "Trading and price analytics"
+msgstr ""
+
+# 29fba3a58e37433fa531f238d22d9293
+#: ../../source/ethereum-ecosystem/infrastructure.rst:122
+msgid ""
+"`ETH markets exhaustive listing by volume on coinmarketcap "
+"<https://coinmarketcap.com/currencies/ethereum/#markets>`_"
+msgstr ""
+
+# 331a665442df46d780a0d9331eaa5fbe
+#: ../../source/ethereum-ecosystem/infrastructure.rst:123
+msgid "Aggregating realtime stats of major ETH markets:"
+msgstr ""
+
+# 3ac9dc6967bc401e956a721b362ecca8
+#: ../../source/ethereum-ecosystem/infrastructure.rst:125
+msgid "`Tradeblock <https://tradeblock.com/ethereum>`_"
+msgstr ""
+
+# 3dc2363e02f84bd0b96fad3bd6dac0f5
+#: ../../source/ethereum-ecosystem/infrastructure.rst:126
+msgid "`EthereumWisdom <http://ethereumwisdom.com>`_"
+msgstr ""
+
+# 67c62ced1a9243f4bac447abdd2fb10a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:127
+msgid "`Cryptocompare <https://www.cryptocompare.com/coins/eth/overview>`_"
+msgstr ""
+
+# 01b49c53a58c4dbeb7bbc8deb06e6eb7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:128
+msgid "`Coinmarketcap <https://coinmarketcap.com/currencies/ethereum/>`_"
+msgstr ""
+
+# daaff2de96504e0e91a70097b2d6c1e2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:133
+msgid "Ethereum wallets and storage solutions"
+msgstr ""
+
+# 8b011f27d11d484fa00dd98eea401ef0
+#: ../../source/ethereum-ecosystem/infrastructure.rst:134
+msgid ""
+"`Mist Ethereum Wallet <https://github.com/ethereum/mist/releases>`_ - "
+"Wallet created by the Ethereum Foundation. Standalone GUI wallet."
+msgstr ""
+
+# 040ee1e364ea4564a0eb0877f677e0f7
+#: ../../source/ethereum-ecosystem/infrastructure.rst:135
+msgid ""
+"`MyEtherWallet <https://www.myetherwallet.com/>`_ - Open Source "
+"JavaScript Client-Side/Online Ether Wallet."
+msgstr ""
+
+# 9f76e9c0787a49baa61a76eda7d0b000
+#: ../../source/ethereum-ecosystem/infrastructure.rst:136
+#, python-format
+msgid ""
+"`MyEtherWallet Chrome Extension <http://sebfor.com/myetherwallet-chrome-"
+"extension-release/>`_ - 100% client side wallet allows you to save your "
+"wallets in your browser and transfer Ether from any page."
+msgstr ""
+
+# 3c06626d494946f0b4e01bdd12c35611
+#: ../../source/ethereum-ecosystem/infrastructure.rst:137
+msgid "Presale wallet import in Geth client."
+msgstr ""
+
+# 9eec23be595745ec8bbc8e121adc86c5
+#: ../../source/ethereum-ecosystem/infrastructure.rst:138
+msgid ""
+"`Jaxx wallets <https://jaxx.io>`_ by `Kyptokit <http://krypyokit.org>`_ -"
+" Android App and Chrome extension."
+msgstr ""
+
+# 8258423b58e14c7ead412f51848a0130
+#: ../../source/ethereum-ecosystem/infrastructure.rst:139
+msgid ""
+"`Icebox <https://github.com/ConsenSys/icebox>`_ by `ConsenSys "
+"<https://consensys.net/>`_ - Cold storage based on lightwallet with HD "
+"wallet library integrated."
+msgstr ""
+
+# b31077f4ad5b4d039540883f343662d8
+#: ../../source/ethereum-ecosystem/infrastructure.rst:140
+msgid ""
+"`Kraken Wallet Sweeper Tool <https://www.kraken.com/ether>`_ - Pre-sale "
+"wallet import"
+msgstr ""
+
+# 900fc2fc6c1f47529cd597d678f0e382
+#: ../../source/ethereum-ecosystem/infrastructure.rst:143
+msgid "Mining pools"
+msgstr ""
+
+# 45d21956e4ff42528f0975a178b51d2a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:144
+msgid "`coinotron`_"
+msgstr ""
+
+# ffc0b7923bf54e5d837fd0b723966967
+#: ../../source/ethereum-ecosystem/infrastructure.rst:145
+msgid "`nanopool`_"
+msgstr ""
+
+# 5f5a0ac7498a42769adf402529e2bfe0
+#: ../../source/ethereum-ecosystem/infrastructure.rst:146
+msgid ""
+"`ethpool`_ - Predictable solo mining, unconventional payout scheme, "
+"affiliated with `etherchain\\.org`_."
+msgstr ""
+
+# e5274242199b4f5a95de7c9ec3192082
+#: ../../source/ethereum-ecosystem/infrastructure.rst:147
+msgid "`supernova`_"
+msgstr ""
+
+# 778ed726036b4b20b7d42fb3e2254cce
+#: ../../source/ethereum-ecosystem/infrastructure.rst:148
+msgid "`coinmine.pl`_"
+msgstr ""
+
+# 13cca354ac0343568acc302b25249dd5
+#: ../../source/ethereum-ecosystem/infrastructure.rst:149
+msgid "`eth.pp.ua`_"
+msgstr ""
+
+# ef079c2e1b0f4b6fa7c47ddd3b193984
+#: ../../source/ethereum-ecosystem/infrastructure.rst:150
+msgid "`talkether`_ - Unconventional payout scheme"
+msgstr ""
+
+# d5b8abb7fe66487190b570ac3ef7d884
+#: ../../source/ethereum-ecosystem/infrastructure.rst:151
+msgid "`weipool`_"
+msgstr ""
+
+# 0f278fa83b704ef8b336f721b7f0c307
+#: ../../source/ethereum-ecosystem/infrastructure.rst:152
+msgid "`ethereumpool`_"
+msgstr ""
+
+# d67c1717bd72438dbe8afafc8d9238d5
+#: ../../source/ethereum-ecosystem/infrastructure.rst:153
+msgid "`pooleum`_"
+msgstr ""
+
+# daec728f4cb341faabf0aed3e5dd97d4
+#: ../../source/ethereum-ecosystem/infrastructure.rst:154
+msgid "`alphapool`_"
+msgstr ""
+
+# 43071a497a9c4a8298df5c5938fa151a
+#: ../../source/ethereum-ecosystem/infrastructure.rst:155
+msgid "`dwarfpool`_"
+msgstr ""
+
+# f86d5acccf314ed68a4e2881daccd704
+#: ../../source/ethereum-ecosystem/infrastructure.rst:156
+msgid "`laintimes <http://pool.laintimes.com/>`_ - Discontinued"
+msgstr ""
+
+# 69247dfa3d554a7482cd62d079ff1cb2
+#: ../../source/ethereum-ecosystem/infrastructure.rst:175
+msgid "Mining resources"
+msgstr ""
+
+# 863c182504a64386b9aa308fbaea1601
+#: ../../source/ethereum-ecosystem/infrastructure.rst:176
+msgid ""
+"`Top miners of last 24h on etherchain "
+"<https://etherchain.org/statistics/miners>`_"
+msgstr ""
+
+# d7c118d16f07482f82094472b4c9151e
+#: ../../source/ethereum-ecosystem/infrastructure.rst:177
+msgid ""
+"`pool hashrate distribution for august 2015 <ehttp://cryptomining-"
+"blog.com/5607-the-current-state-of-ethereum-mining-pools/>`_"
+msgstr ""
+
+# dd40c11c0ada418892dc5cd7cb69fc64
+#: ../../source/ethereum-ecosystem/infrastructure.rst:178
+msgid ""
+"`Unmaintained list of pools on Forum "
+"<https://forum.ethereum.org/discussion/3659/list-of-pools>`_"
+msgstr ""
+
+# c344113f285243c9bd68991d0e14136b
+#: ../../source/ethereum-ecosystem/infrastructure.rst:179
+msgid ""
+"`Mining profitability calculator by cryptowizzard "
+"<http://cryptowizzard.github.io/eth-mining-calculator/>`_"
+msgstr ""
+
+# c34ab7bd09b941b5a51b4e58a0e51ca1
+#: ../../source/ethereum-ecosystem/infrastructure.rst:180
+msgid ""
+"`Mining profitability calculator on etherscan <http://etherscan.io/ether-"
+"mining-calculator>`_"
+msgstr ""
+
